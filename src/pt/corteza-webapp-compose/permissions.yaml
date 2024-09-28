@@ -1,0 +1,224 @@
+ui:
+  save: Salvar alterações
+  cancel: Cancelar
+  set-for: Definir permissões para {{target}}
+  loading: Carregando permissões
+  label: Permissões
+  edit:
+    label: Funções de usuário
+    description: Selecione a função para definir permissões
+  evaluate:
+    label: Avaliar
+    description: Avaliar permissões aplicadas
+  add:
+    label: Adicionar
+    title: Avaliar permissões
+    save: Salvar e fechar
+    role:
+      label: Funções
+      placeholder: Selecione as funções
+    user:
+      label: Usuários
+      placeholder: Pesquise ou selecione um usuário
+  tooltip:
+    unknown-context:
+      user: Não é possível avaliar a permissão para um usuário com função contextual
+        em um recurso não específico
+      role: Não é possível avaliar a permissão para função contextual em um recurso
+        não específico
+  access:
+    allow: Permitir
+    inherit: Herdar
+    deny: Negar
+resources:
+  compose:
+    chart:
+      all: todos os gráficos
+      specific: gráfico "{{target}}"
+      tooltip: Permissões de gráfico
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir gráfico "{{target}}"
+          title: Exclua qualquer gráfico
+        read:
+          description: "Padrão: negar"
+          specific: Ler gráfico "{{target}}"
+          title: Leia qualquer gráfico
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar gráfico "{{target}}"
+          title: Atualize qualquer gráfico
+    module:
+      all: todos os módulos
+      specific: módulo "{{target}}"
+      tooltip: Permissões do módulo
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir módulo "{{target}}"
+          title: Exclua qualquer módulo
+        read:
+          description: "Padrão: negar"
+          specific: Leia o módulo "{{target}}"
+          title: Leia qualquer módulo
+        record.create:
+          description: "Padrão: negar"
+          specific: Criar registro do módulo "{{target}}"
+          title: Crie registro de qualquer módulo
+        records.search:
+          description: "Padrão: negar"
+          specific: Listar e pesquisar registros do módulo "{{target}}"
+          title: Liste e pesquise registros de qualquer módulo
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar módulo "{{target}}"
+          title: Atualize qualquer módulo
+        owned-record.create:
+          description: "Padrão: negar"
+          specific: Gerenciar proprietário ao criar o registro "{{target}}"
+          title: Gerencie o proprietário ao criar registro de qualquer módulo
+          all-specific: Gerenciar proprietário ao criar registro do módulo "{{ target }}"
+    module-field:
+      all: todos os campos do módulo
+      specific: campo "{{target}}"
+      all-specific: todos os campos do módulo "{{ target }}"
+      tooltip: Permissões de campo do módulo
+      operations:
+        record.value.read:
+          description: "Padrão: negar"
+          specific: Ler campos de registro "{{target}}"
+          title: Leia os campos de registro de qualquer módulo
+          all-specific: Ler campos de registro do módulo "{{ target }}"
+        record.value.update:
+          description: "Padrão: negar"
+          specific: Atualizar campos de registro "{{target}}"
+          title: Atualizar campos de registro de qualquer módulo
+          all-specific: Atualizar campos de registro do módulo "{{ target }}"
+    namespace:
+      all: todos os namespaces
+      specific: espaço para nome "{{target}}"
+      tooltip: Permissões de namespace
+      operations:
+        chart.create:
+          description: ""
+          specific: Crie gráficos no namespace "{{target}}"
+          title: Crie gráficos em qualquer namespace
+        charts.search:
+          description: ""
+          specific: Listar e pesquisar gráficos no namespace "{{target}}"
+          title: Liste e pesquise gráficos em qualquer namespace
+        delete:
+          description: ""
+          specific: Excluir namespace "{{target}}"
+          title: Exclua qualquer namespace
+        manage:
+          description: Permitir acesso às páginas de administração do namespace
+          specific: Gerenciar namespace "{{target}}"
+          title: Gerencie qualquer namespace
+        module.create:
+          description: ""
+          specific: Crie módulos no namespace "{{target}}"
+          title: Crie módulos em qualquer namespace
+        modules.search:
+          description: ""
+          specific: Listar e pesquisar módulos no namespace "{{target}}"
+          title: Liste e pesquise módulos em qualquer namespace
+        page.create:
+          description: ""
+          specific: Crie páginas no namespace "{{target}}"
+          title: Crie páginas em qualquer namespace
+        pages.search:
+          description: ""
+          specific: Listar e pesquisar páginas no namespace "{{target}}"
+          title: Listar e pesquisar páginas em qualquer namespace
+        read:
+          description: ""
+          specific: Leia o namespace "{{target}}"
+          title: Leia qualquer namespace
+        update:
+          description: ""
+          specific: Atualizar namespace "{{target}}"
+          title: Atualize qualquer namespace
+    page:
+      all: todas as páginas
+      specific: página "{{target}}"
+      tooltip: Permissões de página
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir página "{{target}}"
+          title: Exclua qualquer página
+        read:
+          description: "Padrão: negar"
+          specific: Leia a página "{{target}}"
+          title: Leia qualquer página
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar página "{{target}}"
+          title: Atualize qualquer página
+        page-layout.create:
+          description: "Padrão: negar"
+          specific: Criar layouts de página para a página "{{target}}"
+          title: Criar layout de página
+        page-layouts.search:
+          description: "Padrão: negar"
+          specific: Listar layouts de página para a página "{{target}}"
+          title: Layout da página de lista
+    page-layout:
+      all: todos os layouts de página
+      specific: layout de página "{{target}}"
+      tooltip: Permissões de layout de página
+      all-specific: todos os layouts de página da página "{{ target }}"
+      operations:
+        read:
+          description: "Padrão: negar"
+          specific: Leia o layout da página "{{target}}"
+          title: Leia qualquer layout de página
+          all-specific: Ler layouts de página da página "{{ target }}"
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar layout de página "{{target}}"
+          title: Atualize qualquer layout de página
+          all-specific: Atualizar layouts de página da página "{{ target }}"
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir layout de página "{{target}}"
+          title: Exclua qualquer layout de página
+          all-specific: Excluir layouts de página da página "{{ target }}"
+    record:
+      all: todos os registros
+      specific: registro "{{target}}"
+      all-specific: todos os registros do módulo "{{ target }}"
+      tooltip: Permissões de registro
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir registro "{{target}}"
+          title: Exclua registros de qualquer módulo
+          all-specific: Excluir registros do módulo "{{ target }}"
+        undelete:
+          description: "Padrão: negar"
+          specific: Restaurar registro "{{target}}"
+          title: Restaure registros de qualquer módulo
+          all-specific: Restaurar registros do módulo "{{ target }}"
+        read:
+          description: "Padrão: negar"
+          specific: Ler registro "{{target}}"
+          title: Leia registros de qualquer módulo
+          all-specific: Ler registros do módulo "{{ target }}"
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar registro "{{target}}"
+          title: Atualizar registros de qualquer módulo
+          all-specific: Atualizar registros do módulo "{{ target }}"
+        owner.manage:
+          description: "Padrão: negar"
+          specific: Gerenciar proprietário do registro "{{target}}"
+          title: Gerencie proprietários de registros de qualquer módulo
+          all-specific: Gerenciar proprietários de registros do módulo "{{ target }}"
+        revisions.search:
+          description: "Padrão: negar"
+          specific: Acessar revisões do registro "{{target}}"
+          title: Acessar revisões de registros
+          all-specific: Acessar revisões de registros

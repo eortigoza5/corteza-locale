@@ -1,0 +1,18 @@
+notification:
+  search-error: Hubo un problema al obtener el resultado de la búsqueda.
+input-placeholder: Introduce el texto de búsqueda
+card:
+  button-text: Mostrar más
+  type: Tipo
+  handle: Manejar
+  namespace: Espacio de nombres
+  module: Módulo
+  user: Usuario
+  email: Correo electrónico
+  record: Registro
+  fields: Campos
+tooltip:
+  map: Alternar mapa
+range: Mostrando {{actual}} de {{all}} resultados
+discovering: Descubriendo
+no-results: Sin resultados

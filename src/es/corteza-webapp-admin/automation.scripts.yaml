@@ -1,0 +1,16 @@
+list:
+  columns:
+    updatedAt: Última actualización
+  filter:
+    absoluteTime: Mostrar tiempo absoluto
+    incScriptsWithErrors: Errores ({{ count }})
+    incScriptsWithIterator: Iterador ({{ count }})
+    incScriptsWithSecurity: Seguridad ({{ count }})
+    incScriptsWithTriggers: Activadores ({{ count }})
+    searchQuery: Consulta de búsqueda
+  flags:
+    iterator: Iterador
+    security: Seguridad
+    triggers: Desencadenantes
+  labelMissing: <falta etiqueta>
+  title: Guiones de corredor

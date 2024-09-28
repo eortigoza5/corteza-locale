@@ -1,0 +1,7 @@
+pick-scenario: Elige un escenario
+report:
+  builder: Generador de informes
+  view: Vista de informe
+tooltip:
+  edit:
+    report: Editar informe

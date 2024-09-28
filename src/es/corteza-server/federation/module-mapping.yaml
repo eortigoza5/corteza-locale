@@ -1,0 +1,8 @@
+errors:
+  composeModuleNotFound: módulo de redacción no encontrado
+  composeNamespaceNotFound: componer espacio de nombres no encontrado
+  federationModuleNotFound: módulo de federación no encontrado
+  moduleMappingExists: el mapeo del módulo ya existe
+  nodeNotFound: el nodo no existe
+  notAllowedToMap: No se permite mapear este módulo.
+  notFound: el mapeo del módulo no existe

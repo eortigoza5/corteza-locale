@@ -1,0 +1,527 @@
+ui:
+  save: Salvar alterações
+  cancel: Cancelar
+  set-for: Definir permissões para {{target}}
+  loading: Carregando permissões
+  edit:
+    title: Editar permissões
+    label: Funções de usuário
+    description: Selecione a função para definir permissões
+  edit-or-eval: Editar ou avaliar permissões
+  evaluate:
+    title: Permissões avaliadas
+    description: Avaliar permissões aplicadas
+  add:
+    label: Adicionar
+    title: Avaliar permissões
+    save: Salvar e fechar
+    edit:
+      description: Selecione uma função para a qual você deseja editar permissões
+    evaluate:
+      description: Selecione uma combinação de funções ou um usuário para avaliar
+    role:
+      label: Funções
+      placeholder: Selecione as funções
+    user:
+      label: Usuários
+      placeholder: Pesquise ou selecione um usuário
+  tooltip:
+    unknown-context:
+      user: Não é possível avaliar a permissão para um usuário com função contextual
+        em um recurso não específico
+      role: Não é possível avaliar a permissão para função contextual em um recurso
+        não específico
+  access:
+    allow: Permitir
+    inherit: Herdar
+    deny: Negar
+  click-on-cell-to-allow: Clique na célula de permissão/função para permitir uma operação específica
+  title:
+    automation: Permissões de automação
+    system: Permissões do sistema
+    compose: Compor permissões
+    federation: Permissões de federação
+  clone:
+    clone: Clone
+    label: Clonar permissões
+    pick-role: Escolha uma função
+    title: Clonar permissões para
+    description: Isto irá clonar todas as permissões da função atual e aplicá-las ao
+      selecionado
+resources:
+  automation:
+    component:
+      label: Componente de automação
+      operations:
+        grant:
+          title: Conceda permissões na automação
+        sessions.search:
+          title: Sessões de pesquisa
+        triggers.search:
+          title: Gatilhos de pesquisa
+        workflow.create:
+          title: Criar novo fluxo de trabalho
+        workflows.search:
+          title: Fluxos de trabalho de pesquisa
+        resource-translations.manage:
+          title: Gerenciar traduções de recursos
+    workflow:
+      label: Fluxos de trabalho
+      all: todos os fluxos de trabalho
+      specific: fluxo de trabalho "{{target}}"
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir este fluxo de trabalho
+          title: Exclua qualquer fluxo de trabalho
+        execute:
+          description: "Padrão: negar"
+          specific: Execute este fluxo de trabalho
+          title: Execute qualquer fluxo de trabalho
+        read:
+          description: "Padrão: negar"
+          specific: Leia este fluxo de trabalho
+          title: Leia qualquer fluxo de trabalho
+        sessions.manage:
+          description: "Padrão: negar"
+          specific: Gerenciar sessões para este fluxo de trabalho
+          title: Gerenciar todas as sessões
+        triggers.manage:
+          description: "Padrão: negar"
+          specific: Gerenciar gatilhos para este fluxo de trabalho
+          title: Gerenciar todos os gatilhos
+        undelete:
+          description: "Padrão: negar"
+          specific: Cancelar exclusão deste fluxo de trabalho
+          title: Recuperar qualquer fluxo de trabalho
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar este fluxo de trabalho
+          title: Atualize qualquer fluxo de trabalho
+  system:
+    component:
+      label: Componente do sistema
+      operations:
+        action-log.read:
+          title: Acessar log de ações
+        application.create:
+          title: Criar novo aplicativo
+        application.flag.global:
+          title: Pode fixar aplicativo para todos
+        application.flag.self:
+          title: Podem fixar aplicativos para si mesmos
+        applications.search:
+          title: Listar e pesquisar aplicativos
+        auth-client.create:
+          title: Criar novo cliente de autenticação
+        auth-clients.search:
+          title: Listar e pesquisar clientes de autenticação
+        apigw-route.create:
+          title: Criar nova rota
+        apigw-routes.search:
+          title: Listar e pesquisar rotas
+        apigw-filter.create:
+          title: Criar novo filtro
+        apigw-filters.search:
+          title: Filtros de lista e pesquisa
+        grant:
+          title: Conceder permissão no componente do sistema
+        queue.create:
+          title: Criar nova fila de mensagens
+        queues.search:
+          title: Listar e pesquisar filas de mensagens
+        reminder.assign:
+          title: Permitir atribuição de lembrete
+        role.create:
+          title: Criar nova função
+        roles.search:
+          title: Listar e pesquisar funções
+        settings.manage:
+          title: Gerenciar todas as configurações
+        settings.read:
+          title: Acesse todas as configurações
+        template.create:
+          title: Criar novo modelo
+        templates.search:
+          title: Modelos de lista e pesquisa
+        user.create:
+          title: Criar novo usuário
+        users.search:
+          title: Listar e pesquisar usuários
+        resource-translations.manage:
+          title: Gerenciar traduções de recursos
+        report.create:
+          title: Criar novo relatório
+        reports.search:
+          title: Listar e pesquisar relatórios
+        dal-connections.search:
+          title: Pesquisar conexões
+        dal-connection.create:
+          title: Criar conexões
+        dal-sensitivity-level.manage:
+          title: Gerenciar o nível de sensibilidade da conexão
+        data-privacy-requests.search:
+          title: Pesquisar solicitações de privacidade de dados
+        data-privacy-request.create:
+          title: Crie solicitações de privacidade de dados
+    application:
+      label: Aplicativos
+      all: todos os aplicativos
+      specific: aplicativo "{{target}}"
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir {{target}}
+          title: Exclua qualquer aplicativo
+        read:
+          description: "Padrão: negar"
+          specific: Leia {{target}}
+          title: Leia qualquer aplicativo
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar {{target}}
+          title: Atualize qualquer aplicativo
+    apigw-route:
+      label: Rotas de gateway
+      all: todas as rotas
+      specific: rota "{{target}}"
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir {{target}}
+          title: Exclua qualquer rota
+        read:
+          description: "Padrão: negar"
+          specific: Leia {{target}}
+          title: Leia qualquer rota
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar {{target}}
+          title: Atualize qualquer rota
+    auth-client:
+      label: Clientes de autenticação
+      all: todos os clientes de autenticação
+      specific: cliente de autenticação "{{target}}"
+      operations:
+        authorize:
+          description: "O usuário pode autorizar (usar) este cliente. Padrão: negar"
+          specific: Autorizar cliente "{{target}}
+          title: Autorize qualquer cliente
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir cliente "{{target}}
+          title: Exclua qualquer cliente
+        read:
+          description: "Padrão: negar"
+          specific: Leia o cliente "{{target}}
+          title: Leia qualquer cliente
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar cliente "{{target}}
+          title: Atualize qualquer cliente
+    dal-connection:
+      label: Conexões
+      all: todas as conexões
+      specific: conexão "{{target}}"
+      operations:
+        read:
+          description: "Padrão: negar"
+          specific: Ler conexão "{{target}}
+          title: Leia qualquer conexão
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar conexão "{{target}}
+          title: Atualize qualquer conexão
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir conexão "{{target}}
+          title: Exclua qualquer conexão
+        dal-config:
+          manage:
+            title: Gerenciar quaisquer conexões
+    role:
+      label: Funções
+      all: todas as funções
+      specific: função "{{target}}"
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir {{target}}
+          title: Excluir qualquer função
+        members.manage:
+          description: "Padrão: negar"
+          specific: Gerenciar membros de {{target}}
+          title: Gerencie membros para qualquer função
+        read:
+          description: "Padrão: negar"
+          specific: Leia {{target}}
+          title: Leia qualquer função
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar {{target}}
+          title: Atualize qualquer função
+    queue:
+      label: Filas
+      all: todas as filas
+      specific: fila "{{target}}"
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir {{target}}
+          title: Exclua qualquer fila
+        members.manage:
+          description: "Padrão: negar"
+          specific: Gerenciar membros de {{target}}
+          title: Gerencie membros de qualquer fila
+        read:
+          description: "Padrão: negar"
+          specific: Leia {{target}}
+          title: Leia qualquer fila
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar {{target}}
+          title: Atualize qualquer fila
+        queue.read:
+          description: "Padrão: negar"
+          specific: Ler mensagens de {{target}}
+          title: Leia mensagens de qualquer fila
+        queue.write:
+          description: "Padrão: negar"
+          specific: Escreva mensagens para {{target}}
+          title: Escreva mensagens em qualquer fila
+    template:
+      label: Modelos
+      all: todos os modelos
+      specific: modelo "{{target}}"
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir {{target}}
+          title: Exclua qualquer modelo
+        read:
+          description: "Padrão: negar"
+          specific: Leia {{target}}
+          title: Leia qualquer modelo
+        render:
+          description: "Padrão: negar"
+          specific: Renderizar {{target}}
+          title: Renderize qualquer modelo
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar {{target}}
+          title: Atualize qualquer modelo
+    report:
+      label: Relatórios
+      all: todos os relatórios
+      specific: relatório "{{target}}"
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir {{target}}
+          title: Excluir qualquer relatório
+        read:
+          description: "Padrão: negar"
+          specific: Leia {{target}}
+          title: Leia qualquer relatório
+        run:
+          description: "Padrão: negar"
+          specific: Execute {{target}}
+          title: Execute qualquer relatório
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar {{target}}
+          title: Atualize qualquer relatório
+    user:
+      label: Usuários
+      all: todos os usuários
+      specific: usuário "{{target}}"
+      operations:
+        credentials:
+          manage:
+            specific: Gerenciar as credenciais de {{target}}
+            title: Gerencie qualquer usuário
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir {{target}}
+          title: Exclua qualquer usuário
+        email.unmask:
+          description: "Padrão: negar"
+          specific: Mostrar detalhes do e-mail de {{target}}
+          title: Mostrar detalhes de e-mail de qualquer usuário
+        name.unmask:
+          description: "Padrão: negar"
+          specific: Mostrar detalhes do nome de {{target}}
+          title: Mostrar detalhes do nome de qualquer usuário
+        impersonate:
+          description: "Padrão: negar"
+          specific: Representar este usuário {{target}}
+          title: Personificar qualquer usuário
+        read:
+          description: "Padrão: negar"
+          specific: Leia {{target}}
+          title: Leia qualquer usuário
+        suspend:
+          description: "Padrão: negar"
+          specific: Suspender {{target}}
+          title: Suspender qualquer usuário
+        unsuspend:
+          description: "Padrão: negar"
+          specific: Cancelar suspensão {{target}}
+          title: Cancele a suspensão de qualquer usuário
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar {{target}}
+          title: Atualize qualquer usuário
+    data-privacy-request:
+      label: Solicitações de privacidade
+      all: todas as solicitações
+      specific: solicitação "{{target}}"
+      operations:
+        read:
+          description: "Padrão: negar"
+          specific: Leia {{target}}
+          title: Leia qualquer solicitação
+        approve:
+          description: "Padrão: negar"
+          specific: Aprovar {{target}}
+          title: Aprove qualquer solicitação
+  federation:
+    component:
+      label: Componente de federação
+      operations:
+        grant:
+          title: Conceder permissões no componente de federação
+        node.create:
+          title: Criar nós
+        nodes.search:
+          title: Listar ou criar nós
+        pair:
+          title: Emparelhar nós
+        settings.manage:
+          title: Gerenciar todas as configurações
+        settings.read:
+          title: Acesse todas as configurações
+    node:
+      label: Nós
+      operations:
+        manage:
+          title: Gerencie qualquer nó
+        module.create:
+          title: Criar módulos
+    exposed-module:
+      label: Módulos
+      operations:
+        manage:
+          title: Gerencie qualquer módulo
+    shared-module:
+      label: Módulos
+      operations:
+        map:
+          title: Mapeie qualquer módulo
+  compose:
+    component:
+      label: Componente de composição
+      operations:
+        grant:
+          title: Conceder permissões no componente de composição
+        namespace.create:
+          title: Criar namespaces
+        namespaces.search:
+          title: Listar e pesquisar namespaces
+        settings.manage:
+          title: Gerenciar todas as configurações
+        settings.read:
+          title: Acesse todas as configurações
+        resource-translations.manage:
+          title: Gerenciar traduções de recursos
+    chart:
+      label: Gráficos
+      operations:
+        delete:
+          title: Exclua qualquer gráfico
+        read:
+          title: Leia qualquer gráfico
+        update:
+          title: Atualize qualquer gráfico
+    module:
+      label: Módulos
+      operations:
+        delete:
+          title: Exclua qualquer módulo
+        owned-record.create:
+          title: Gerencie o proprietário ao criar registro de qualquer módulo
+        read:
+          title: Leia qualquer módulo
+        record.create:
+          title: Crie registro em qualquer módulo
+        records.search:
+          title: Liste e pesquise registros em qualquer módulo
+        update:
+          title: Atualize qualquer módulo
+    module-field:
+      label: Campos do módulo
+      operations:
+        record.value.read:
+          title: Leia qualquer campo do módulo
+        record.value.update:
+          title: Atualize qualquer campo do módulo
+    namespace:
+      label: Espaços para nome
+      operations:
+        chart.create:
+          title: Crie gráficos em qualquer namespace
+        charts.search:
+          title: Liste e pesquise gráficos em qualquer namespace
+        delete:
+          title: Exclua qualquer namespace
+        manage:
+          title: Gerencie qualquer namespace
+        module.create:
+          title: Crie módulos em qualquer namespace
+        modules.search:
+          title: Liste e pesquise módulos em qualquer namespace
+        page.create:
+          title: Crie páginas em qualquer namespace
+        pages.search:
+          title: Listar e pesquisar páginas em qualquer namespace
+        read:
+          title: Acesse qualquer namespace
+        update:
+          title: Atualize qualquer namespace
+    page:
+      label: Páginas
+      operations:
+        delete:
+          title: Exclua qualquer página
+        read:
+          title: Leia qualquer página
+        update:
+          title: Atualize qualquer página
+        page-layout.create:
+          title: Crie layouts de página em qualquer página
+        page-layouts.search:
+          title: Liste e pesquise layouts de página em qualquer página
+    page-layout:
+      label: Layouts de página
+      operations:
+        delete:
+          title: Exclua qualquer layout de página
+        read:
+          title: Leia qualquer layout de página
+        update:
+          title: Atualize qualquer layout de página
+    record:
+      label: Registros
+      operations:
+        delete:
+          title: Exclua qualquer registro
+        undelete:
+          title: Recuperar qualquer registro
+        read:
+          title: Leia qualquer registro
+        update:
+          title: Atualize qualquer registro
+        owner.manage:
+          title: Gerencie a propriedade de qualquer registro
+        revisions.search:
+          title: Acesse revisões de qualquer registro

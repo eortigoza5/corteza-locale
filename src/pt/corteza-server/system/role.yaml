@@ -1,0 +1,15 @@
+errors:
+  handleNotUnique: identificador de função não exclusivo
+  invalidHandle: identificador inválido
+  invalidID: ID inválido
+  nameNotUnique: nome da função não é exclusivo
+  notAllowedToArchive: não é permitido arquivar esta função
+  notAllowedToCreate: não é permitido criar funções
+  notAllowedToDelete: não é permitido excluir esta função
+  notAllowedToManageMembers: não tem permissão para gerenciar membros da função
+  notAllowedToRead: não tem permissão para ler esta função
+  notAllowedToSearch: não tem permissão para pesquisar ou listar funções
+  notAllowedToUnarchive: não é permitido desarquivar esta função
+  notAllowedToUndelete: não é permitido cancelar a exclusão desta função
+  notAllowedToUpdate: não é permitido atualizar esta função
+  notFound: função não encontrada

@@ -1,0 +1,28 @@
+message:
+  noPages: Parece que este espacio de nombres aún no tiene páginas visibles.
+  notifyAdministrator: Notifique a su administrador del sistema
+  startBuilding: Siga estos pasos para comenzar a construir
+label:
+  pageBuilder: Creador de páginas
+  welcome: ¡Bienvenido!
+navigation:
+  noPageTitle: Sin título de página
+notification:
+  module:
+    createFailed: No se pudo crear un módulo
+    saveFailed: No se pudo guardar este módulo
+step:
+  chart:
+    create: Hacer gráfico
+    view: Tus gráficos
+  module:
+    create: Crear módulo
+    view: Tus módulos
+  optional: ¡Este paso es opcional!
+  page:
+    create: Construir página
+    view: Tus páginas
+tooltip:
+  page-configuration:
+    edit: Editar página
+    list: Traducciones de páginas

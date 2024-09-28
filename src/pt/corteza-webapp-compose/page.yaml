@@ -1,0 +1,155 @@
+page-layout:
+  layouts: Layouts
+  title: Título *
+  handle: Lidar
+  add: Adicionar layout
+  configure: Configurar layout - "{{title}}"
+  visibility: Visibilidade
+  general: Em geral
+  useTitle: Usar título do layout
+  tooltip:
+    title: Use o título do layout em vez do padrão da página de registro. Variáveis
+      ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando disponíveis)
+    configure: Configurar layout
+    builder: Abrir layout no construtor
+    performance:
+      condition: O uso de condições de visibilidade afetará o desempenho
+  condition:
+    label: Doença
+    placeholder: Quando o layout será mostrado
+    description:
+      record-page: "Você pode usar {{0}}, {{1}}, {{2}}, {{3}} dentro da expressão, por
+        exemplo: {{4}} ou {{5}}"
+      non-record-page: "Você pode usar {{0}}, {{1}} dentro da expressão, por exemplo:
+        {{2}} ou {{3}}"
+  roles:
+    label: Funções
+    placeholder: Escolha as funções para as quais o layout será mostrado
+  recordToolbar:
+    label: Barra de ferramentas de gravação
+    buttons:
+      label: Botões
+      showBack: Mostrar botão "Voltar"
+      showDelete: Mostrar botão "Excluir"
+      showClone: Mostrar o botão "Salvar como cópia"
+      showNew: Mostrar botão "Adicionar novo"
+      showEdit: Mostrar botão "Editar"
+      showSave: Mostrar botão "Salvar"
+    actions:
+      label: Ações
+      add: Adicionar ação
+      buttonLabel: Rótulo
+      variant: Variante
+      visible: Visível
+      kind:
+        label: Tipo
+        toLayout: Redirecionar para layout
+        toURL: Redirecionar para URL
+      placement:
+        label: Colocação
+        start: Começar
+        center: Centro
+        end: Fim
+      openIn:
+        label: Abrir em
+        sameTab: Mesma guia
+        newTab: Nova guia
+      toLayout:
+        label: Redirecionar para layout
+        placeholder: Nenhum layout selecionado
+      toURL:
+        label: Redirecionar para URL
+        placeholder: Nenhum URL especificado
+block:
+  general:
+    label:
+      cancel: Cancelar
+      noHandle: Sem alça
+      pageBuilder: Construtor de páginas
+      saveAndClose: Salvar e fechar
+    placeholder:
+      handle: alça (a - z, 0 - 9, sublinhado, traço)
+      sample: Amostra
+    title: Adicionar novo bloco
+    invalid-handle-characters: Deve ter pelo menos 2 caracteres. Pode conter apenas
+      letras, números, travessões, sublinhados e pontos. Deve terminar com letra
+      ou número
+changeBlock: Alterar bloco existente
+referencedBlock: Este bloco é usado em outros layouts
+copyOf: Cópia de {{title}}
+build:
+  addBlock: Adblock
+  selectBlockTitle: Selecione o tipo do novo bloco
+  unsavedChanges: As alterações não salvas serão perdidas. Deseja sair da página?
+  saveAsCopy:
+    ref: Com referências
+    noRef: Sem referências
+createLabel: Criar página
+edit:
+  create: Criar página
+  edit: Editar página
+  pageDescription: Descrição da página
+  visible: A página está visível
+  otherOptions: Outras opções
+icon:
+  configure: Configurar ícone de página
+  noIcon: Nenhum ícone
+  page: Ícone de página
+  upload: Ícone de upload
+  list: Ícones carregados
+  delete: Excluir ícone selecionado
+url:
+  label: Ou adicione URL ao ícone
+import: "Importar páginas:"
+instructions: Arraste e solte páginas para ajustar a ordem e a hierarquia
+invalid: Configuração inválida
+label:
+  cancel: Cancelar
+  description: Descrição
+  handle: Lidar
+  pageBuilder: Construtor de páginas
+  permissions: Permissões
+  saveAndClose: Salvar e fechar
+  delete: Excluir bloco
+loading: Carregando
+moduleEdit: Editar módulo
+navigation:
+  page: Páginas
+  viewPage: Ver página
+unsavedChanges: As alterações não salvas serão perdidas. Deseja sair da página?
+newPlaceholder: Título da página
+noBlock: Nenhum bloco adicionado ainda
+noPages: Nenhuma página
+notVisible: Escondido
+pageMoveFailed: Não foi possível mover esta página
+reordered: Página reordenada
+showSubPages: Expanda subpáginas na barra lateral
+customTitle: Usar título personalizado
+title: Lista de páginas
+tooltip:
+  unsavedChanges: Alterações não salvas
+  view: Ver página
+  edit:
+    page: Editar página
+    block: Editar bloco
+  copy:
+    block: Copiar bloco
+  clone:
+    block: Clonar bloco
+  delete:
+    block: Excluir bloco
+  preview-link: Link de visualização
+  saveAsCopy: Não é possível duplicar a página de registro
+view: Visualizar
+visible: Visível
+delete:
+  rebase: Atualizar pai de subpáginas
+  cascade: Excluir subpáginas
+public:
+  record:
+    create:
+      title: Criando registro para módulo "{{name}}"
+    edit:
+      title: Editando registro do módulo "{{name}}"
+    view:
+      title: Visualizando registro do módulo "{{name}}"

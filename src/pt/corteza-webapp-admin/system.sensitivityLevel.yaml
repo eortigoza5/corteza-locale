@@ -1,0 +1,46 @@
+editor:
+  new: Novo nível de sensibilidade
+  title:
+    create: Criar nível de sensibilidade
+    edit: Editar nível de sensibilidade
+  info:
+    title: Informações Básicas
+    handle:
+      label: Lidar
+      placeholder: alça (a - z, 0 - 9, sublinhado, traço)
+      invalid-characters: Deve ter pelo menos 2 caracteres. Pode conter apenas letras,
+        números, travessões, sublinhados e pontos. Deve terminar com letra ou
+        número
+    name: Nome *
+    description: Descrição
+    level: Nível {{level}}
+    createdAt: Criado em
+    createdBy: Criado por
+    delete: Excluir
+    deletedAt: Excluído em
+    undelete: Recuperar exclusão
+    updatedAt: Atualizado em
+list:
+  title: Níveis de sensibilidade
+  loading: Carregando níveis de sensibilidade
+  new: Novo nível de sensibilidade
+  columns:
+    actions: ""
+    meta.name: Nome
+    level: Nível
+    createdAt: Criado
+    state: Estado
+  delete: Excluir
+  undelete: Recuperar exclusão
+  rows:
+    filters:
+      deleted: Excluído
+  filterForm:
+    deleted:
+      label: níveis de sensibilidade excluídos
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    inclusive:
+      label: Incluindo

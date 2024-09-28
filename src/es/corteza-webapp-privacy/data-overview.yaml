@@ -1,0 +1,17 @@
+title: Resumen de datos
+data-types:
+  profile-information:
+    title: Información de perfil
+    description: Tu información de contacto, nombres, apellidos, apodo, foto de perfil.
+  application-data:
+    title: Datos de la aplicación
+    description: Tus datos personales almacenados en Corteza
+application:
+  title: Datos de la aplicación
+  connection:
+    label: Conexión
+    placeholder: Seleccione una conexión
+  no-data-available: No hay datos disponibles
+  private-fields: Campos privados
+  request-correction: Solicitar corrección
+  request-deletion: Solicitar eliminación

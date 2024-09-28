@@ -1,0 +1,14 @@
+template:
+  title: Aceptar invitación
+  form:
+    email:
+      label: Correo electrónico
+      placeholder: email@dominio.ltd
+    new-password:
+      label: Contraseña
+      placeholder: Contraseña
+    buttons:
+      password: Establecer Contraseña
+alert:
+  invalid-expired-invite-token: Token de invitación de usuario inválido o vencido, solicite un restablecimiento de contraseña.
+  success: Contraseña actualizada correctamente

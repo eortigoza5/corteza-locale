@@ -1,0 +1,18 @@
+template:
+  title: Autenticación multifactor
+  email:
+    instructions: Revisa tu bandeja de entrada e ingresa el código recibido
+    code: Código
+    verify: Verificar
+    resend: Reenviar
+    confirmed: OTP de correo electrónico confirmada
+  totp:
+    instructions: Verifique su aplicación TOTP e ingrese el código que recibió
+    code: Código
+    confirmed: TOTP confirmado
+    verify: Verificar
+alerts:
+  email:
+    resent: OTP de correo electrónico reenviado
+  topt:
+    valid: TOTP válido

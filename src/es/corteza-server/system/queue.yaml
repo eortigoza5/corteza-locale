@@ -1,0 +1,13 @@
+errors:
+  alreadyExists: la cola con ese nombre ya existe
+  invalidConsumer: consumidor inválido
+  invalidID: identificación no válida
+  notAllowedToCreate: no se permite crear una cola
+  notAllowedToDelete: No se permite eliminar esta cola.
+  notAllowedToRead: no se le permite leer esta cola
+  notAllowedToReadFrom: No se permite leer mensajes de esta cola.
+  notAllowedToSearch: no se le permite buscar o enumerar colas
+  notAllowedToUndelete: no se permite recuperar esta cola
+  notAllowedToUpdate: no se permite actualizar esta cola
+  notAllowedToWriteTo: No se permite agregar mensajes a esta cola.
+  notFound: cola no encontrada

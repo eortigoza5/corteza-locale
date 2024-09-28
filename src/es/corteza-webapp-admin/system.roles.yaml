@@ -1,0 +1,72 @@
+editor:
+  info:
+    archive: Archivo
+    archivedAt: Archivado en
+    createdAt: Creado en
+    createdBy: Creado por
+    delete: Borrar
+    deletedAt: Eliminado en
+    handle: Manejar
+    placeholder-handle: identificador (a - z, 0 - 9, guión bajo, guión)
+    invalid-handle-characters: Debe tener al menos 2 caracteres. Sólo puede contener
+      letras, números, guiones, guiones bajos y puntos. Debe terminar con letra
+      o número
+    name: Nombre del rol *
+    title: Información básica
+    unarchive: Desarchivar
+    undelete: Recuperar
+    updatedAt: Actualizado en
+    description: Descripción
+    context:
+      label: Rol contextual
+      expression-label: Expresión
+      resource-types-label: Tipo de recurso
+  members:
+    add: Agregar
+    count: Miembros ({{count}})
+    remove: Eliminar
+    searchUsers: Buscar usuarios
+    title: Miembros de rol
+    unnamed: Usuario anónimo
+  new: Nuevo rol
+  permissions: Permisos
+  title:
+    create: Crear rol
+    edit: Editar rol
+list:
+  columns:
+    actions: ""
+    createdAt: Creado
+    enabled: Activado
+    handle: Manejar
+    name: Nombre
+    state: Estado
+  delete: Borrar
+  undelete: Recuperar
+  archive: Archivo
+  unarchive: Desarchivar
+  rows:
+    filters:
+      archived: Archivado
+      deleted: Eliminado
+  filterForm:
+    archived:
+      label: roles archivados
+    deleted:
+      label: roles eliminados
+    excluded:
+      label: Sin
+    exclusive:
+      label: Solo
+    inclusive:
+      label: Incluido
+    query:
+      label: Lista de roles de filtro
+      placeholder: Filtrar roles por nombre
+  loading: Cargando roles
+  new: Nuevo rol
+  numFound: "{{count}} rol encontrado"
+  numFound_plural: "{{count}} roles encontrados"
+  permissions: Permisos
+  title: Roles
+  yaml: YAML

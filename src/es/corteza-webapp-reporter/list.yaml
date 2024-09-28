@@ -1,0 +1,16 @@
+permissions: Permisos
+report:
+  builder: Generador de informes
+  edit: Editar
+  list: Lista de informes
+  new: Nuevo informe
+  delete: Borrar
+searchPlaceholder: Escriba aquí para buscar informes
+title: Informes
+tooltip:
+  permissions: Permisos de informes
+untitledTitle: Informe sin título
+columns:
+  name: Nombre
+  handle: Manejar
+  changedAt: último cambio

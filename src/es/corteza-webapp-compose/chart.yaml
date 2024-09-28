@@ -1,0 +1,247 @@
+colorLabel: "{{count}} colores"
+colorScheme:
+  label: esquema de color
+  placeholder: Elige una combinación de colores
+  pickAColor: Elige un color
+  custom:
+    add: Agregar combinación de colores
+    edit: Editar combinación de colores
+    modal:
+      name:
+        label: Nombre
+      colors:
+        label: Bandera
+configure:
+  reportsLabel: Informes
+general:
+  label:
+    title: Etiqueta
+    add: Agregar
+  value: Valor
+  placeholder:
+    handle: identificador (a - z, 0 - 9, guión bajo, guión)
+    invalid-handle-characters: Debe tener al menos 2 caracteres. Sólo puede contener
+      letras, números, guiones, guiones bajos y puntos. Debe terminar con letra
+      o número
+edit:
+  animation:
+    label: Animación
+    enabled: Animación habilitada
+  dimension:
+    calculateLabelCount: Calcular cuantas etiquetas se pueden mostrar
+    defaultValueFootnote: Utilice este valor para los valores de dimensión que faltan
+    defaultValueLabel: Valor predeterminado
+    fieldLabel: Campo *
+    fieldPlaceholder: Seleccione un campo de dimensión
+    function:
+      placeholder: Seleccionar modificador de dimensión (tamaño del depósito)
+      none: Sin agrupación
+      auto: Auto
+      date: Fecha
+      label: Función
+      month: Mes
+      quarter: Cuarto
+      week: Semana
+      year: Año
+    gaugeSteps: Pasos
+    label: Dimensiones
+    skipMissingValues: Saltar valores faltantes
+    timeLabels: Etiquetas de tiempo
+    options:
+      label: Opciones
+    optionsPicker:
+      searchPlaceholder: Escriba aquí para buscar entre las opciones seleccionadas
+      availableItems: Opciones disponibles
+      selectAllItems: Seleccionar todo
+      selectedItems: Opciones seleccionadas
+      unselectAllItems: Deseleccionar todo
+      noItemsFound: No se encontraron opciones
+    rotate:
+      label: Rotar etiquetas
+      description: Las etiquetas se pueden girar de -90 a 90 grados.
+  filter:
+    customize: Personalizar filtro
+    label: Filtrar
+    preset: Filtros preestablecidos
+    footnote: Se admite la sintaxis de condición SQL simplificada (DÓNDE...). Se
+      evalúan variables como {{0}}, {{1}}, {{2}} y {{3}} (cuando estén
+      disponibles)
+    placeholder: campo1 = 1 Y campo2 = 232
+    noFilter: Selecciona un filtro o crea uno personalizado
+    recordsCreatedLastMonth: Registros creados el mes pasado
+    recordsCreatedLastQuarter: Registros creados el último trimestre
+    recordsCreatedLastYear: Registros creados el año pasado
+    recordsCreatedThisMonth: Registros creados este mes
+    recordsCreatedThisQuarter: Registros creados este trimestre
+    recordsCreatedThisYear: Registros creados este año
+  loadData: Cargar datos
+  metric:
+    add: Agregar métrica
+    fieldLabel: Campo *
+    fieldPlaceholder: Seleccionar campo de métrica
+    fillArea: Rellenar el área debajo de la línea
+    fixTooltips: Mostrar siempre etiquetas
+    options:
+      label: Opciones
+    function:
+      avg: AVG
+      label: Función
+      max: MÁXIMO
+      min: MÍNIMO
+      placeholder: Seleccionar función agregada métrica
+      std: ETS
+      sum: SUMA
+    fx:
+      description: n - valor del conjunto de datos actual, m - valor del conjunto de
+        datos anterior
+      label: Función de posprocesamiento
+    stack:
+      label: Pila
+      description: Las métricas con el mismo valor se acumularán
+    lineStyle:
+      label: Estilo de línea
+      default: Por defecto
+      smooth: Liso
+      step: Paso
+    angle:
+      start: Ángulo inicial
+      end: Ángulo final
+    rose: Rosa
+    radar:
+      shape:
+        label: Forma de radar
+        polygon: Polígono
+        circle: Círculo
+    gaugeColor: Color
+    label: Métrico
+    labelColor: Color de etiqueta
+    labelLabel: Etiqueta
+    labelPlaceholder: Total
+    symbol:
+      label: Símbolo
+      circle: Círculo
+      triangle: Triángulo
+      diamond: Diamante
+      pin: Alfiler
+      arrow: Flecha
+      rect: Rectángulo
+      roundRect: Rectángulo redondeado
+    legend:
+      bottom: Abajo
+      left: Izquierda
+      positionPlaceholder: Posición de la leyenda
+      right: Bien
+      top: Arriba
+    lineTension:
+      curvy: Grandes curvaturas
+      label: tensión de línea
+      medium: Curvas medias
+      placeholder: tensión de línea
+      slight: Pequeñas curvaturas
+      straight: lineas rectas
+    output:
+      bar: Bar
+      doughnut: Rosquilla
+      label: Tipo de gráfico *
+      line: Línea
+      pie: Pastel
+      scatter: Dispersión
+      placeholder: Seleccionar salida métrica
+    relative: Mostrar valor relativo
+    relativePrecision: "Precisión:"
+    cumulative: Acumulativo
+    title: Métrica
+  module:
+    label: Módulo *
+    placeholder: Elige un módulo
+    title: Fuente de datos
+  title: Generador de gráficos
+  unconfiguredReport: Informe no configurado
+  yAxis:
+    axisOnRight: Coloque el eje en el lado derecho.
+    axisScaleFromZero: Siempre comience la escala del eje en cero
+    label: Eje Y
+    options:
+      label: Opciones
+    rotate:
+      label: Rotar etiquetas
+      description: Las etiquetas se pueden girar de -90 a 90 grados.
+    labelLabel: Etiqueta de eje
+    labelPosition:
+      label: Posición de la etiqueta
+      top: Comenzar
+      center: Centro
+      bottom: Fin
+    horizontal:
+      label: Horizontal
+    logarithmicScale: Escala logarítmica
+    maxLabel: valor máximo
+    maxPlaceholder: Valor máximo
+    minLabel: valor mínimo
+    minPlaceholder: Valor mínimo
+  additionalConfig:
+    legend:
+      label: Leyenda
+      show: Mostrar leyenda
+      orientation:
+        label: Orientación
+        horizontal: Horizontal
+        vertical: Vertical
+      align:
+        label: Alinear
+        left: Izquierda
+        right: Bien
+        center: Centro
+      scrollable: Desplazable
+      position:
+        customize: Posición predeterminada
+        top: Arriba
+        right: Bien
+        bottom: Abajo
+        left: Izquierda
+      valueRange: Los valores se pueden establecer como píxeles 20 o como porcentajes 20%
+      options:
+        label: Opciones
+    tooltip:
+      label: Información sobre herramientas
+      labelNextToChart: Mostrar etiquetas junto al gráfico
+      formatting:
+        label: Formato
+        description: "{a} - etiqueta de métrica, {b} - valor de dimensión, {c} - valor
+          de métrica, {d} - porcentaje del valor de métrica"
+        placeholder: "{a}<br />{b}: {c} ({d}%)"
+    offset:
+      label: Compensar
+      default: Desplazamiento predeterminado
+      position:
+        top: Arriba
+        right: Bien
+        bottom: Abajo
+        left: Izquierda
+      valueRange: Los valores se pueden establecer como píxeles 20 o como porcentajes 20%
+  toolbox:
+    label: Herramientas
+    saveAsImage:
+      label: Mostrar el botón "Guardar como imagen"
+    timeline:
+      label: Línea de tiempo
+      options:
+        none: Ninguno
+        x: Eje X
+        y: Eje Y
+        xy: Ambos
+import: "Importar gráficos:"
+newLabel: "Crea un nuevo gráfico:"
+name: Nombre del gráfico *
+handle: Manejar
+generalSettings: Configuraciones generales
+notification:
+  unsavedChanges: Los cambios no guardados se perderán. ¿Quieres abandonar la página?
+  loadFailed: No se pudo cargar el gráfico
+  saveFailed: No se pudo guardar este gráfico
+  saved: Gráfico guardado
+  deleteFailed: No se pudo eliminar este gráfico
+  deleted: Gráfico eliminado
+searchPlaceholder: Escriba aquí para buscar todos los gráficos en este espacio de nombres
+title: Lista de gráficos
+undefined: indefinido

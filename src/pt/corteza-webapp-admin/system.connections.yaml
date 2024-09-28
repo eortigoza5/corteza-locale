@@ -1,0 +1,117 @@
+primary:
+  title: Banco de dados primário
+  name: Nome
+  handle: Lidar
+  location: Localização
+  ownership: Propriedade
+  sensitivity-level: Nível de sensibilidade
+list:
+  title: Lista de conexões de banco de dados
+  add-button: Nova conexão
+  loading: Carregando conexões
+  filterForm:
+    deleted:
+      label: conexões excluídas
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    inclusive:
+      label: Incluindo
+  columns:
+    name: Nome
+    location: Localização
+    ownership: Propriedade
+    createdAt: Criado
+    actions: ""
+  delete: Excluir
+  undelete: Recuperar exclusão
+editor:
+  title:
+    edit: Editar conexão
+    create: Nova conexão
+  basic:
+    title: Configurações básicas
+    form:
+      name:
+        label: Nome *
+        placeholder: Lago de dados
+        description: ""
+      handle:
+        label: Lidar
+        placeholder: nome_da_conexão_simplificada
+        description: null
+        invalid-characters: Deve ter pelo menos 2 caracteres. Pode conter apenas letras,
+          números, travessões, sublinhados e pontos. Deve terminar com letra ou
+          número
+      location-name:
+        label: Nome do local
+        placeholder: Nome do local onde os dados são armazenados
+        description: Nome da cidade, país, continente, etc.
+      location-geometry:
+        label: Coordenadas de localização
+        description: Coordenadas do local onde os dados são armazenados
+        placeholder: null
+      ownership:
+        label: Propriedade
+        placeholder: ACME Ltda.
+        description: Nome da empresa ou pessoa proprietária dos dados
+      sensitivity-level:
+        label: Nível de sensibilidade mais alto permitido
+        placeholder: Selecione um nível de sensibilidade
+        description: Maior nível de sensibilidade permitido para os dados armazenados
+          (conforme definido nos campos do módulo que utiliza esta conexão)
+  properties:
+    title: Propriedades de conexão e banco de dados
+    form:
+      data-at-rest-encryption:
+        checkbox:
+          label: Criptografar dados em repouso ativado
+        notes:
+          label: Notas sobre criptografia
+          description: Notas internas sobre criptografia de dados em repouso (criptografia
+            de disco)
+      data-at-rest-protection:
+        checkbox:
+          label: Proteção de dados em repouso fornecida
+        notes:
+          label: Notas sobre proteção de dados em repouso
+          description: Notas internas sobre proteção de dados em repouso (proteção física)
+      data-at-transit-encryption:
+        checkbox:
+          label: Criptografar dados em trânsito ativado
+        notes:
+          label: Notas sobre dados na criptografia de trânsito (criptografia de rede)
+          description: Notas internas sobre criptografia de dados em trânsito
+            (criptografia de rede)
+      data-restoration:
+        checkbox:
+          label: Backup e restauração de dados em repouso implementados
+        notes:
+          label: Notas sobre restauração de dados
+          description: Notas internas sobre restauração de dados
+  dal:
+    title: Configuração da camada de acesso a dados e parâmetros de conexão
+    form:
+      model-ident:
+        label: Tabela padrão ou nome do contêiner
+        placeholder: compor_record
+        description: >-
+          O identificador pode conter espaços reservados como {{module}}
+          (substituído pelo identificador do módulo) e/ou {{namespace}}
+          (substituído pelo identificador do namespace).
+
+          Quando definido, é usado como padrão para módulos sem identidade de
+          configuração.
+      type:
+        label: Conexão e tipo de parâmetro
+        placeholder: corteza::dal:conexão:dsn
+        description: Tipo de conexão e parâmetro, por ex. corteza::dal:conexão:dsn
+      params:
+        label: Parâmetros de conexão
+        placeholder: postgres://usuário:pass@host:porta/nome do banco de dados
+        description: 'Parâmetros de conexão, por exemplo: {"dsn":
+          "postgres://user:pass@host:port/dbname"}'
+    connectivity-issues: Problemas de conexão
+    no-access-warning: Nenhuma permissão para gerenciar a configuração da camada de
+      acesso a dados e os parâmetros de conexão para esta conexão

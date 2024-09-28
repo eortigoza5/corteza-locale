@@ -1,0 +1,19 @@
+errors:
+  handleNotUnique: lidar não é exclusivo
+  invalidHandle: identificador inválido
+  invalidID: ID inválido
+  invalidNamespaceID: ID de namespace inválido ou ausente
+  nameNotUnique: nome não único
+  fieldNameReserved: nome do campo reservado
+  namespaceNotFound: espaço para nome não existe
+  notAllowedToCreate: não é permitido criar módulos
+  notAllowedToDelete: não é permitido excluir este módulo
+  notAllowedToListModules: não é permitido listar módulos
+  notAllowedToRead: não tem permissão para ler este módulo
+  notAllowedToReadNamespace: não tem permissão para ler este namespace
+  notAllowedToSearch: não é permitido pesquisar ou listar módulos
+  notAllowedToUndelete: não é permitido recuperar este módulo
+  notAllowedToUpdate: não é permitido atualizar este módulo
+  notFound: módulo não existe
+  staleData: dados obsoletos
+  dedupConfigurationInvalidMissingConstraint: faltando restrições na configuração de desduplicação

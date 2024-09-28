@@ -1,0 +1,12 @@
+errors:
+  cannotRenderPartial: no se pueden renderizar plantillas parciales
+  invalidHandle: identificador no válido
+  invalidID: identificación no válida
+  notAllowedToCreate: no se permite crear plantillas
+  notAllowedToDelete: No se permite eliminar esta plantilla.
+  notAllowedToRead: No se permite leer esta plantilla.
+  notAllowedToRender: No se permite renderizar esta plantilla.
+  notAllowedToSearch: no se permite buscar o enumerar plantillas
+  notAllowedToUndelete: no se permite recuperar esta plantilla
+  notAllowedToUpdate: no se permite actualizar esta plantilla
+  notFound: plantilla no encontrada

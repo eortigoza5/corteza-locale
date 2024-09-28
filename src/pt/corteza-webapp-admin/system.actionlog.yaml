@@ -1,0 +1,46 @@
+list:
+  columns:
+    action: Ação
+    actor: Usuário
+    description: Descrição
+    requestOrigin: Origem
+    resource: Recurso
+    severity: Gravidade
+    timestamp: Carimbo de data e hora
+  loading: Carregando ações
+  details:
+    id: EU IA
+    header: Detalhes
+    timestamp: Carimbo de data e hora
+    requestOrigin: Solicitar origem
+    requestID: ID da solicitação
+    actorIPAddr: Ator/Usuário
+    actor: Usuário
+    actorID: ID do usuário
+    severity: Gravidade
+    resource: Recurso
+    action: Ação
+    headerAdditional: Informações adicionais
+    description: Descrição
+    error: Erro
+  severity:
+    emergency: Emergência
+    alert: Alerta
+    critical: Crítico
+    error: Erro
+    warning: Aviso
+    notice: Perceber
+    info: Informações
+    debug: Depurar
+  filter:
+    action: Ação
+    actor: ID do usuário
+    choose-date: Escolha uma data
+    from: A partir de
+    no-time: Nenhum horário selecionado
+    resource: Recurso
+    search: Procurar
+    to: Terminando em
+    today: Hoje
+  loadOlder: Carregar ações mais antigas
+  title: Registro de ações

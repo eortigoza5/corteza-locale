@@ -1,0 +1,17 @@
+errors:
+  badSinkParamEncoding: codificação incorreta dos parâmetros do coletor
+  contentLengthExceedsMaxAllowedSize: o comprimento do conteúdo excede o limite máximo de tamanho
+  failedToCreateEvent: falha ao criar evento de coletor a partir da solicitação
+  failedToProcess: não foi possível processar a solicitação
+  failedToRespond: não respondeu ao pedido
+  failedToSign: "não foi possível assinar os parâmetros da solicitação: {err}"
+  invalidContentType: cabeçalho de tipo de conteúdo inválido
+  invalidHttpMethod: método HTTP inválido
+  invalidPath: caminho inválido
+  invalidSignature: assinatura inválida
+  invalidSignatureParam: parâmetro de assinatura de coletor inválido
+  invalidSinkRequestUrlParams: parâmetros de URL de solicitação de coletor inválidos
+  misplacedSignature: assinatura perdida
+  missingSignature: parâmetro de assinatura do coletor ausente
+  processingError: erro no processo de solicitação de coletor
+  signatureExpired: assinatura expirou

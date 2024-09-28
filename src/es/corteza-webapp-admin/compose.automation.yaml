@@ -1,0 +1,6 @@
+list:
+  columns:
+    events: Activado por eventos
+    label: Etiqueta
+    name: Nombre
+  title: Redactar automatización

@@ -1,0 +1,16 @@
+permissions: Permissões
+report:
+  builder: Construtor de relatórios
+  edit: Editar
+  list: Lista de relatórios
+  new: Novo relatório
+  delete: Excluir
+searchPlaceholder: Digite aqui para pesquisar relatórios
+title: Relatórios
+tooltip:
+  permissions: Permissões de relatório
+untitledTitle: Relatório sem título
+columns:
+  name: Nome
+  handle: Lidar
+  changedAt: Última alteração

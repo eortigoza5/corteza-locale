@@ -1,0 +1,80 @@
+manage-view:
+  label: Administrar espacios de nombres
+application:
+  label: Habilitar en la lista de aplicaciones
+clickOpen: Haga clic para abrir
+import:
+  buttonLabel: Importar
+  title: Importar espacio de nombres
+  uploadFileLabel: Sube el archivo que deseas importar (formato .zip)
+  uploadFilePlaceholder: Haga clic o suelte el archivo aquí para cargarlo (formato .zip)
+  back: Atrás
+  import: Importar
+  slug:
+    label: Nombre corto *
+description:
+  label: Descripción del espacio de nombres
+  placeholder: Introduzca la descripción del espacio de nombres
+disabled: El espacio de nombres está deshabilitado
+edit: Editar espacio de nombres
+clone: Clonar espacio de nombres
+cloneSuffix: Copiar
+cloneWarning:
+  wfInclusion: Los flujos de trabajo y otras automatizaciones no se clonan.
+    Utilice la interfaz del editor de flujo de trabajo para clonar los que
+    necesite.
+create: Crear espacio de nombres
+export: Exportar
+enabled:
+  label: Habilitar espacio de nombres
+icon:
+  label: Icono
+  placeholder: Elija una imagen para el icono del espacio de nombres o suéltela aquí...
+label:
+  permissions: Permisos
+logo:
+  label: Logo
+  placeholder: Elija una imagen para el logotipo del espacio de nombres o suéltela aquí...
+  show: Mostrar logotipo
+  preview: Avance
+  reset: Reiniciar
+name:
+  label: Nombre completo del espacio de nombres *
+  placeholder: Introduzca el nombre del espacio de nombres
+noResults: No se encontraron espacios de nombres
+searchPlaceholder: Escriba aquí para buscar entre todos los espacios de nombres...
+setPermissions: Establecer permisos de espacio de nombres
+slug:
+  description: El nombre corto se utilizará en la URL.
+  label: nombre corto
+  placeholder: Ingrese un nombre corto para el espacio de nombres
+  invalid-handle-characters: Debe tener al menos 2 caracteres. Sólo puede contener
+    letras, números, guiones, guiones bajos y puntos. Debe terminar con letra o
+    número
+subtitle:
+  label: Subtitular
+  placeholder: Introduzca el subtítulo del espacio de nombres
+title: Espacios de nombres
+tooltip:
+  translations: Traducciones de espacios de nombres
+visit: Ver espacio de nombres
+configure: Configurar el espacio de nombres
+manage:
+  title: Administrar espacios de nombres
+  list-view: Volver a la lista de espacios de nombres
+  delete: Borrar
+  unsavedChanges: Los cambios no guardados se perderán. ¿Quieres abandonar la página?
+  disabled: Desactivado
+  toolbar:
+    buttons:
+      create: Nuevo espacio de nombres
+      permissions: Permisos
+  table:
+    columns:
+      enabled: Activado
+      name: Nombre
+      slug: nombre corto
+      changedAt: último cambio
+sidebar:
+  configure: Páginas de espacio de nombres
+  hide: Ocultar la barra lateral en las páginas públicas del espacio de nombres

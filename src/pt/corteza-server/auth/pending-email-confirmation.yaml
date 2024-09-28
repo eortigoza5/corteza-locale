@@ -1,0 +1,6 @@
+template:
+  title: Confirme seu e-mail
+  instructions: Você deverá receber o link de confirmação por e-mail em sua caixa
+    de entrada em alguns instantes
+  links: <a data-test-id="link-signup" href="{{signup}}">Crie uma nova conta</a>
+    ou <a data-test-id="link-login" href="{{login}}"> faça login</a>

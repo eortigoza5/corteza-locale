@@ -1,0 +1,11 @@
+errors:
+  asyncRouteTooManyProcessers: já existe um processador para esta rota assíncrona
+  asyncRouteTooManyAfterFilters: não, filtros posteriores são permitidos para esta rota assíncrona
+  invalidID: ID inválido
+  invalidRoute: rota inválida
+  notAllowedToCreate: não é permitido criar um filtro
+  notAllowedToDelete: não é permitido excluir este filtro
+  notAllowedToRead: não tem permissão para ler este filtro
+  notAllowedToUndelete: não é permitido cancelar a exclusão deste filtro
+  notAllowedToUpdate: não é permitido atualizar este filtro
+  notFound: filtro não encontrado

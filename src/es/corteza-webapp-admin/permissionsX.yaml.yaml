@@ -1,0 +1,528 @@
+ui:
+  save: Guardar cambios
+  cancel: Cancelar
+  set-for: Establecer permisos para {{target}}
+  loading: Permisos de carga
+  edit:
+    title: Editar permisos
+    label: Roles de usuario
+    description: Seleccione rol para establecer permisos
+  edit-or-eval: Editar o evaluar permisos
+  evaluate:
+    title: Permisos evaluados
+    description: Evaluar los permisos aplicados
+  add:
+    label: Agregar
+    title: Evaluar permisos
+    save: Guardar y cerrar
+    edit:
+      description: Seleccione un rol para el cual desea editar permisos
+    evaluate:
+      description: Seleccione una combinación de roles o un usuario para evaluar
+    role:
+      label: Roles
+      placeholder: Seleccionar rol(es)
+    user:
+      label: Usuarios
+      placeholder: Buscar o seleccionar un usuario
+  tooltip:
+    unknown-context:
+      user: No se puede evaluar el permiso para un usuario con rol contextual en un
+        recurso no específico
+      role: No se puede evaluar el permiso para el rol contextual en un recurso no
+        específico
+  access:
+    allow: Permitir
+    inherit: Heredar
+    deny: Denegar
+  click-on-cell-to-allow: Haga clic en la celda de permiso/rol para permitir una operación específica
+  title:
+    automation: Permisos de automatización
+    system: Permisos del sistema
+    compose: Permisos de redacción
+    federation: Permisos de federación
+  clone:
+    clone: Clon
+    label: Permisos de clonación
+    pick-role: Elige un papel
+    title: Permisos de clonación para
+    description: Esto clonará todos los permisos del rol actual y los aplicará al
+      seleccionado
+resources:
+  automation:
+    component:
+      label: Componente de automatización
+      operations:
+        grant:
+          title: Conceder permisos de automatización
+        sessions.search:
+          title: Sesiones de búsqueda
+        triggers.search:
+          title: Activadores de búsqueda
+        workflow.create:
+          title: Crear nuevo flujo de trabajo
+        workflows.search:
+          title: Buscar flujos de trabajo
+        resource-translations.manage:
+          title: Administrar traducciones de recursos
+    workflow:
+      label: Flujos de trabajo
+      all: todos los flujos de trabajo
+      specific: flujo de trabajo "{{target}}"
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar este flujo de trabajo
+          title: Eliminar cualquier flujo de trabajo
+        execute:
+          description: "Predeterminado: negar"
+          specific: Ejecute este flujo de trabajo
+          title: Ejecute cualquier flujo de trabajo
+        read:
+          description: "Predeterminado: negar"
+          specific: Lea este flujo de trabajo
+          title: Leer cualquier flujo de trabajo
+        sessions.manage:
+          description: "Predeterminado: negar"
+          specific: Administrar sesiones para este flujo de trabajo
+          title: Administrar todas las sesiones
+        triggers.manage:
+          description: "Predeterminado: negar"
+          specific: Administrar activadores para este flujo de trabajo
+          title: Gestionar todos los desencadenantes
+        undelete:
+          description: "Predeterminado: negar"
+          specific: Recuperar este flujo de trabajo
+          title: Recuperar cualquier flujo de trabajo
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar este flujo de trabajo
+          title: Actualiza cualquier flujo de trabajo
+  system:
+    component:
+      label: Componente del sistema
+      operations:
+        action-log.read:
+          title: Acceder al registro de acciones
+        application.create:
+          title: Crear nueva aplicación
+        application.flag.global:
+          title: Puede fijar la aplicación para todos
+        application.flag.self:
+          title: Pueden anclar la aplicación por sí mismos
+        applications.search:
+          title: Listar y buscar aplicaciones
+        auth-client.create:
+          title: Crear nuevo cliente de autenticación
+        auth-clients.search:
+          title: Listar y buscar clientes de autenticación
+        apigw-route.create:
+          title: Crear nueva ruta
+        apigw-routes.search:
+          title: Listar y buscar rutas
+        apigw-filter.create:
+          title: Crear nuevo filtro
+        apigw-filters.search:
+          title: Lista y filtros de búsqueda.
+        grant:
+          title: Conceder permiso sobre el componente del sistema
+        queue.create:
+          title: Crear nueva cola de mensajes
+        queues.search:
+          title: Listar y buscar colas de mensajes
+        reminder.assign:
+          title: Permitir asignación de recordatorio
+        role.create:
+          title: Crear nuevo rol
+        roles.search:
+          title: Listar y buscar roles
+        settings.manage:
+          title: Administrar todas las configuraciones
+        settings.read:
+          title: Accede a todas las configuraciones
+        template.create:
+          title: Crear nueva plantilla
+        templates.search:
+          title: Plantillas de lista y búsqueda
+        user.create:
+          title: Crear nuevo usuario
+        users.search:
+          title: Listar y buscar usuarios
+        resource-translations.manage:
+          title: Administrar traducciones de recursos
+        report.create:
+          title: Crear nuevo informe
+        reports.search:
+          title: Informes de lista y búsqueda
+        dal-connections.search:
+          title: Buscar conexiones
+        dal-connection.create:
+          title: Crear conexiones
+        dal-sensitivity-level.manage:
+          title: Administrar el nivel de sensibilidad de la conexión
+        data-privacy-requests.search:
+          title: Solicitudes de privacidad de datos de búsqueda
+        data-privacy-request.create:
+          title: Crear solicitudes de privacidad de datos
+    application:
+      label: Aplicaciones
+      all: todas las aplicaciones
+      specific: aplicación "{{target}}"
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar {{target}}
+          title: Eliminar cualquier aplicación
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer {{target}}
+          title: Leer cualquier aplicación
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar {{target}}
+          title: Actualiza cualquier aplicación
+    apigw-route:
+      label: Rutas de puerta de enlace
+      all: todas las rutas
+      specific: ruta "{{target}}"
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar {{target}}
+          title: Eliminar cualquier ruta
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer {{target}}
+          title: Leer cualquier ruta
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar {{target}}
+          title: Actualiza cualquier ruta
+    auth-client:
+      label: Clientes de autenticación
+      all: todos los clientes de autenticación
+      specific: cliente de autenticación "{{target}}"
+      operations:
+        authorize:
+          description: "El usuario puede autorizar (usar) este cliente. Predeterminado:
+            negar"
+          specific: Autorizar cliente "{{target}}
+          title: Autorizar a cualquier cliente
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar cliente "{{target}}
+          title: Eliminar cualquier cliente
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer cliente "{{target}}
+          title: Leer cualquier cliente
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar cliente "{{target}}
+          title: Actualiza cualquier cliente
+    dal-connection:
+      label: Conexiones
+      all: todas las conexiones
+      specific: conexión "{{target}}"
+      operations:
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer conexión "{{target}}
+          title: Leer cualquier conexión
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar conexión "{{target}}
+          title: Actualiza cualquier conexión
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar conexión "{{target}}
+          title: Eliminar cualquier conexión
+        dal-config:
+          manage:
+            title: Administrar cualquier conexión
+    role:
+      label: Roles
+      all: todos los roles
+      specific: rol "{{target}}"
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar {{target}}
+          title: Eliminar cualquier rol
+        members.manage:
+          description: "Predeterminado: negar"
+          specific: Administrar miembros para {{target}}
+          title: Administrar miembros para cualquier rol
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer {{target}}
+          title: Leer cualquier rol
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar {{target}}
+          title: Actualiza cualquier rol
+    queue:
+      label: Colas
+      all: todas las colas
+      specific: cola "{{target}}"
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar {{target}}
+          title: Eliminar cualquier cola
+        members.manage:
+          description: "Predeterminado: negar"
+          specific: Administrar miembros para {{target}}
+          title: Administrar miembros para cualquier cola
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer {{target}}
+          title: Leer cualquier cola
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar {{target}}
+          title: Actualizar cualquier cola
+        queue.read:
+          description: "Predeterminado: negar"
+          specific: Leer mensajes de {{target}}
+          title: Leer mensajes de cualquier cola
+        queue.write:
+          description: "Predeterminado: negar"
+          specific: Escribir mensajes a {{target}}
+          title: Escribir mensajes en cualquier cola
+    template:
+      label: Plantillas
+      all: todas las plantillas
+      specific: plantilla "{{target}}"
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar {{target}}
+          title: Eliminar cualquier plantilla
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer {{target}}
+          title: Leer cualquier plantilla
+        render:
+          description: "Predeterminado: negar"
+          specific: Representar {{target}}
+          title: Renderiza cualquier plantilla
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar {{target}}
+          title: Actualiza cualquier plantilla
+    report:
+      label: Informes
+      all: todos los informes
+      specific: informar "{{target}}"
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar {{target}}
+          title: Eliminar cualquier informe
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer {{target}}
+          title: Leer cualquier informe
+        run:
+          description: "Predeterminado: negar"
+          specific: Ejecutar {{target}}
+          title: Ejecute cualquier informe
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar {{target}}
+          title: Actualizar cualquier informe
+    user:
+      label: Usuarios
+      all: todos los usuarios
+      specific: usuario "{{target}}"
+      operations:
+        credentials:
+          manage:
+            specific: Administrar las credenciales de {{target}}
+            title: Administrar cualquier usuario
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar {{target}}
+          title: Eliminar cualquier usuario
+        email.unmask:
+          description: "Predeterminado: negar"
+          specific: Mostrar detalles de correo electrónico para {{target}}
+          title: Mostrar detalles de correo electrónico para cualquier usuario
+        name.unmask:
+          description: "Predeterminado: negar"
+          specific: Mostrar detalles del nombre de {{target}}
+          title: Mostrar detalles del nombre de cualquier usuario
+        impersonate:
+          description: "Predeterminado: negar"
+          specific: Suplantar a este usuario {{target}}
+          title: Suplantar a cualquier usuario
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer {{target}}
+          title: Leer cualquier usuario
+        suspend:
+          description: "Predeterminado: negar"
+          specific: Suspender {{target}}
+          title: Suspender a cualquier usuario
+        unsuspend:
+          description: "Predeterminado: negar"
+          specific: Reactivar {{target}}
+          title: Dessuspender a cualquier usuario
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar {{target}}
+          title: Actualiza cualquier usuario
+    data-privacy-request:
+      label: Solicitudes de privacidad
+      all: todas las solicitudes
+      specific: solicitud "{{target}}"
+      operations:
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer {{target}}
+          title: Leer cualquier solicitud
+        approve:
+          description: "Predeterminado: negar"
+          specific: Aprobar {{target}}
+          title: Aprobar cualquier solicitud
+  federation:
+    component:
+      label: Componente de federación
+      operations:
+        grant:
+          title: Conceder permisos en el componente de federación
+        node.create:
+          title: Crear nodos
+        nodes.search:
+          title: Listar o crear nodos
+        pair:
+          title: Nodos de par
+        settings.manage:
+          title: Administrar todas las configuraciones
+        settings.read:
+          title: Accede a todas las configuraciones
+    node:
+      label: Nodos
+      operations:
+        manage:
+          title: Administrar cualquier nodo
+        module.create:
+          title: Crear módulos
+    exposed-module:
+      label: Módulos
+      operations:
+        manage:
+          title: Administrar cualquier módulo
+    shared-module:
+      label: Módulos
+      operations:
+        map:
+          title: Mapear cualquier módulo
+  compose:
+    component:
+      label: Componente de composición
+      operations:
+        grant:
+          title: Conceder permisos en el componente de redacción
+        namespace.create:
+          title: Crear espacios de nombres
+        namespaces.search:
+          title: Listar y buscar espacios de nombres
+        settings.manage:
+          title: Administrar todas las configuraciones
+        settings.read:
+          title: Accede a todas las configuraciones
+        resource-translations.manage:
+          title: Administrar traducciones de recursos
+    chart:
+      label: Gráficos
+      operations:
+        delete:
+          title: Eliminar cualquier gráfico
+        read:
+          title: Leer cualquier gráfico
+        update:
+          title: Actualizar cualquier gráfico
+    module:
+      label: Módulos
+      operations:
+        delete:
+          title: Eliminar cualquier módulo
+        owned-record.create:
+          title: Administrar propietario al crear un registro de cualquier módulo
+        read:
+          title: Leer cualquier módulo
+        record.create:
+          title: Crear registro en cualquier módulo
+        records.search:
+          title: Listar y buscar registros en cualquier módulo
+        update:
+          title: Actualiza cualquier módulo
+    module-field:
+      label: Campos del módulo
+      operations:
+        record.value.read:
+          title: Leer cualquier campo del módulo
+        record.value.update:
+          title: Actualizar cualquier campo del módulo
+    namespace:
+      label: Espacios de nombres
+      operations:
+        chart.create:
+          title: Cree gráficos bajo cualquier espacio de nombres
+        charts.search:
+          title: Listar y buscar gráficos bajo cualquier espacio de nombres.
+        delete:
+          title: Eliminar cualquier espacio de nombres
+        manage:
+          title: Administrar cualquier espacio de nombres
+        module.create:
+          title: Crea módulos bajo cualquier espacio de nombres.
+        modules.search:
+          title: Listar y buscar módulos bajo cualquier espacio de nombres.
+        page.create:
+          title: Crea páginas bajo cualquier espacio de nombres.
+        pages.search:
+          title: Listar y buscar páginas bajo cualquier espacio de nombres.
+        read:
+          title: Acceder a cualquier espacio de nombres
+        update:
+          title: Actualizar cualquier espacio de nombres
+    page:
+      label: paginas
+      operations:
+        delete:
+          title: Eliminar cualquier página
+        read:
+          title: Leer cualquier página
+        update:
+          title: Actualiza cualquier página
+        page-layout.create:
+          title: Cree diseños de página en cualquier página
+        page-layouts.search:
+          title: Enumere y busque diseños de página en cualquier página
+    page-layout:
+      label: Diseños de página
+      operations:
+        delete:
+          title: Eliminar cualquier diseño de página
+        read:
+          title: Leer cualquier diseño de página
+        update:
+          title: Actualiza cualquier diseño de página
+    record:
+      label: Archivos
+      operations:
+        delete:
+          title: Eliminar cualquier registro
+        undelete:
+          title: Recuperar cualquier registro
+        read:
+          title: Leer cualquier registro
+        update:
+          title: Actualizar cualquier registro
+        owner.manage:
+          title: Gestionar la propiedad de cualquier registro
+        revisions.search:
+          title: Acceder a revisiones de cualquier registro.

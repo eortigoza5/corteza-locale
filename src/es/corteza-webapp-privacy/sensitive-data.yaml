@@ -1,0 +1,11 @@
+list:
+  title: Módulos sensibles
+  columns:
+    module: Módulo
+    namespace: Espacio de nombres
+    connection: Conexión
+    location: Ubicación
+    ownership: Propiedad
+  module:
+    enable: Habilitar módulos
+    disable: Desactivar módulos

@@ -1,0 +1,163 @@
+title: Portal de Integração
+list:
+  export: Exportar
+  title: Rotas
+  new: Nova Rota
+  permissions: Permissões
+  profiler: Criador de perfil
+  yaml: YAML
+  loading: Carregando rotas
+  numFound: "{{count}} rota encontrada"
+  numFound_plural: "{{count}} rotas encontradas"
+  filterForm:
+    query:
+      label: Filtrar lista de rotas
+      placeholder: Filtrar rotas por nome
+    excluded:
+      label: Sem
+    inclusive:
+      label: Incluindo
+    exclusive:
+      label: Apenas
+    deleted:
+      label: rotas excluídas
+    handle:
+      placeholder: Filtrar endpoints por caminho
+  delete: Excluir
+  undelete: Recuperar exclusão
+  columns:
+    endpoint: Ponto final
+    createdAt: Criado
+    enabled: Habilitado
+    method: Método
+    actions: ""
+    state: Estado
+  rows:
+    filters:
+      deleted: Excluído
+settings:
+  title: Configurações
+  profiler:
+    label: Criador de perfil
+    enabled: Habilitado
+    global: Ativado globalmente
+  proxy:
+    label: Procurador
+    follow: Seguir redirecionamentos
+editor:
+  title: Editar rota
+  new: Nova Rota
+  permissions: Permissões
+  info:
+    title: Informações básicas
+    id: EU IA
+    endpoint: Ponto final
+    method: Método
+    description: Descrição
+    enabled: Habilitado
+    delete: Excluir
+    undelete: Recuperar exclusão
+    deletedAt: Excluído em
+    updatedAt: Atualizado em
+    createdAt: Criado em
+    createdBy: Criado por
+    tooltip: O ponto final deve começar com uma barra "/" e não pode conter
+      caracteres especiais, exceto o sublinhado "_" e o hífen "-"
+    validation:
+      slash: O endpoint deve começar com uma barra "/"
+      minLength: O endpoint deve conter pelo menos um caractere
+      invalidCharacters: O endpoint contém caracteres inválidos
+  filters:
+    title: Lista de filtros
+    enabled: Habilitado
+    disabled: Desabilitado
+    add: Adicionar
+    addFilter: Adicionar filtro
+    addHeader: Adicionar cabeçalho
+    params: Parâmetros
+    filterListEmpty: A lista de filtros está vazia!
+    modal:
+      title: Verificador de parâmetros de consulta
+      ok: Salvar e fechar
+    step_title:
+      prefilter: Pré-filtragem
+      processer: Processamento
+      postfilter: Pós-filtragem
+    list:
+      remove: Remover
+      filters: Filtros
+      status: Status
+      actions: Ações
+      active: Ativo
+      noFilters: Sem filtros
+    labels:
+      expr: Expressão
+      location: URL
+      workflow: Fluxo de trabalho
+      status: Status HTTP
+      jsfunc: Função
+      input: Entrada
+      header: Cabeçalhos
+      name: Nome
+      value: Valor
+    httpStatus:
+      "300": 300 - Múltiplas Escolhas
+      "301": 301 - Movido permanentemente
+      "302": 302 - Encontrado
+      "303": 303 - Ver outro
+      "304": 304 - Não modificado
+      "307": 307 - Redirecionamento Temporário
+      "308": 308 - Redirecionamento Permanente
+      none: Sem status
+    placeholders:
+      workflow: Selecione um fluxo de trabalho
+    help:
+      expression:
+        example: Exemplo == "correspondência de string" && match(SecondParam,
+          "^foo\\s.*$")
+        link: Documentação
+profiler:
+  label: Criador de perfil
+  title: Perfilador de Gateway de Integração
+  refreshingIn: Atualizando em {{seconds}}s
+  description:
+    globalEnabled: Mostrando rotas para todas as solicitações recebidas
+    globalDisabled: Mostrando apenas rotas registradas com pré-filtro do criador de perfil
+  purge:
+    all: Limpar solicitações para todas as rotas
+    this: Limpar solicitações para esta rota
+  hit:
+    title: Detalhes da solicitação
+    general:
+      label: Em geral
+      id: ID da solicitação
+      route: Solicitar Rota
+      URL: Solicitar URL
+      method: Método de solicitação
+      statusCode: Código de status
+      headers: Solicitar cabeçalhos
+      remoteAddress: Endereço Remoto
+      duration: Duração
+      start: Começar
+      end: Fim
+      openRoute: Rota aberta
+    headers:
+      label: Cabeçalhos
+    body:
+      label: Corpo
+  columns:
+    actions: ""
+    path: Rota
+    count: Contar
+    content_length: Comprimento do conteúdo
+    http_method: Método
+    http_status_code: Código de status
+    size_min: Tamanho (min)
+    size_max: Tamanho (máx.)
+    size_avg: Tamanho (médio)
+    time_min: Tempo (min)
+    time_max: Tempo (máx.)
+    time_avg: Tempo (média)
+    time_start: Hora de início
+    time_finish: Hora de término
+    time_duration: Duração

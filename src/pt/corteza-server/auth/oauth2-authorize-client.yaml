@@ -1,0 +1,17 @@
+template:
+  title: Autorizar
+  form:
+    greeting-paragraph: Olá
+    question-for-client: gostaria de realizar ações neste servidor Corteza em seu nome.
+    buttons:
+      allow: Permitir
+      deny: Negar
+  links:
+    mistake: Se isso for um erro, <a data-test-id="link-logout"
+      href="{{link}}">saia</a>.
+  errors:
+    invalid-user: Não é possível continuar com e-mails não autorizados. Visite <a
+      data-test-id="link-redirect-to-profile" href="{{link}}">seu perfil</a> e
+      resolva o problema.
+alerts:
+  denied: "Falha ao autorizar {{client}}: permissões insuficientes"

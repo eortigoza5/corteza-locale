@@ -1,0 +1,40 @@
+auto-initialize-empty-variable: Las variables que no se pueden cargar se
+  inicializarán automáticamente como vacías
+back: Atrás
+click-to-save: Haga clic aquí para guardar
+deferred: Diferido
+delete: Borrar
+deleted: Eliminado
+detected-changes: Cambios detectados
+detected-issues: Problemas detectados
+disabled: Desactivado
+help: Ayuda
+handle: (Manejar)
+id: "IDENTIFICACIÓN:"
+id-parenthesis: (IDENTIFICACIÓN)
+initial-scope: Alcance inicial
+input-ids-or-handles: El alcance inicial se inyecta en el flujo de trabajo
+  durante la ejecución. Para cargar las variables disponibles, ingrese los
+  ID/identificadores relacionados a continuación
+issues: Asuntos
+load-and-configure: Cargar y configurar
+modify-initial-scope-if-no-variables-are-loaded: Si no desea cargar ninguna
+  variable, haga clic en "Configurar" para modificar el alcance inicial antes de
+  ejecutar el flujo de trabajo.
+open-webapp-on-prompt-use: "ADVERTENCIA: Si se utilizan indicaciones en el flujo
+  de trabajo, asegúrese de que la aplicación web relacionada también esté
+  abierta. De lo contrario, el flujo de trabajo expirará"
+reset: Reiniciar
+run-as: "Ejecutar como:"
+run-workflow: Ejecutar flujo de trabajo
+required-namespace: Espacio de nombres requerido
+required-namespace-and-module: Espacio de nombres y módulo requeridos
+save: Ahorrar
+saving: Ahorro
+spinning: Hilado
+test-in-progress: Pruebas en curso. Si su flujo de trabajo incluye pasos de
+  Aviso o Retraso, es posible que esté esperando a que se completen
+unsupported-browser: ¡El navegador no es compatible!
+undelete: Recuperar
+workflow-configuration: Configuración del flujo de trabajo
+editor: Editor

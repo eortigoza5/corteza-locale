@@ -1,0 +1,62 @@
+editor:
+  info:
+    createdAt: Creado en
+    createdBy: Creado por
+    delete: Borrar
+    deletedAt: Eliminado en
+    enabled: Activado
+    handle: Manejar
+    invalid-handle-characters: Debe tener al menos 2 caracteres. Sólo puede contener
+      letras, números, guiones, guiones bajos y puntos. Debe terminar con letra
+      o número
+    id: IDENTIFICACIÓN
+    name: Nombre *
+    openBuilder: constructor abierto
+    title: Información básica
+    undelete: Recuperar
+    updatedAt: Actualizado en
+  new: Nuevo flujo de trabajo
+  permissions: Permisos
+  title:
+    create: Crear flujo de trabajo
+    edit: Editar flujo de trabajo
+  triggers:
+    and: y
+    columns:
+      constraints: Restricciones
+      eventType: Evento
+      resourceType: Recurso
+    title: Desencadenantes
+list:
+  columns:
+    actions: ""
+    createdAt: Creado
+    enabled: Activado
+    handle: Manejar
+    name: Nombre
+    state: Estado
+  delete: Borrar
+  undelete: Recuperar
+  export: Exportar
+  rows:
+    filters:
+      deleted: Eliminado
+  filterForm:
+    deleted:
+      label: flujos de trabajo eliminados
+    excluded:
+      label: Sin
+    exclusive:
+      label: Solo
+    inclusive:
+      label: Incluido
+    query:
+      label: Lista de flujos de trabajo de filtrado
+      placeholder: Filtrar flujos de trabajo por nombre
+  loading: Cargando flujos de trabajo
+  new: Nuevo flujo de trabajo
+  numFound: "{{count}} flujo de trabajo encontrado"
+  numFound_plural: "{{count}} flujos de trabajo encontrados"
+  permissions: Permisos
+  title: Flujos de trabajo
+  yaml: YAML

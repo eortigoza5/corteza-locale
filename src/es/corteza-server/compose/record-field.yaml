@@ -1,0 +1,6 @@
+errors:
+  empty: Este campo es obligatorio
+  invalidValue: Valor de campo no válido
+  invalidRef: Referencia de campo no válida
+  duplicateValueInSet: Este valor ya existe en la lista.
+  duplicateValue: El valor "{{value}}" ya existe en otro registro

@@ -1,0 +1,52 @@
+configure-triggers: Asegúrese de que todos los pasos desencadenantes estén
+  configurados correctamente
+confirm-unsaved-changes: Tienes cambios sin guardar, ¿estás seguro de que quieres salir?
+error: "- ERROR:"
+event-type-not-found: Tipo de evento no encontrado
+event-type-fetch-failed: No se pudieron recuperar los tipos de eventos
+failed-fetch-functions: No se pudieron recuperar las funciones
+failed-fetch-triggers: No se pudieron recuperar los activadores
+failed-fetch-workflow: No se pudo recuperar el flujo de trabajo
+failed-fetch-workflows: No se pudieron recuperar los flujos de trabajo
+failed-load-file: No se pudo cargar el archivo
+failed-save: Error al guardar
+failed-test: Prueba fallida
+fetch-types-failed: No se pudieron recuperar los tipos
+general:
+  error: Error
+  success: Éxito
+  warning: Advertencia
+  info: Información
+list:
+  load:
+    error: No se pudieron recuperar los flujos de trabajo
+  enable:
+    success: Flujo de trabajo habilitado
+    failed: No se pudo habilitar el flujo de trabajo
+  disable:
+    success: Flujo de trabajo deshabilitado
+    failed: No se pudo deshabilitar el flujo de trabajo
+import:
+  failed-import: No se pudo importar
+  imported-workflows: Flujos de trabajo importados
+  skipped-workflows: Flujos de trabajo omitidos
+imported-workflow: Flujo de trabajo importado
+import-failed: Importación fallida
+initial-scope-load-failed: No se pudo cargar el alcance inicial
+resolve-issues: Resolver problemas para probar el flujo de trabajo
+save-workflow: Guarde el flujo de trabajo primero para probarlo
+started-test: Prueba de flujo de trabajo iniciada
+test-completed: Prueba completada
+test-in-progress: Prueba en progreso
+trace-unavailable: Rastreo no disponible
+trigger-paths-changed: Las rutas de activación cambiaron
+workflow-test-completed: Prueba de flujo de trabajo completada
+update:
+  success: Flujo de trabajo actualizado
+  failed: No se pudo actualizar el flujo de trabajo
+delete:
+  success: Flujo de trabajo eliminado
+  failed: No se pudo eliminar el flujo de trabajo
+undelete:
+  success: Flujo de trabajo restaurado
+  failed: No se pudo restaurar el flujo de trabajo

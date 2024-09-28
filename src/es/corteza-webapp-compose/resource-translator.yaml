@@ -1,0 +1,28 @@
+translator:
+  save-changes: Ahorrar
+  add-language: Agregar idioma
+  missing-translation: Falta traducción
+resources:
+  chart:
+    title: Gráfico "{{ handle }}"
+    tooltip: Traducciones de gráficos
+  namespace:
+    title: Espacio de nombres "{{ handle }}"
+    tooltip: Traducciones de espacios de nombres
+  module:
+    title: Módulo "{{ handle }}"
+    tooltip: Traducciones de módulos
+    field:
+      title: Campo de módulo "{{ name }}"
+      tooltip: Traducciones de campo
+  page:
+    title: Página "{{ handle }}"
+    tooltip: Traducciones de páginas
+    block:
+      title: "Bloque de página #{{ blockID }}"
+      tooltip: Traducciones de bloques
+    layout:
+      title: Diseño de página "{{ handle }}"
+  page-layout:
+    title: Diseño de página "{{ handle }}"
+    tooltip: Traducciones de diseño de página

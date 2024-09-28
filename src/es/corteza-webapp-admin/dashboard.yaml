@@ -1,0 +1,19 @@
+applications:
+  applications: Aplicaciones
+  deleted: Eliminado
+  title: Aplicaciones activas
+  total: Total
+roles:
+  archived: Archivado
+  deleted: Eliminado
+  roles: Rol(es)
+  title: Rol(es) activo(s)
+  total: Total
+title: Panel
+users:
+  created: Usuarios creados
+  deleted: Eliminado
+  suspended: Suspendido
+  title: Usuario(s) activo(s)
+  total: Total
+  users: Usuario(s)

@@ -1,0 +1,95 @@
+add:
+  datasource: Agregar fuente de datos
+  display-element: Agregar elemento de visualización
+available: Disponible
+block:
+  description: Descripción del bloque
+  save: Guardar bloque
+  title: Título del bloque
+  configuration: Configuración de bloque
+datasource:
+  label: Fuente de datos
+  types:
+    load:
+      label: Carga
+      data-from-resource: Carga datos de un recurso específico, como registros de redacción.
+    link:
+      label: Enlace
+      load-datasources: Vincula dos fuentes de datos de carga con una columna única
+        que las vincula, como un selector de registros de redacción.
+    join:
+      label: Unirse
+      load-datasources: Une dos orígenes de datos con una columna única que los une,
+        como un selector de registros de redacción. El paso de unión produce un
+        único conjunto de filas en contraste con el paso de enlace que produce
+        un marco de datos independiente para cada fila local.
+    aggregate:
+      label: Agregar
+      load-datasource: Agrega datos de una fuente de datos de carga en función de un
+        valor de columna y los agrega, como contar la cantidad de cuentas con el
+        mismo estado.
+datasources:
+  label: Fuentes de datos
+  save: Guardar fuentes de datos
+description: Descripción
+display-elements:
+  types:
+    text: Texto
+    metric: Métrico
+    table: Mesa
+    chart: Cuadro
+element: Elemento
+elements: Elementos
+filter-expression: Expresión de filtro
+general: General
+joined-datasource-handling: Manejo de fuentes de datos unidas
+layout: Disposición
+layout-options:
+  horizontal: Horizontal
+  vertical: Vertical
+limit: Límite
+no-blocks-added: Aún no se han agregado bloques
+or: O
+pick-scenario: Elige un escenario
+prefilter: Prefiltro
+presort-order: Orden previo
+report:
+  builder: Generador de informes
+  view: Ver informe
+save-button: Ahorrar
+scenarios:
+  label: Escenarios
+  save: Guardar escenarios
+title: Título
+tooltip:
+  edit:
+    report: Editar informe
+    block: Editar bloque
+  add:
+    displayElement: Agregar elemento de visualización
+  delete:
+    block: Eliminar bloque
+  configure-scenarios: Configurar escenarios
+  unsavedChanges: Cambios no guardados
+available-columns: Columnas disponibles
+selected-columns: Columnas seleccionadas
+no-columns-found: No se encontraron columnas
+type-to-search: Escriba aquí para buscar entre columnas
+selected: Seleccionado
+select-all: Seleccionar todo
+unselect-all: Deseleccionar todo
+value: Valor
+name: Nombre
+unsaved-changes: Los cambios no guardados se perderán. ¿Quieres abandonar la página?
+filter:
+  operators:
+    like: Como
+    notLike: No me gusta
+    contains: Contiene
+    notContains: No contiene
+    equal: Igual
+    greaterThan: Más que
+    greaterThanEqualTo: Mayor o igual a
+    lessThanEqualTo: Menor o igual a
+    lessThan: Menos que
+    notEqual: No igual

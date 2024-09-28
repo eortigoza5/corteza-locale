@@ -1,0 +1,19 @@
+applications:
+  applications: Aplicativo(s)
+  deleted: Excluído
+  title: Aplicativo(s) ativo(s)
+  total: Total
+roles:
+  archived: Arquivado
+  deleted: Excluído
+  roles: Funções
+  title: Funções ativas
+  total: Total
+title: Painel
+users:
+  created: Usuários criados
+  deleted: Excluído
+  suspended: Suspenso
+  title: Usuários ativos
+  total: Total
+  users: Usuários)

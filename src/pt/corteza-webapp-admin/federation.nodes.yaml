@@ -1,0 +1,76 @@
+editor:
+  generate:
+    body: "{{ userLabel }} está enviando a você um convite para o Corteza Federated
+      Network. Para começar a compartilhar dados entre organizações, acesse o
+      painel de administração do seu aplicativo Corteza, clique em “Federação” e
+      selecione “Emparelhar Rede de Federação” no canto superior direito. Copie
+      o link abaixo e aguarde a confirmação de outro administrador."
+    description: Para adicionar sua organização a uma rede federada, envie um
+      convite por e-mail ou compartilhe o link abaixo com um administrador de
+      outra organização.
+    hello: Olá,
+    invitation: Convite para Rede Federada
+    kindRegards: Atenciosamente, equipe Corteza.
+    notGenerated: Link não gerado
+    sendEmail: Enviar e-mail
+    subject: "Assunto:"
+  generateUri: Gerar link da federação
+  info:
+    createdAt: Criado em
+    createdBy: Criado por
+    delete: Excluir
+    deletedAt: Excluído em
+    email: E-mail do administrador
+    enabled: Habilitado
+    name: Nome do servidor *
+    status: Status
+    tags:
+      label: Etiquetas
+      placeholder: +Adicionar
+    title: Informações básicas
+    undelete: Recuperar exclusão
+    updatedAt: Atualizado em
+    url: URL do servidor *
+  title:
+    create: Criar nó federado
+    edit: Editar nó federado
+list:
+  columns:
+    actions: ""
+    createdAt: Criado
+    enabled: Habilitado
+    name: Nome
+    status: Status
+    tags: ""
+  filterForm:
+    query:
+      label: Filtrar lista de servidores
+      placeholder: Filtrar servidores por nome
+  loading: Carregando nós federados
+  new: Novo nó federado
+  numFound: "{{count}} servidor encontrado"
+  numFound_plural: "{{count}} servidores encontrados"
+  pair:
+    confirm: Confirmar
+    label: Emparelhar nó federado
+    networkEstablished: A rede federada será estabelecida após a confirmação final
+      do administrador de outro Nó da Federação Corteza.
+    note: "Observação:"
+    status:
+      confirmPending:
+        description: >-
+          {{ email }} aceitou o convite para ingressar na Rede Federada “{{ name
+          }}”.
+           Clique em “Confirmar” para começar a compartilhar os dados.
+        descriptionNoMail: >-
+          O administrador de “{{ name }}” aceitou o convite para ingressar na
+          Rede Federada.
+           Clique em “Confirmar” para começar a compartilhar os dados
+      none:
+        description: Para emparelhar sua organização com uma rede federada, cole abaixo
+          o URL gerado de outra organização.
+      pending:
+        description: Emparelhamento bem-sucedido, aguardando confirmação final pelo
+          administrador
+  title: Redes Federadas
+  yaml: YAML

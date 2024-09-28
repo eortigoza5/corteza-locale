@@ -1,0 +1,13 @@
+errors:
+  notAllowedToRead: no se permite leer esta configuración
+  notAllowedToManage: No se permite gestionar esta configuración.
+  invalidPasswordMinLength: La longitud mínima de la restricción de contraseña
+    debe ser de al menos 8 caracteres.
+  invalidPasswordMinUpperCase: El recuento mínimo de mayúsculas de la restricción
+    de contraseña no debe ser un número negativo.
+  invalidPasswordMinLowerCase: El recuento mínimo de minúsculas de la restricción
+    de contraseña no debe ser un número negativo.
+  invalidPasswordMinNumCount: El número mínimo de restricciones de contraseña no
+    debe ser un número negativo.
+  invalidPasswordMinSpecialCharCount: El recuento mínimo de caracteres especiales
+    de la restricción de contraseña no debe ser un número negativo.

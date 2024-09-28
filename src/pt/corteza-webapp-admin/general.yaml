@@ -1,0 +1,63 @@
+label:
+  general:
+    yes: Sim
+    no: Não
+  template:
+    single: Modelo
+    plural: Modelos
+  user:
+    single: Usuário
+    plural: Usuários
+  role:
+    single: Papel
+    plural: Funções
+  application:
+    single: Aplicativo
+    plural: Aplicativos
+  auth_client:
+    single: Cliente de autenticação
+    plural: Clientes de autenticação
+  queue:
+    single: Fila de mensagens
+    plural: Filas de mensagens
+  route:
+    single: Rota
+    plural: Rotas
+  connection:
+    single: Conexão de banco de dados
+    plural: Conexões de banco de dados
+  sensitivity_level:
+    single: Nível de sensibilidade
+    plural: Níveis de sensibilidade
+  session:
+    single: Sessão
+    plural: Sessões
+  workflow:
+    single: Fluxo de trabalho
+    plural: Fluxos de trabalho
+  plus-add: + Adicionar
+  clear: Claro
+  all: Todos
+  none: Nenhum
+  now: Agora
+  today: Hoje
+  routes: Rotas
+  requests: Solicitações
+  refresh: Atualizar
+  loadMore: Carregar mais
+  loading: Carregando
+  saveAndClose: Salvar e fechar
+  cancel: Cancelar
+  submit: Enviar
+  delete: Excluir
+  undelete: Recuperar exclusão
+  fileTypeNotAllowed: Tipo de arquivo não permitido
+editor:
+  unsavedChanges: As alterações não salvas serão perdidas. Deseja sair da página?
+resourceList:
+  pagination:
+    recordsPerPage: Registros por página
+themes:
+  labels:
+    light: Luz
+    dark: Escuro

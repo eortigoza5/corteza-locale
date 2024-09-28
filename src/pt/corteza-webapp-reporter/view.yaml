@@ -1,0 +1,7 @@
+pick-scenario: Escolha um cenário
+report:
+  builder: Construtor de relatórios
+  view: Visualização do relatório
+tooltip:
+  edit:
+    report: Editar relatório

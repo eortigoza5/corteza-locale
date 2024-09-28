@@ -1,0 +1,54 @@
+editor:
+  info:
+    consumer: Consumidor
+    createdAt: Creado en
+    createdBy: Creado por
+    delete: Borrar
+    deletedAt: Eliminado en
+    dispatch_events: Eventos de envío
+    dispatch_events_desc: El envío de eventos notifica al bus de eventos los cambios
+      de mensajes en la cola (nuevos, procesados, ...)
+    name: Nombre de la cola *
+    invalid-handle-characters: Debe tener al menos 2 caracteres. Sólo puede contener
+      letras, números, guiones, guiones bajos y puntos. Debe terminar con letra
+      o número
+    poll_delay: Retraso en los cambios en las encuestas
+    poll_delay_empty: "No se utilizará el retraso de la encuesta; para habilitarlo,
+      use el formato de duración (es decir: 1h / 1m15s / 1h90s)"
+    poll_delay_set: Se utilizará el retraso de la encuesta; si está vacío, no se utilizará.
+    title: Información básica
+    undelete: Recuperar
+    updatedAt: Actualizado en
+  new: Nueva cola
+  title:
+    edit: Editar cola
+    new: Agregar una cola
+list:
+  columns:
+    actions: ""
+    consumer: Consumidor
+    createdAt: Creado en
+    createdBy: Creado por
+    state: Estado
+    queue: Cola
+  export: Exportar
+  delete: Borrar
+  undelete: Recuperar
+  rows:
+    filters:
+      deleted: Eliminado
+  filterForm:
+    deleted:
+      label: colas eliminadas
+    excluded:
+      label: Sin
+    exclusive:
+      label: Solo
+    handle:
+      label: Lista de colas de filtrado
+      placeholder: Filtrar colas por nombre
+    inclusive:
+      label: Incluido
+  loading: Cargando colas de mensajes
+  new: Nueva cola
+  title: Colas de mensajería

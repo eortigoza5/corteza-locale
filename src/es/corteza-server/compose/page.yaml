@@ -1,0 +1,17 @@
+errors:
+  handleNotUnique: manejar no es único
+  invalidHandle: identificador no válido
+  invalidID: identificación no válida
+  invalidNamespaceID: ID de espacio de nombres no válido o faltante
+  moduleNotFound: el módulo no existe
+  namespaceNotFound: el espacio de nombres no existe
+  notAllowedToCreate: no se permite crear páginas
+  notAllowedToDelete: No se permite eliminar esta página.
+  notAllowedToListPages: no se permite enumerar páginas
+  notAllowedToRead: no esta permitido leer esta pagina
+  notAllowedToReadNamespace: No se permite leer este espacio de nombres.
+  notAllowedToSearch: no se permite buscar o enumerar páginas
+  notAllowedToUndelete: No se permite recuperar esta página.
+  notAllowedToUpdate: no se permite actualizar esta página
+  notFound: la pagina no existe
+  staleData: datos obsoletos

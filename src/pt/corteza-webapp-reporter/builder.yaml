@@ -1,0 +1,95 @@
+add:
+  datasource: Adicionar fonte de dados
+  display-element: Adicionar elemento de exibição
+available: Disponível
+block:
+  description: Descrição do bloco
+  save: Salvar bloco
+  title: Título do bloco
+  configuration: Configuração de bloco
+datasource:
+  label: Fonte de dados
+  types:
+    load:
+      label: Carregar
+      data-from-resource: Carrega dados de um recurso especificado, como registros do Compose
+    link:
+      label: Link
+      load-datasources: Vincula duas fontes de dados de carregamento com uma coluna
+        exclusiva que as vincula, como um seletor de registros do Compose
+    join:
+      label: Juntar
+      load-datasources: Une duas fontes de dados com uma coluna exclusiva que as une,
+        como um seletor de registros do Compose. A etapa de junção produz um
+        único conjunto de linhas em contraste com a etapa de link que produz um
+        quadro de dados independente para cada linha local.
+    aggregate:
+      label: Agregar
+      load-datasource: Agrega dados de uma fonte de dados de carregamento com base em
+        um valor de coluna e os agrega, como contar o número de contas com o
+        mesmo status
+datasources:
+  label: Fontes de dados
+  save: Salvar fontes de dados
+description: Descrição
+display-elements:
+  types:
+    text: Texto
+    metric: Métrica
+    table: Mesa
+    chart: Gráfico
+element: Elemento
+elements: Elementos
+filter-expression: Expressão de filtro
+general: Em geral
+joined-datasource-handling: Manipulação de fonte de dados unida
+layout: Disposição
+layout-options:
+  horizontal: Horizontal
+  vertical: Vertical
+limit: Limite
+no-blocks-added: Nenhum bloco adicionado ainda
+or: Ou
+pick-scenario: Escolha um cenário
+prefilter: Pré-filtro
+presort-order: Ordem de pré-classificação
+report:
+  builder: Construtor de relatórios
+  view: Ver relatório
+save-button: Salvar
+scenarios:
+  label: Cenários
+  save: Salvar cenários
+title: Título
+tooltip:
+  edit:
+    report: Editar relatório
+    block: Editar bloco
+  add:
+    displayElement: Adicionar elemento de exibição
+  delete:
+    block: Excluir bloco
+  configure-scenarios: Configurar cenários
+  unsavedChanges: Alterações não salvas
+available-columns: Colunas disponíveis
+selected-columns: Colunas selecionadas
+no-columns-found: Nenhuma coluna encontrada
+type-to-search: Digite aqui para pesquisar entre colunas
+selected: Selecionado
+select-all: Selecionar tudo
+unselect-all: Desmarcar tudo
+value: Valor
+name: Nome
+unsaved-changes: As alterações não salvas serão perdidas. Deseja sair da página?
+filter:
+  operators:
+    like: Como
+    notLike: Não gosto
+    contains: Contém
+    notContains: Não contém
+    equal: Igual
+    greaterThan: Maior que
+    greaterThanEqualTo: Maior ou igual a
+    lessThanEqualTo: Menor ou igual a
+    lessThan: Menor que
+    notEqual: Diferente

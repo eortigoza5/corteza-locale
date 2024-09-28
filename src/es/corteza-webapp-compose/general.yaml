@@ -1,0 +1,185 @@
+label:
+  app-name:
+    public: Espacios de nombres
+    private: "Espacios de nombres: administrador"
+  actions: Comportamiento
+  active: Activo
+  add: Agregar
+  add-with-plus: + Agregar
+  addNew: Agregar nuevo
+  addValue: Agregar nuevo valor
+  ascending: Ascendente
+  attachmentFileInfo: "(Tamaño de archivo: {{0}}, subido {{1}})"
+  attributes: Atributos
+  back: Atrás
+  backWithoutSave: Atrás (sin guardar cambios)
+  block: Bloquear
+  browse: Navegar
+  buttons: Botones
+  cancel: Cancelar
+  clear: Claro
+  clone: Clon
+  close: Cerca
+  create: Crear
+  delete: Borrar
+  restore: Restaurar
+  descending: Descendente
+  description: Descripción
+  download: Descargar
+  dropFiles: Haga clic o suelte archivos aquí para cargarlos
+  edit: Editar
+  enabled: Activado
+  export: Exportar
+  fileTypeNotAllowed: Tipo de archivo no permitido
+  general: General
+  handle: Manejar
+  here: aquí
+  home: Hogar
+  import: Importar
+  all: Todo
+  importPlaceholder: Subir archivos para importar
+  loading: Cargando
+  makeDefault: Hacer predeterminado
+  moduleName: Nombre del módulo
+  multi: Multi
+  name: Nombre
+  next: Próximo
+  no: No
+  noHandle: Sin mango
+  none: Ninguno
+  now: Ahora
+  ok: De acuerdo
+  page: Página
+  pageLayout: Diseño de página
+  pageBuilder: Creador de páginas
+  permissions: Permisos
+  private: Privado
+  privacy: Privacidad
+  processing: Tratamiento...
+  record: Registro
+  recordPage: página de registro
+  field: Campo
+  remove: Eliminar
+  removeDefault: Eliminar valor predeterminado
+  required: Requerido
+  reset: Reiniciar
+  sensitive: Sensible
+  save: Ahorrar
+  saveAndClose: Guardar y cerrar
+  saveAsCopy: guardar como copia
+  status: Estado
+  timeHour: "{{t}}h"
+  timeMinute: "{{t}}minuto"
+  today: Hoy
+  title: Título
+  type: Tipo
+  updatedAt: Actualizado en
+  uploadError: 'Problema con la carga del archivo: "{{message}}"'
+  uploading: Subiendo
+  urlPlaceholder: https://example.tld
+  validation: Validación
+  view: Vista
+  yes: Sí
+  chart:
+    single: Cuadro
+    plural: Gráficos
+  namespace:
+    single: Espacio de nombres
+    plural: Espacios de nombres
+  module:
+    single: Módulo
+    plural: Módulos
+navigation:
+  chart: Gráficos
+  namespace: Espacios de nombres
+  module: Módulos
+  page: paginas
+  pageLayout: Diseños de página
+placeholder:
+  handle: identificador (a - z, 0 - 9, guión bajo, guión)
+  sample: Muestra
+reminder:
+  add: Añadir un recordatorio
+  dismiss: Despedir
+  dismissed: Despedido
+  dismissedAt: Despedido en
+  undismiss: Desestimar
+  delete: Eliminar recordatorio
+  recordPageLink: Ver registro
+  edit:
+    label: Editar recordatorio
+    assigneeLabel: Cesionario
+    assigneePlaceholder: Yo mismo (predeterminado)
+    notesLabel: Notas
+    notesPlaceholder: Notas
+    remindAtLabel: Recuérdamelo a
+    remindAtNone: Nunca
+    titleLabel: Título
+    titlePlaceholder: Título
+  listLabel: Recordatorios
+  routesTo: Etiqueta para enlace de página
+  snooze:
+    label: Siesta
+    count: Recuento de repetición {{count}}
+tooltip:
+  dragAndDrop: Arrastra y suelta para cambiar el orden
+  field: Configurar campo
+fieldKinds:
+  Bool:
+    label: Casilla de verificación (sí/no)
+  DateTime:
+    label: Fecha y hora
+  Email:
+    label: Entrada de correo electrónico
+  File:
+    label: Carga de archivos
+  Number:
+    label: Entrada de números
+  Record:
+    label: selector de registro
+  Select:
+    label: Seleccionar/desplegar
+  String:
+    label: Entrada de texto (cadena)
+  Url:
+    label: entrada de URL
+  User:
+    label: Selector de usuario
+  Geometry:
+    label: Geometría
+field:
+  selectAll: Seleccionar todo
+  tooltip:
+    permissions: Permisos de campo
+  unselectAll: Deseleccionar todo
+  kind:
+    user:
+      suggestionPlaceholder: Empiece a escribir para buscar usuarios por correo electrónico o nombre
+resourceList:
+  notFound: Extraviado
+  noItems: No hay elementos para mostrar
+  pagination:
+    next: Próximo
+    prev: Anterior
+    showing: "{{from}} - {{to}} de {{count}} {{data}}"
+    single: Uno {{data}}
+    single_plural: "{{count}} {{data}}"
+    recordsPerPage: Registros por página
+recordNavigation:
+  next: Próximo registro
+  prev: Registro anterior
+variants:
+  primary: Primario
+  secondary: Secundario
+  light: Luz
+  dark: Oscuro
+  info: Información
+  success: Éxito
+  danger: Peligro
+  warning: Advertencia
+editor:
+  unsavedChanges: Los cambios no guardados se perderán. ¿Quieres abandonar la página?
+themes:
+  labels:
+    light: Luz
+    dark: Oscuro

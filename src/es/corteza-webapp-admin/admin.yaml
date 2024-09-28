@@ -1,0 +1,121 @@
+automation:
+  add: Agregar guión
+  edit:
+    asyncHelp: No espere resultados e ignore los errores. Incompatible con bandera
+      crítica.
+    asyncLabel: Ejecute este script de forma asincrónica
+    codeTabLabel: Código
+    criticalHelp: Espere hasta que se ejecute este script. En caso de errores,
+      cancele la ejecución de otros scripts y antes* del disparador
+    criticalLabel: Guión crítico
+    delete: Eliminar guión
+    enabledHelp: Los scripts deshabilitados serán ignorados
+    enabledLabel: Activado
+    mailAutomationTriggers:
+      addMatcher: Agregar condición
+      addTrigger: Agregar disparador
+      delete: Eliminar disparador
+      deleteTrigger: Borrar
+      enable: Habilitar disparador
+      matchAll: Debe cumplir todas las condiciones
+      matcher:
+        fields:
+          bcc: BCC
+          cc: CC
+          from: De
+          placeholder: Campo de encabezado de correo
+          replyTo: Responder a
+          subject: Sujeto
+          to: A
+        match: Valor para igualar
+        operators:
+          equal-ci: Partido completo
+          placeholder: Operador
+          prefix-ci: Prefijo coincidente
+          regex: expresión regular
+          suffix-ci: Sufijo coincidente
+          user: Usuario existente
+      tabLabel: Activadores de correo
+    nameLabel: Nombre
+    namePlaceholder: Nombre del script de automatización
+    runAsCurrentUser: Ejecutar como "{{ user }}"
+    runAsHelp: Corredor de guiones
+    scheduledTriggers:
+      tabLabel: Programado
+    securityLabel: Seguridad
+    settingsTabLabel: Ajustes
+    timeoutHelp: ¿Cuánto tiempo esperamos antes de abortar el guión? Valor en
+      milisegundos (1000ms = 1s). El valor predeterminado (cuando es 0) es 2 s
+      con 30 s como máximo. Consulte con su administrador los números exactos y
+      las limitaciones.
+    timeoutLabel: Tiempo de espera de ejecución del script
+    timeoutPlaceholder: "1500"
+    title: Guión de automatización
+    userPickerPlaceholder: Seleccionar usuario
+  import: Importar script(s) de automatización
+  list:
+    column:
+      label:
+        async: asíncrono
+        critical: Crítico
+        enabled: Activado
+        runAs: Ejecutar como
+        runInUA: En el navegador
+    unnamed: (Guión sin nombre)
+  manage: Administrar scripts de automatización ({{count}})
+  manage-id-permissions: Administrar permisos para este script
+  manage-wc-permissions: Administrar permisos para todos los scripts
+  newLabel: Crear un nuevo guión
+  newPlaceholder: Nombre del guión
+  testing:
+    load: Carga
+    parametersHeadline: "Parámetros y carga útil:"
+    resultsHeadline: "Resultados:"
+    testInBrowser: Prueba en el navegador
+    testInCorredor: Prueba en Corredor
+    warning: ""
+  title: Lista de scripts de automatización
+general:
+  resource-list:
+    no-items: No hay coincidencias para tu búsqueda
+  notFound: Extraviado
+  loading: Cargando
+  label:
+    no: No
+    submit: Entregar
+    yes: Sí
+    selectOption: Por favor seleccione una opción
+  logout: Cerrar sesión
+  noAccess: No tienes permisos para acceder al panel de administración
+  pagination:
+    next: Próximo
+    prev: Anterior
+    showing: "{{from}} - {{to}} de {{count}} {{data}}"
+    single: Uno {{data}}
+    single_plural: "{{count}} {{data}}"
+navigation:
+  adminPanel: Panel de administración
+  automation: Automatización
+  chart: Gráficos
+  configuration: Configuración
+  help:
+    documentation: Documentación
+    feedback: Enviar comentarios
+    forum: Ayuda
+    version: "Versión:"
+  module: Módulos
+  more: Más
+  namespace: Espacios de nombres
+  noPageTitle: Sin título de página
+  page: paginas
+  publicPages: Paginas publicas
+  userSettings:
+    changePassword: Cambiar la contraseña
+    loggedInAs: Ha iniciado sesión como {{user}}
+    logout: Cerrar sesión
+    profile: Perfil
+picker:
+  role:
+    placeholder: Empiece a escribir para buscar roles
+  member:
+    placeholder: Empiece a escribir para buscar usuarios

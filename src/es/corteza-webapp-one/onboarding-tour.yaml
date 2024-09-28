@@ -1,0 +1,45 @@
+start:
+  welcome: Bienvenido a Corteza
+  instructions: ¡Hola! Ha creado exitosamente su cuenta de Corteza. ¿Estás listo
+    para empezar? Haga clic en el botón "Muéstrame" a continuación para obtener
+    una guía rápida a través de las funcionalidades básicas.
+  skip: Saltar recorrido
+  show: Muéstrame
+buttons:
+  skip: Saltar recorrido
+  previous: Atrás
+  next: Próximo
+  end: Fin
+steps:
+  app-list:
+    title: Menú de aplicaciones
+    content: Aquí es donde puede ver la lista de aplicaciones disponibles. Cuando
+      esté en una aplicación, siempre puede volver a esta lista haciendo clic en
+      el ícono de 6 puntos en la esquina superior derecha.
+  crm:
+    title: "Espacio de nombres de ejemplo: CRM"
+    content: Aquí puede acceder a CRM, un ejemplo de configuración low-code. Puedes
+      navegar por la aplicación desde la barra lateral de la izquierda donde
+      verás una lista de páginas disponibles. Para insertar datos de ejemplo,
+      haga clic en el botón "+ Agregar" en cualquier lista de registros.
+  low-code:
+    title: Lista de aplicaciones Low-Code (espacios de nombres)
+    content: Aquí puede crear una nueva aplicación Low-Code (espacio de nombres) o
+      comenzar a trabajar en algunas aplicaciones preconfiguradas (por ejemplo,
+      CRM). Estas aplicaciones no aparecen en el menú de aplicaciones de forma
+      predeterminada.
+  reporter:
+    title: Lista de informes
+    content: Para crear vistas avanzadas del panel con datos agregados de varios
+      módulos, diferentes tablas y gráficos, comience a crear un nuevo informe.
+  profile:
+    title: Configuración de perfil
+    content: Para actualizar la configuración de su perfil, configurar el idioma,
+      cambiar la contraseña o configurar la autenticación de 2 factores, siga el
+      enlace debajo del ícono de usuario.
+  workflow:
+    title: Lista de flujos de trabajo
+    content: Lleve sus aplicaciones Low-Code al siguiente nivel con el generador de
+      flujo de trabajo visual, donde podrá automatizar cualquier proceso para
+      cubrir las necesidades de su organización. Comience a crear un nuevo flujo
+      de trabajo o revise los existentes.

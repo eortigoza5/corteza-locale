@@ -1,0 +1,37 @@
+basic-controls:
+  action:
+    deselect: Desmarcar
+    pan: Frigideira
+    select: Selecione
+    select-multiple: Selecione vários
+    zoom-in/out: Aumentar/diminuir zoom
+  shortcut:
+    left-click:
+      background: Clique com o botão esquerdo no fundo
+      drag: Clique com o botão esquerdo e arraste
+      label: Clique esquerdo
+    mouse-wheel: Roda do mouse
+    right-click-drag: Clique com o botão direito e arraste
+basic-controls-label: Controles básicos
+keyboard-shortcuts:
+  action:
+    add-selection: Adicionar à seleção
+    copy: Cópia
+    cut: Corte
+    delete-selected-elements: Excluir elementos selecionados
+    nudge: Cutucar
+    paste: Colar
+    redo: Refazer
+    save: Salvar
+    show-guides: Mostrar guias
+    show-help: Mostrar ajuda
+    reset-view-to-start-point: Redefinir a visualização para o ponto inicial
+    select-all: Selecionar tudo
+    undo: Desfazer
+  shortcut:
+    adjust-distance: para ajustar a distância
+    arrow-keys: Teclas de seta - Usar
+    hold: Segurar
+    left-mouse-button: botão esquerdo do mouse
+keyboard-shortcuts-label: Atalhos de teclado
+mac-users: Se estiver usando um teclado MAC, substitua Ctrl pela tecla CMD

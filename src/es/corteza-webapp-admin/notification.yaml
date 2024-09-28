@@ -1,0 +1,297 @@
+general:
+  error: Error
+  success: Éxito
+  warning: Advertencia
+notAllowed: No se permite acceder al área de administración. Redireccionando
+list:
+  load:
+    error: No se pudo cargar la lista de recursos
+user:
+  external-auth-providers:
+    error: Error al recuperar los proveedores de autenticación externos
+    success: Proveedores de autenticación externos actualizados
+  fetch:
+    error: La recuperación del usuario falló
+  roles:
+    error: Falló la búsqueda de rol
+  update:
+    success: Usuario actualizado
+    error: La actualización del usuario falló
+  create:
+    success: Usuario creado
+    error: Error al crear usuario
+  delete:
+    success: Usuario eliminado
+    error: Error al eliminar el usuario
+  undelete:
+    success: Usuario restaurado
+    error: La restauración del usuario falló
+  membershipUpdate:
+    success: Membresía actualizada
+    error: Error al actualizar la membresía
+  passwordChange:
+    success: Contraseña cambiada
+    error: Error al cambiar la contraseña
+  sessionsRevoke:
+    success: Sesiones revocadas
+    error: Falló la revocación de sesión
+  suspend:
+    success: Usuario suspendido
+    error: La suspensión del usuario falló
+  unsuspend:
+    success: Usuario no suspendido
+    error: La suspensión del usuario falló
+  import:
+    success: Usuarios importados exitosamente
+  avatarUpload:
+    success: Avatar actualizado
+    error: Falló la carga del avatar
+  avatarSettings:
+    success: Configuración de avatar actualizada
+    error: Error al actualizar la configuración del avatar
+  avatarDelete:
+    success: Avatar eliminado
+    error: Error al eliminar el avatar
+role:
+  fetch:
+    error: Falló la búsqueda de rol
+  create:
+    success: Rol creado
+    error: Error al crear el rol
+  update:
+    success: Rol actualizado
+    error: Error al actualizar la función
+  delete:
+    success: Rol eliminado
+    error: Error al eliminar la función
+  undelete:
+    success: Rol restaurado
+    error: Error al restaurar la función
+  archive:
+    success: Rol archivado
+    error: Error en el archivado de funciones
+  unarchive:
+    success: Rol desarchivado
+    error: Error al desarchivar la función
+  membershipUpdate:
+    success: Membresía actualizada
+    error: Error al actualizar la membresía
+application:
+  fetch:
+    error: Error al recuperar la aplicación
+  update:
+    success: Aplicación actualizada
+    error: Error en la actualización de la aplicación
+  create:
+    success: Aplicación creada
+    error: Error al crear la aplicación
+  delete:
+    success: Aplicación eliminada
+    error: Error al eliminar la aplicación
+  undelete:
+    success: Aplicación restaurada
+    error: La restauración de la aplicación falló
+  assetsUpload:
+    error: Error al cargar los recursos de la aplicación
+template:
+  fetch:
+    error: Error al recuperar la plantilla
+  fetchPartials:
+    error: Error al recuperar plantillas parciales
+  create:
+    success: Plantilla creada
+    error: Error al crear la plantilla
+  update:
+    success: Plantilla actualizada
+    error: Error al actualizar la plantilla
+  delete:
+    success: Plantilla eliminada
+    error: Error al eliminar la plantilla
+  undelete:
+    success: Plantilla restaurada
+    error: Error al restaurar la plantilla
+  driver:
+    error: Error al recuperar los controladores de renderizado de plantilla
+  preview:
+    error: Error al recuperar la vista previa de la plantilla
+authclient:
+  fetch:
+    error: Error al recuperar el cliente de autenticación
+  create:
+    success: Cliente de autenticación creado
+    error: Error al crear el cliente de autenticación
+  update:
+    success: Cliente de autenticación actualizado
+    error: Error en la actualización del cliente de autenticación
+  delete:
+    success: Cliente de autenticación eliminado
+    error: Error al eliminar el cliente de autenticación
+  undelete:
+    success: Cliente de autenticación restaurado
+    error: La restauración del cliente de autenticación falló
+queue:
+  fetch:
+    error: Error al recuperar la cola
+  create:
+    success: Cola creada
+    error: Error al crear la cola
+  update:
+    success: Cola actualizada
+    error: Error al actualizar la cola
+  delete:
+    success: Cola eliminada
+    error: Error al eliminar la cola
+  undelete:
+    success: Cola restaurada
+    error: Error al restaurar la cola
+gateway:
+  fetch:
+    error: Falló la búsqueda de ruta
+  create:
+    success: Ruta creada
+    error: Error al crear la ruta
+  update:
+    success: Ruta actualizada
+    error: Error al actualizar la ruta
+  filter:
+    fetch:
+      error: Error al recuperar el filtro
+    update:
+      success: Filtros actualizados
+      error: Error al actualizar los filtros
+  delete:
+    success: Ruta eliminada
+    error: Error al eliminar la ruta
+  undelete:
+    success: Ruta restaurada
+    error: Falló la restauración de ruta
+  profiler:
+    fetch:
+      error: Error en la recuperación de solicitudes
+    purge:
+      success: Solicitudes eliminadas
+      error: Error en la depuración de solicitudes
+workflow:
+  fetch:
+    error: Error al recuperar el flujo de trabajo
+  create:
+    success: Flujo de trabajo creado
+    error: Error al crear el flujo de trabajo
+  update:
+    success: Flujo de trabajo actualizado
+    error: Error en la actualización del flujo de trabajo
+  delete:
+    success: Flujo de trabajo eliminado
+    error: Error al eliminar el flujo de trabajo
+  undelete:
+    success: Flujo de trabajo restaurado
+    error: Error en la restauración del flujo de trabajo
+session:
+  fetch:
+    error: Error al recuperar la sesión
+  trigger:
+    error: Falló la recuperación del disparador
+  cancel:
+    success: Sesión cancelada
+    error: Cancelación de sesión fallida
+federation:
+  fetch:
+    error: Falló la recuperación del nodo
+  create:
+    success: Nodo creado
+    error: Error al crear el nodo
+  update:
+    success: Nodo actualizado
+    error: Error en la actualización del nodo
+  delete:
+    success: Nodo eliminado
+    error: Error al eliminar el nodo
+  undelete:
+    success: Nodo restaurado
+    error: Falló la restauración del nodo
+  url:
+    error: Error al recuperar la URL generada
+  email:
+    success: Correo electrónico enviado
+    error: No se pudo enviar el correo electrónico
+  pair:
+    success: Nodo emparejado
+    error: No se pudo emparejar el nodo
+  handshake:
+    success: Apretón de manos completo emparejado
+    error: El apretón de manos falló
+sensitivityLevel:
+  create:
+    success: Nivel de sensibilidad creado
+    error: Error al crear el nivel de sensibilidad
+  delete:
+    success: Nivel de sensibilidad eliminado
+    error: Error al eliminar el nivel de sensibilidad
+  fetch:
+    success: Nivel de sensibilidad obtenido
+    error: Error al recuperar el nivel de sensibilidad
+  undelete:
+    success: Nivel de sensibilidad restaurado
+    error: Error al restaurar el nivel de sensibilidad
+  update:
+    success: Nivel de sensibilidad actualizado
+    error: Error al actualizar el nivel de sensibilidad
+settings:
+  system:
+    fetch:
+      error: Error al recuperar la configuración del sistema
+    auth:
+      success: Configuración de autenticación actualizada
+      error: Error al actualizar la configuración de autenticación
+    external:
+      success: Configuración externa actualizada
+      error: Error al actualizar la configuración externa
+    bgScreen:
+      style:
+        success: Estilos de fondo de autenticación actualizados
+        error: Error al actualizar los estilos de fondo de autenticación
+    smtpCheck:
+      success: Se pasó la verificación de configuración SMTP
+      error: Error en la comprobación de la configuración SMTP
+    apigw:
+      success: Configuración de la puerta de enlace de integración guardada
+      error: Error al actualizar la configuración de la puerta de enlace de
+        integración
+  compose:
+    fetch:
+      error: Error al recuperar la configuración de redacción
+    update:
+      success: Configuraciones de redacción actualizadas
+      error: Error al actualizar la configuración de redacción
+  ui:
+    fetch:
+      error: Error al recuperar la configuración de la interfaz de usuario
+    update:
+      success: Configuración de la interfaz de usuario actualizada
+      error: Error al actualizar la configuración de la interfaz de usuario
+permissions:
+  fetch:
+    error: Falló la obtención de permisos
+  update:
+    success: Permisos actualizados
+    error: Error en la actualización de permisos
+  clone:
+    success: Permisos clonados
+    error: Error al clonar permisos
+  role:
+    error: No se pudo agregar el rol
+connection:
+  fetch:
+    error: Error al recuperar la conexión
+  update:
+    success: Conexión actualizada
+    error: La actualización de la conexión falló
+  create:
+    success: Conexión creada
+    error: Error al crear la conexión
+  delete:
+    success: Conexión eliminada
+    error: Error al eliminar la conexión
+  undelete:
+    success: Conexión restaurada
+    error: Error al restaurar la conexión

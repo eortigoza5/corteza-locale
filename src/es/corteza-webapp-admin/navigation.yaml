@@ -1,0 +1,40 @@
+dashboard: Panel
+system:
+  group: Sistema
+  items:
+    users: Usuarios
+    actionlog: Registro de acciones
+    apigw: Puerta de enlace de integración
+    applications: Aplicaciones
+    authclients: Clientes de autenticación
+    connections: Conexiones
+    sensitivityLevel: Niveles de sensibilidad
+    permissions: Permisos
+    queues: Colas de mensajería
+    roles: Roles
+    settings: Configuración de autenticación
+    email: Configuración de correo electrónico
+    stats: Estadísticas
+    templates: Plantillas
+compose:
+  group: Componer
+  items:
+    automation: Automatización
+    permissions: Permisos
+    settings: Ajustes
+automation:
+  group: Automatización
+  items:
+    permissions: Permisos
+    scripts: Guiones de corredor
+    sessions: Sesiones
+    workflows: Flujos de trabajo
+federation:
+  group: Federación
+  items:
+    nodes: Nodos
+    permissions: Permisos
+ui:
+  group: Interfaz de usuario
+  items:
+    settings: Ajustes

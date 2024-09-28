@@ -1,0 +1,12 @@
+errors:
+  invalidConfiguration: Configuração de relatório inválida
+  invalidID: ID inválido
+  notAllowedToCreate: não é permitido criar relatórios
+  notAllowedToDelete: não é permitido excluir este relatório
+  notAllowedToListReports: não é permitido listar relatórios
+  notAllowedToRead: não tem permissão para ler este relatório
+  notAllowedToRun: não tem permissão para gerar este relatório
+  notAllowedToSearch: não tem permissão para listar ou pesquisar relatórios
+  notAllowedToUndelete: não é permitido cancelar a exclusão deste relatório
+  notAllowedToUpdate: não é permitido atualizar este relatório
+  notFound: relatório não encontrado

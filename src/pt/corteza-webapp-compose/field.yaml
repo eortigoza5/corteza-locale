@@ -1,0 +1,267 @@
+available-items: Campos disponíveis
+selected-items: Campos selecionados
+defaultFieldValue: Valor do campo padrão
+defaultValue: Valor padrão
+required-field: Este campo é obrigatório
+kind:
+  bool:
+    checkedValueLabel: Valor quando verificado
+    checkedValuePlaceholder: Sim
+    label: Caixa de seleção (S/N)
+    uncheckedValueLabel: Valor quando desmarcado
+    uncheckedValuePlaceholder: Não
+    toggleTypeLabel: Tipo de caixa de seleção
+    toggleType: Exibir como switch
+  dateTime:
+    dateOnly: Somente data
+    futureValuesOnly: Apenas valor futuro
+    label: Data e hora
+    outputFormat: Formato de saída
+    outputFormatFootnote: Consulte {{0}} para opções de formatação
+    pastValuesOnly: Colar apenas valores
+    relativeOutput: "Valor relativo de saída (por exemplo: 3 dias atrás)"
+    timeOnly: Apenas tempo
+    warning:
+      futureValuesOnly: Somente datas futuras serão salvas
+      pastValuesOnly: Somente datas no passado serão salvas
+  email:
+    label: E-mail
+    preventToLink: Não transforme e-mail em um link
+  file:
+    label: Arquivo
+    view:
+      gallery: Galeria de imagens
+      grid: Grade
+      list: Lista
+      maxSizeLabel: Tamanho máximo do arquivo
+      mimetypesFootnote: 'Tipos MIME, separados por ",". Exemplo: "texto/simples,texto/csv"'
+      mimetypesLabel: Lista de permissões de tipo de arquivo
+      modeFootnote: Como os arquivos são representados em blocos de páginas
+      modeLabel: Modo de visualização
+      showName: Ocultar nome do arquivo
+      enableDownload: Habilitar download
+      single: Imagem única
+      previewStyle: Estilo de visualização
+      height: Altura
+      width: Largura
+      maxHeight: Altura máxima
+      maxWidth: Largura máxima
+      borderRadius: Raio da borda
+      background: Cor de fundo
+      colorPicker: Escolha uma cor
+      margin: Margem
+      unitType: Tipo de unidade
+      px: pixels
+      clickToView: Clique para visualizar arquivo
+      description: "Adicione unidade após valor para defini-lo. Por exemplo: 50px ou 50%"
+  number:
+    exampleFormat: Formatar
+    exampleInput: Entrada
+    exampleResult: Resultado
+    examplesLabel: Exemplos de formato
+    formatLabel: Formatar
+    formatPlaceholder: Formatar
+    label: Número
+    liveExample: Exemplo ao vivo
+    precisionLabel: Precisão
+    precisionPlaceholder: Precisão
+    prefixLabel: Prefixo
+    prefixPlaceholder: Prefixo
+    suffixLabel: Sufixo
+    suffixPlaceholder: Sufixo
+    displayType:
+      label: Tipo de exibição
+      number: Número
+      progress: Barra de progresso
+    progress:
+      maximumValue: Valor máximo
+      minimumValue: Valor mínimo
+      animated: Animado
+      show:
+        value: Mostrar valor
+        relative: Mostrar parente
+        progress: Mostrar progresso
+      showRelative: Mostrar parente
+      variants:
+        default: Variante padrão
+        danger: Perigo
+        dark: Escuro
+        info: Informações
+        light: Luz
+        primary: Primário
+        secondary: Secundário
+        success: Sucesso
+        warning: Aviso
+      thresholds:
+        label: Limites
+        description: Defina qual variante mostrar se o valor for igual ou maior que o limite
+  record:
+    currentUnnamedModule: (Módulo sem nome atual)
+    label: Registro
+    moduleLabel: Nome do módulo
+    modulePlaceholder: Módulo de seleção
+    queryFieldsLabel: Campos de consulta na pesquisa
+    moduleField: Campo do módulo
+    variantField: Campo variante
+    fieldFromModuleField: Campo de rótulo do campo do módulo relacionado
+    pickField: Escolher campo
+    suggestionPlaceholder: Comece a digitar para pesquisar registros
+    prefilterFootnote: A sintaxe de condição SQL simplificada (WHERE ...) é
+      suportada. Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas
+      (quando disponíveis)
+    prefilterLabel: Registros de pré-filtro
+    prefilterPlaceholder: campo1 = 1 E campo2 = 232
+    tooltip:
+      moduleField: A seleção de um campo de registro afetará o desempenho
+  select:
+    allow-duplicates: Permitir duplicatas
+    label: Selecione
+    optionAdd: Adicionar
+    optionLabelPlaceholder: Rótulo
+    optionNotSelected: Nenhuma opção selecionada
+    optionRemove: Remover
+    optionType:
+      default: Entrada única
+      each: Entrada para cada valor
+      label: Selecione o tipo
+      multiple: Seleção múltipla
+      checkbox: Grupo de caixas de seleção
+      radio: Grupo de Rádio
+    optionValuePlaceholder: Valor
+    optionsLabel: Opções para selecionar
+    placeholder: Selecione uma opção clicando aqui
+  string:
+    label: Corda
+    multiLine: Multilinha
+    richText: Use o editor de rich text
+  url:
+    example: "URL de exemplo: https://example.com"
+    label: URL
+    preventToLink: Não transforme URL em link
+    sshOnly: Permitir apenas URL SSL (https)
+    trimHash: Corte '#' do URL
+    trimQuestionMark: Aparar '?' do URL
+    trimToDomain: Cortar URL apenas para o domínio
+  user:
+    label: Usuário
+    na: N / D
+    presetWithCurrentUser: Predefinido com usuário atual
+    suggestionPlaceholder: Comece a digitar para pesquisar usuários por e-mail ou nome
+    roles:
+      label: Funções de usuário
+      placeholder: Filtrar por funções de usuário
+  geometry:
+    label: Geometria
+    latitude: Latitude
+    longitude: Longitude
+    clickToPlaceMarker: Clique para colocar/remover um marcador
+    initialZoomAndPosition: Definir zoom e posição inicial do mapa
+    prefillWithCurrentLocation: Preencher previamente com a localização atual
+    hideCurrentLocationButton: Botão Ocultar localização atual
+    hideGeoSearch: Ocultar pesquisa de localização
+    tooltip:
+      goToCurrentLocation: Ir para a localização atual
+      useCurrentLocation: Usar localização atual
+      openMap: Abrir mapa
+    geosearchInputPlaceholder: Digite endereço, local ou código postal
+noPermission: Sem permissão para ler o valor do campo
+no-items-found: Nenhum item encontrado
+options:
+  description:
+    label:
+      default: Descrição
+      edit: Edição da descrição
+      view: Visualização da descrição
+    placeholder:
+      default: Texto de descrição...
+      edit: Descrição ao editar o campo de registro...
+      view: Descrição ao visualizar o campo de registro...
+    same: Mostrar a mesma descrição na visualização e edição
+  hint:
+    label:
+      default: Dica
+      edit: Edição de dica
+      view: Visualização de dicas
+    placeholder:
+      default: Texto de dica...
+      edit: Dica ao editar o campo de registro...
+      view: Dica ao visualizar o campo de registro...
+    same: Mostrar a mesma dica ao visualizar e editar
+  multiDelimiter:
+    comma: Separados por vírgula
+    custom: Um delimitador personalizado
+    customLabel: Ou use um delimitador personalizado
+    customPlaceholder: Insira um delimitador personalizado
+    label: Delimitador de vários valores
+    newline: Cada valor em uma nova linha
+sanitizers:
+  add: + Adicionar
+  description: Corte espaços do texto ou faça outros tipos de manipulação de
+    valores antes da validação
+  examples: Exemplos
+  expression:
+    placeholder: cortar (valor)
+  label: Sanitização de valor
+selector:
+  search: Digite aqui para pesquisar entre os campos do módulo
+  available: Campos disponíveis
+  selectAll: Selecionar tudo
+  selected: Campos selecionados
+  systemField: (campo do sistema)
+  unselectAll: Desmarcar tudo
+privacy:
+  sensitivity-level:
+    label: Nível de sensibilidade
+    placeholder: Selecione um nível de sensibilidade
+  usage-disclosure:
+    label: Divulgação de uso de campo confidencial (visível no console de
+      privacidade de dados)
+system:
+  id: ID do registro
+  moduleID: ID do módulo
+  namespaceID: ID do namespace
+  revision: Revisão de registro
+  meta: Metadados
+  recordID: ID do registro
+  createdAt: Criado em
+  createdBy: Criado por
+  deletedAt: Excluído em
+  deletedBy: Excluído por
+  ownedBy: Propriedade de
+  updatedAt: Atualizado em
+  updatedBy: Atualizado por
+validators:
+  description: Conjunto de expressões e pares de erros que testam a validade do
+    valor de entrada
+  disableBuiltIn: Desabilitar validadores integrados
+  error:
+    placeholder: Texto exibido quando a expressão é verdadeira
+    tooltip: Texto de aviso
+  expression:
+    placeholder: valor == ""
+    tooltip: Expressão
+  label: Validação de valor
+valueExpr:
+  description: Insira uma fórmula ou expressão que calcule valores numéricos ou
+    combine e manipule valores de texto
+  label: Expressão de valor de campo
+  placeholder: ((piso(numField1) + numField2) / 10) + 0,5
+label:
+  required: Obrigatório
+  multi: Multivalor
+constraints:
+  label: Restrições de valor exclusivo
+  description: Use restrições de valor exclusivo para este campo
+  ignoreCase: Ignorar caso
+  fuzzyMatch: Correspondência difusa
+  soundsLike: Parece
+  caseSensitive: Maiúsculas e minúsculas
+  oneOf: Um dos
+  none: Nenhum
+  equal: Igual
+  valueModifiers: Modificadores de valor
+  multiValues: Valores de vários campos
+  totalFieldConstraintCount: O campo é usado em {{total}} outra restrição de valor
+    exclusivo. Consulte a guia "valores exclusivos" no editor de módulo.
+  tooltip:
+    performance: O uso de restrições de valor exclusivo afetará o desempenho

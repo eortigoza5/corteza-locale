@@ -1,0 +1,68 @@
+editor:
+  info:
+    createdAt: Creado en
+    createdBy: Creado por
+    delete: Borrar
+    deletedAt: Eliminado en
+    enabled: Activado
+    id: IDENTIFICACIÓN
+    name: Nombre *
+    title: Información básica
+    undelete: Recuperar
+    updatedAt: Actualizado en
+  new: Nueva aplicación
+  permissions: Permisos
+  title:
+    create: Crear aplicación
+    edit: Editar aplicación
+  unify:
+    config:
+      description: Configuración de la aplicación (JSON)
+      label: Configuración
+    listed: Listado
+    logo:
+      label: Logo
+      description: Logotipo utilizado en el selector de aplicaciones.
+      placeholder: Elija un logotipo o suéltelo aquí...
+      reset: Reiniciar
+    name:
+      description: Nombre utilizado en el selector de aplicaciones.
+      label: Nombre
+    pinned: Fijado
+    title: selector de aplicaciones
+    url:
+      description: URL de la aplicación
+      label: URL
+list:
+  columns:
+    actions: ""
+    createdAt: Creado
+    enabled: Activado
+    name: Nombre
+    appListName: Nombre del selector de aplicaciones
+    state: Estado
+  export: Exportar
+  rows:
+    filters:
+      deleted: Eliminado
+  filterForm:
+    deleted:
+      label: aplicaciones eliminadas
+    excluded:
+      label: Sin
+    exclusive:
+      label: Solo
+    inclusive:
+      label: Incluido
+    query:
+      label: Lista de aplicaciones de filtrado
+      placeholder: Filtrar aplicaciones por nombre
+  loading: Cargando aplicaciones
+  new: Nueva aplicación
+  numFound: "{{count}} aplicación encontrada"
+  numFound_plural: "{{count}} aplicaciones encontradas"
+  permissions: Permisos
+  title: Aplicaciones
+  yaml: YAML
+  delete: Borrar
+  undelete: Recuperar

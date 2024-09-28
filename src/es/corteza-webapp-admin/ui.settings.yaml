@@ -1,0 +1,68 @@
+editor:
+  title: Configuración de la interfaz de usuario
+  mainLogo:
+    title: logotipo principal
+    uploader:
+      instructions: Haga clic o suelte el logotipo principal aquí para cargarlo.
+      uploading: Subiendo logo principal
+  iconLogo:
+    title: logotipo del icono
+    uploader:
+      instructions: Haga clic o suelte la imagen del logotipo del icono aquí para cargarla
+      uploading: Subiendo el logotipo del icono
+  favicon:
+    title: favicon
+    uploader:
+      instructions: Haga clic o suelte el archivo favicon aquí para cargarlo
+      uploading: Subiendo favicon
+  corteza-studio:
+    title: Tematización
+    colorPicker: Elige un color
+    sassNotInstalled: No se detectaron binarios de dart-sass. Para obtener
+      orientación sobre cómo configurarlo, consulte
+    installSassDocs: documentos aquí
+    custom-css: CSS personalizado
+    label:
+      default: Por defecto
+    tabs:
+      general: General
+      light: Luz
+      dark: Oscuro
+    theme:
+      variables:
+        white: Blanco
+        black: Negro
+        primary: Primario
+        secondary: Secundario
+        success: Éxito
+        warning: Advertencia
+        danger: Peligro
+        light: Luz
+        extra-light: Luz adicional
+        body-bg: Fondo del cuerpo
+        sidebar-bg: Fondo de la barra lateral
+        topbar-bg: Fondo de la barra superior
+  topbar:
+    title: barra superior
+    general: General
+    app-selector:
+      hide: Ocultar selector de aplicaciones
+    help:
+      title: Ayuda
+      hide: Ocultar ayuda
+      hide-forum-link: Ocultar enlace del foro
+      hide-documentation-link: Ocultar enlace de documentación
+      hide-feedback-link: Ocultar enlace de comentarios
+    profile:
+      title: Perfil
+      hide: Ocultar perfil
+      hide-profile-link: Ocultar enlace de perfil
+      hide-change-password-link: Ocultar enlace de cambio de contraseña
+    links:
+      title: Enlaces personalizados
+      handle: Nombre
+      invalid-handle-characters: Debe tener al menos 2 caracteres. Sólo puede contener
+        letras, números, guiones, guiones bajos y puntos. Debe terminar con
+        letra o número
+      url: URL
+      new-tab: Nueva pestaña

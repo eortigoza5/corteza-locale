@@ -1,0 +1,29 @@
+errors:
+  failedToExtractMimeType: no se pudo extraer el tipo mime
+  failedToProcessImage: no se pudo procesar la imagen
+  failedToStoreFile: no se pudo extraer el archivo de la tienda
+  invalidID: identificación no válida
+  invalidModuleID: ID de módulo no válido
+  invalidNamespaceID: ID de espacio de nombres no válido
+  invalidPageID: ID de página no válida
+  invalidRecordID: ID de registro no válido
+  moduleNotFound: módulo no encontrado
+  namespaceNotFound: espacio de nombres no encontrado
+  notAllowedToCreate: no se permite crear archivos adjuntos
+  notAllowedToCreateEmptyAttachment: no se permite crear archivos adjuntos vacíos
+  notAllowedToCreateRecords: no se permite crear registros
+  notAllowedToListAttachments: no se permite enumerar archivos adjuntos
+  notAllowedToRead: No se permite leer este módulo.
+  notAllowedToReadNamespace: No se permite leer este espacio de nombres.
+  notAllowedToReadPage: no esta permitido leer esta pagina
+  notAllowedToReadRecord: No se permite leer este registro.
+  notAllowedToSearch: no se permite buscar o enumerar módulos
+  notAllowedToUpdateNamespace: no se permite actualizar este espacio de nombres
+  notAllowedToUpdatePage: no se permite actualizar esta página
+  notAllowedToUpdateRecord: no se permite actualizar este registro
+  notFound: archivo adjunto no encontrado
+  pageNotFound: página no encontrada
+  recordNotFound: registro no encontrado
+  invalidModuleField: campo de módulo no válido
+  tooLarge: el archivo subido es demasiado grande
+  notAllowedToUploadThisType: No se permite subir este tipo de archivo.

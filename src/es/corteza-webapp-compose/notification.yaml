@@ -1,0 +1,190 @@
+automation:
+  scriptFailed: No se pudo ejecutar la automatización
+chart:
+  createFailed: No se pudo crear un gráfico
+  deleteFailed: No se pudo eliminar este gráfico
+  deleted: Gráfico eliminado
+  invalidConfig:
+    missingDimensionsField: Campo de dimensiones no definido
+    missingDimensionsModifier: Modificador de dimensiones no definido
+    missingDimensionsSteps: Los pasos de dimensiones no están definidos.
+    missingMetricsAggregate: Agregado de métricas no definido
+    missingMetricsField: Campo de métricas no definido
+    missingMetricsType: Tipo de gráfico de métricas no definido
+    missingModuleID: Módulo no definido
+    missingReports: Informes no definidos
+  loadFailed: No se pudo cargar el gráfico
+  optionsBuildFailed: No se pudieron crear opciones de gráfico
+  saveFailed: No se pudo guardar este gráfico
+  saved: Gráfico guardado
+  unsupportedRenderer: Renderizador no compatible
+  colorScheme:
+    fetch:
+      failed: No se pudieron recuperar los esquemas de color personalizados
+    create:
+      success: Esquema de color creado
+      failed: No se pudo crear la combinación de colores
+    update:
+      success: Esquema de colores actualizado
+      failed: No se pudo actualizar el esquema de color
+    delete:
+      success: Combinación de colores eliminada
+      failed: No se pudo eliminar el esquema de color
+color:
+  RGBA:
+    invalid: Formato de color RGBA no válido
+field:
+  missingRequired: Valor faltante en el campo requerido
+  unknownFieldKind: 'Error: tipo de campo desconocido "{{kind}}", no se encontró
+    ningún componente de visor.'
+  unsupportedKind: Tipo de campo no admitido {{kind}}
+field-datetime:
+  valueNotFuture: Valor pasado en el campo solo futuro
+  valueNotPast: Valor futuro en el campo solo pasado
+field-geometry:
+  geolocationErrors:
+    permissionDenied: Usuario denegó la solicitud de geolocalización
+    positionUnavailable: La información de ubicación no está disponible
+    timeout: Se agotó el tiempo de espera de la solicitud para obtener la ubicación
+      del usuario.
+    unknownError: Se produjo un error desconocido
+    notSupported: Este navegador no admite la geolocalización
+    errorOccurred: Se produjo un error al obtener la ubicación del usuario.
+    locationSearchFailed: La búsqueda de ubicación falló
+general:
+  composeAccessNotAllowed: No se permite acceder a Redactar
+  error: Error
+  success: Éxito
+  warning: Advertencia
+  info: Aviso
+  import:
+    failed: Importación fallida
+    readingError: Error al leer el archivo
+    successful: Importación exitosa
+    typeMissmatch: 'Error de importación: intentando importar un objeto de tipo
+      "{{type1}}" a una lista de objetos de tipo "{{type2}}"'
+list:
+  load:
+    error: No se pudo cargar la lista de recursos
+module:
+  created: Módulo creado
+  createFailed: No se pudo crear un módulo
+  deleteFailed: No se pudo eliminar este módulo
+  deleted: Módulo eliminado
+  saveFailed: No se pudo guardar este módulo
+  saved: Módulo guardado
+  columns:
+    saved: Columnas guardadas
+    saveFailed: No se pudieron guardar las columnas
+  recordPage:
+    createFailed: No se pudo crear la página de registro del módulo
+  schemaAlterations:
+    load:
+      error: No se pudieron recuperar las modificaciones
+    resolve:
+      success: Alteraciones resueltas
+      error: No se pudieron resolver las modificaciones
+    dismiss:
+      success: Alteración desestimada
+      error: No se pudo descartar la alteración
+namespace:
+  application:
+    createFailed: No se pudo crear la aplicación de espacio de nombres
+    fetchFailed: No se pudo recuperar la aplicación del espacio de nombres
+    saveFailed: No se pudo guardar la aplicación del espacio de nombres
+  assetUploadFailed: No se pudieron cargar los recursos adjuntos
+  createFailed: No se pudo crear el espacio de nombres
+  deleted: Espacio de nombres eliminado
+  deleteFailed: No se pudo eliminar este espacio de nombres
+  disabled: "Espacio de nombres deshabilitado: redireccionamiento"
+  saveFailed: No se pudo guardar este espacio de nombres
+  saved: Espacio de nombres guardado
+  cloneFailed: No se pudo clonar este espacio de nombres
+  imported: Espacio de nombres importado
+  importFailed: No se pudo importar el espacio de nombres
+page:
+  block:
+    calendar:
+      eventFetchFailed: No se pudo recuperar la lista de eventos
+  createFailed: No se pudo crear una página
+  cloneFailed: No se pudo clonar esta página
+  deleteFailed: No se pudo eliminar esta página
+  iconFetchFailed: No se pudo recuperar la lista de íconos
+  iconDeleteFailed: No se pudo eliminar el icono seleccionado
+  iconDeleteSuccess: Icono eliminado
+  loadFailed: No se pudo cargar el árbol de páginas
+  noPages: No se encontraron páginas
+  saveFailed: No se pudo guardar esta página
+  saveFailedRequired: No se pudo guardar esta página, todos los campos
+    obligatorios del módulo deben estar presentes
+  saved: Página guardada
+  copySuccess: El bloque se ha copiado correctamente
+  cloneSuccess: El bloque ha sido clonado al final de la página.
+  pasteSuccess: El bloque se ha pegado al final de la página.
+  duplicateFailed: No se pudo duplicar el bloque
+  blockWaiting: Hay un bloque de página esperando
+  copyFailed: No se pudo copiar el bloque de página {{reason}}
+  invalidBlock: No es un bloque de página válido
+  page-layout:
+    notFound:
+      edit: Sin diseño de página, crea uno para editarlo
+      view: No se encontró ningún diseño de página, cree uno para ver la página
+    save:
+      success: Diseño guardado
+      failed: No se pudo guardar el diseño
+    clone:
+      success: Diseño clonado y seleccionado
+      failed: No se pudo clonar el diseño
+    delete:
+      success: Diseño eliminado
+      failed: No se pudo eliminar el diseño
+record:
+  createFailed: No se pudo crear el registro
+  createSuccess: Registro creado
+  updateFailed: No se pudo actualizar el registro
+  updateSuccess: Registro actualizado
+  deleteFailed: No se pudo eliminar el registro
+  deleteSuccess: Registro eliminado
+  restoreFailed: No se pudo restaurar el registro
+  restoreSuccess: Registro restaurado
+  deleteBulkFailed: No se pudieron eliminar los registros seleccionados
+  deleteBulkRecordUpdateFailed: No se pudieron actualizar los registros seleccionados
+  deleteBulkSuccess: Registros seleccionados eliminados exitosamente
+  bulkRecordUpdateSuccess: Registros seleccionados actualizados correctamente
+  restoreBulkFailed: No se pudieron restaurar los registros seleccionados
+  restoreBulkSuccess: Registros seleccionados restaurados exitosamente
+  invalidOwnerVar: No se puede usar la variable ${ownerID} en páginas que no son de registro
+  invalidRecordVar: No se puede usar la variable ${record...} en páginas que no son de registro
+  listLoadFailed: No se pudo cargar la lista de registros
+  loadFailed: No se pudo cargar el registro
+  countFailed: No se pudo recuperar el número de registros disponibles
+  moduleMismatch: Módulo incompatible, el módulo no coincide
+  moduleNotDefined: Módulo de registro no definido
+  moduleOrPageNotSet: "Error de bloque RecordList: opción de módulo o página no configurada"
+  unexpectedInput: Entrada inesperada para la propiedad de valores, debe ser una
+    matriz con pares de objetos nombre-valor
+  unexpectedValue: Valor inesperado para el módulo de registro ({{type}})
+  validationErrors: comprobar los mensajes de error en el formulario
+  validationWarnings: Registro guardado exitosamente, verifique los mensajes de
+    advertencia en el formulario
+  staleDataRefresh: Datos de registro obsoletos, todos los cambios no guardados se
+    perderán. ¿Desea actualizar los datos ahora?
+  fieldConditions:
+    failed: No se pudieron evaluar los campos condicionales del bloque de registros
+record-list:
+  corrupted-filter: Filtro corrupto
+  corrupted-configured-fields: Columnas configuradas corruptas
+  incorrect-filter-structure: Estructura incorrecta del filtro {{filterID}}
+report:
+  listFetchFailed: No se pudieron recuperar los informes
+  fetchFailed: No se pudo recuperar el informe
+  runFailed: No se pudo ejecutar el informe
+translations:
+  saved: Traducciones guardadas
+  saveFailed: No se pudieron guardar las traducciones
+connection:
+  read-failed: No se pudo leer la conexión
+sensitivity-level:
+  fetch-failed: No se pudieron recuperar los niveles de sensibilidad
+evaluate:
+  failed: No se pudo evaluar la expresión

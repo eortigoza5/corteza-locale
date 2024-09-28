@@ -1,0 +1,8 @@
+errors:
+  invalidID: identificación no válida
+  notAllowedToDelete: No se permite eliminar esta sesión.
+  notAllowedToManage: no se le permite administrar el flujo de trabajo de la sesión
+  notAllowedToRead: No se permite leer esta sesión.
+  notAllowedToSearch: no se permite buscar o enumerar sesiones
+  notFound: sesión no encontrada
+  staleData: datos obsoletos

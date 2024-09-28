@@ -1,0 +1,132 @@
+chart:
+  configurator:
+    begin-axis-at-zero: Siempre comience la escala del eje en cero
+    chart-title: Título del gráfico
+    color-scheme: esquema de color
+    data: Datos
+    data-columns: Columnas de datos
+    default: Por defecto
+    default-value: Valor predeterminado
+    general: General
+    label-column: Columna de etiqueta
+    logarithmic-scale: Escala logarítmica
+    position-description: Los valores se pueden establecer como píxeles (20) o como porcentajes (20%)
+    none: Ninguno
+    place-axis-on-right-side: Coloque el eje en el lado derecho.
+    skip-missing-values: Saltar valores faltantes
+    step-size: Tamaño del paso
+    animation:
+      enabled: Animación habilitada
+    time:
+      label: Tiempo
+      unit:
+        label: unidad de tiempo
+        types:
+          date: Fecha
+          month: Mes
+          quarter: Cuarto
+          week: Semana
+          year: Año
+    type: Tipo
+    types:
+      bar: Bar
+      doughnut: Rosquilla
+      funnel: Embudo
+      line: Línea
+      pie: Pastel
+    value:
+      max: valor máximo
+      min: valor mínimo
+    x-axis:
+      name: Eje X
+      label: Etiqueta de eje
+      type: Tipo de eje
+      labelRotation:
+        label: Rotar etiquetas
+    y-axis:
+      name: Eje Y
+      label: Etiqueta de eje
+      labelPosition:
+        label: Posición de la etiqueta
+        top: Arriba
+        center: Centro
+        bottom: Abajo
+      labelRotation:
+        label: Rotar etiquetas
+    legend:
+      name: Leyenda
+      hide: Ocultar leyenda
+      scrollable: Desplazable
+      orientation:
+        label: Orientación
+        horizontal: Horizontal
+        vertical: Vertical
+      align:
+        label: Alinear
+        left: Izquierda
+        right: Bien
+        center: Centro
+      position:
+        description: Valores c
+        default: Posición predeterminada
+        top: Arriba
+        right: Bien
+        bottom: Abajo
+        left: Izquierda
+    tooltips:
+      name: Información sobre herramientas
+      show:
+        always: Mostrar siempre etiquetas
+    offset:
+      name: Compensar
+      default: Desplazamiento predeterminado
+      top: Arriba
+      right: Bien
+      bottom: Abajo
+      left: Izquierda
+metric:
+  configurator:
+    color:
+      background: Color de fondo
+      text: Color del texto
+      picker: Elige un color
+    format: Formato
+    label-column: Columna de etiqueta
+    none: Ninguno
+    prefix: Prefijo
+    suffix: Sufijo
+table:
+  configurator:
+    general: General
+    data: Datos
+    columns: columnas
+    dark: Oscuro
+    head-variant: Variante de cabeza
+    joined-datasource-handling: Manejo de fuentes de datos unidas
+    light: Luz
+    none: Ninguno
+    table:
+      options:
+        bordered: bordeado
+        borderless: Sin fronteras
+        dark: Oscuro
+        fixed: Fijado
+        hover: Flotar
+        label: Opciones de tabla
+        no-collapse: Sin colapso fronterizo
+        responsive: Sensible
+        small: Pequeño
+        striped: A rayas
+      variant: Variante de mesa
+      variants:
+        danger: Peligro
+        dark: Oscuro
+        info: Información
+        light: Luz
+        primary: Primario
+        secondary: Secundario
+        success: Éxito
+        warning: Advertencia
+  view:
+    next: Próximo
+    previous: Anterior

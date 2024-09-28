@@ -1,0 +1,14 @@
+template:
+  title: Aceitar convite
+  form:
+    email:
+      label: E-mail
+      placeholder: email@domain.ltd
+    new-password:
+      label: Senha
+      placeholder: Senha
+    buttons:
+      password: Definir Senha
+alert:
+  invalid-expired-invite-token: Token de convite de usuário inválido ou expirado, solicite uma redefinição de senha.
+  success: Senha atualizada com sucesso

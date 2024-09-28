@@ -1,0 +1,68 @@
+editor:
+  info:
+    createdAt: Criado em
+    createdBy: Criado por
+    delete: Excluir
+    deletedAt: Excluído em
+    enabled: Habilitado
+    id: EU IA
+    name: Nome *
+    title: Informações básicas
+    undelete: Recuperar exclusão
+    updatedAt: Atualizado em
+  new: Novo aplicativo
+  permissions: Permissões
+  title:
+    create: Criar aplicativo
+    edit: Editar aplicativo
+  unify:
+    config:
+      description: Configuração do aplicativo (JSON)
+      label: Configuração
+    listed: Listado
+    logo:
+      label: Logotipo
+      description: Logo usado no seletor de aplicativos
+      placeholder: Escolha um logotipo ou deixe-o aqui...
+      reset: Reiniciar
+    name:
+      description: Nome usado no seletor de aplicativos
+      label: Nome
+    pinned: Fixado
+    title: Seletor de aplicativos
+    url:
+      description: URL do aplicativo
+      label: URL
+list:
+  columns:
+    actions: ""
+    createdAt: Criado
+    enabled: Habilitado
+    name: Nome
+    appListName: Nome do seletor de aplicativos
+    state: Estado
+  export: Exportar
+  rows:
+    filters:
+      deleted: Excluído
+  filterForm:
+    deleted:
+      label: aplicativos excluídos
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    inclusive:
+      label: Incluindo
+    query:
+      label: Filtrar lista de aplicativos
+      placeholder: Filtrar aplicativos por nome
+  loading: Carregando aplicativos
+  new: Novo aplicativo
+  numFound: "{{count}} aplicativo encontrado"
+  numFound_plural: "{{count}} aplicativos encontrados"
+  permissions: Permissões
+  title: Aplicativos
+  yaml: YAML
+  delete: Excluir
+  undelete: Recuperar exclusão

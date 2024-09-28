@@ -1,0 +1,13 @@
+errors:
+  alreadyExists: la ruta por ese punto final ya existe
+  existsEndpoint: La ruta con este punto final ya existe.
+  invalidEndpoint: punto final no válido
+  invalidID: identificación no válida
+  notAllowedToCreate: no se permite crear una ruta
+  notAllowedToDelete: No se permite eliminar esta ruta.
+  notAllowedToExec: No se permite ejecutar esta ruta.
+  notAllowedToRead: No se permite leer esta ruta.
+  notAllowedToUndelete: No se permite recuperar esta ruta.
+  notAllowedToUpdate: No se permite actualizar esta ruta.
+  notAllowedToSearch: No se permite enumerar o buscar rutas.
+  notFound: ruta no encontrada

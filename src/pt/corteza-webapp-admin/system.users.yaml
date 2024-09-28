@@ -1,0 +1,129 @@
+editor:
+  external-auth-providers:
+    label: Rótulo
+    title: Gerenciar provedores de autenticação externos
+    type: Tipo
+  info:
+    confirmEmail: Confirmar endereço de e-mail
+    createdAt: Criado em
+    createdBy: Criado por
+    delete: Excluir
+    deletedAt: Excluído em
+    email: E-mail *
+    handle: Lidar
+    placeholder-handle: alça (a - z, 0 - 9, sublinhado, traço)
+    invalid-handle-characters: Deve ter pelo menos 2 caracteres. Pode conter apenas
+      letras, números, travessões, sublinhados e pontos. Deve terminar com letra
+      ou número
+    name: Nome completo
+    revokeAllSession: Revogar todas as sessões ativas
+    suspend: Suspender
+    suspendedAt: Suspenso em
+    title: Informações básicas
+    undelete: Recuperar exclusão
+    unsuspend: Cancelar suspensão
+    updatedAt: Atualizado em
+  avatar:
+    title: Avatar do perfil
+    preview:
+      label: avatar
+      title: avatar
+    initial:
+      color: Cor do texto
+      backgroundColor: Cor de fundo
+    uploader:
+      instructions: Carregar avatar
+      uploading: Fazendo upload do avatar do usuário
+    colorPicker: Escolha uma cor
+  mfa:
+    TOTP:
+      disabled:
+        text: O usuário não configurou a proteção TOTP
+      enabled:
+        text: Aplicativo móvel de autenticação de proteção TOTP configurado pelo usuário
+      remove:
+        label: Remover
+    emailOTP:
+      disable:
+        label: Desativar
+      disabled:
+        text: |-
+          A proteção OTP de e-mail está desativada para este usuário
+          Email com o código de segurança em cada login não será enviado
+      enable:
+        label: Habilitar
+      enabled:
+        text: |-
+          A proteção OTP de e-mail está ativada para este usuário
+          O usuário receberá um e-mail com o código de segurança em cada login
+    title: Autenticação multifator
+  new: Novo usuário
+  password:
+    confirm: Confirme sua senha
+    length: As senhas devem ter pelo menos {{length}} caracteres!
+    missmatch: As senhas devem corresponder
+    new: Nova Senha
+    title: Senha
+    removePassword: Remover senha
+  permissions: Permissões
+  roles:
+    add: Adicionar
+    count: papéis
+    remove: Remover
+    title: Associação de função
+    unnamed: Função sem nome
+  title:
+    create: Criar usuário
+    edit: Editar usuário
+list:
+  columns:
+    actions: ""
+    createdAt: Criado
+    email: E-mail
+    enabled: Habilitado
+    handle: Lidar
+    name: Nome
+    state: Estado
+  suspend: Suspender
+  unsuspend: Cancelar suspensão
+  delete: Excluir
+  undelete: Recuperar exclusão
+  revokeActiveSession: Revogar sessão
+  export: Exportar
+  rows:
+    filters:
+      deleted: Excluído
+      suspended: Suspenso
+  filterForm:
+    deleted:
+      label: usuários excluídos
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    inclusive:
+      label: Incluindo
+    query:
+      label: Filtrar lista de usuários
+      placeholder: Filtre usuários por nome, email
+    suspended:
+      label: usuários suspensos
+  loading: Carregando usuários
+  new: Novo usuário
+  numFound: "{{count}} usuário encontrado"
+  numFound_plural: "{{count}} usuários encontrados"
+  permissions: Permissões
+  title: Usuários
+  yaml: YAML
+export:
+  buttonLabel: Exportar
+  title: Exportar usuários
+  inclRoleMembership: Incluir associação de função
+  inclRoles: Incluir funções
+  membershipRequiredLabel: As funções só podem ser exportadas quando a associação
+    à função estiver selecionada
+  export: Exportar
+import:
+  buttonLabel: Importar
+  title: Importar usuários
+  uploadFilePlaceholder: Clique ou solte os arquivos aqui para importar

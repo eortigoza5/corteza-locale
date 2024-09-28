@@ -1,0 +1,11 @@
+title: Filtrar
+types:
+  title: Tipos
+  namespace: Espacio de nombres
+  module: Módulo
+  user: Usuario
+  record: Registro
+aggregation-groups:
+  modules: Módulos
+  namespaces: Espacios de nombres
+reset: Reiniciar

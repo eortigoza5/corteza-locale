@@ -1,0 +1,185 @@
+label:
+  app-name:
+    public: Espaços para nome
+    private: Namespaces - Administrador
+  actions: Ações
+  active: Ativo
+  add: Adicionar
+  add-with-plus: + Adicionar
+  addNew: Adicionar novo
+  addValue: Adicionar novo valor
+  ascending: Ascendente
+  attachmentFileInfo: "(Tamanho do arquivo: {{0}}, enviado {{1}})"
+  attributes: Atributos
+  back: Voltar
+  backWithoutSave: Voltar (sem salvar as alterações)
+  block: Bloquear
+  browse: Navegar
+  buttons: Botões
+  cancel: Cancelar
+  clear: Claro
+  clone: Clone
+  close: Fechar
+  create: Criar
+  delete: Excluir
+  restore: Restaurar
+  descending: Descendente
+  description: Descrição
+  download: Download
+  dropFiles: Clique ou solte os arquivos aqui para fazer upload
+  edit: Editar
+  enabled: Habilitado
+  export: Exportar
+  fileTypeNotAllowed: Tipo de arquivo não permitido
+  general: Em geral
+  handle: Lidar
+  here: aqui
+  home: Lar
+  import: Importar
+  all: Todos
+  importPlaceholder: Carregar arquivos para importar
+  loading: Carregando
+  makeDefault: Tornar padrão
+  moduleName: Nome do módulo
+  multi: Múltiplo
+  name: Nome
+  next: Próximo
+  no: Não
+  noHandle: Sem alça
+  none: Nenhum
+  now: Agora
+  ok: OK
+  page: Página
+  pageLayout: Layout da página
+  pageBuilder: Construtor de páginas
+  permissions: Permissões
+  private: Privado
+  privacy: Privacidade
+  processing: Processamento...
+  record: Registro
+  recordPage: Página de registro
+  field: Campo
+  remove: Remover
+  removeDefault: Remover padrão
+  required: Obrigatório
+  reset: Reiniciar
+  sensitive: Confidencial
+  save: Salvar
+  saveAndClose: Salvar e fechar
+  saveAsCopy: Salvar como cópia
+  status: Status
+  timeHour: "{{t}}h"
+  timeMinute: "{{t}}min"
+  today: Hoje
+  title: Título
+  type: Tipo
+  updatedAt: Atualizado em
+  uploadError: 'Problema com upload de arquivo: "{{message}}"'
+  uploading: Enviando
+  urlPlaceholder: https://example.tld
+  validation: Validação
+  view: Visualizar
+  yes: Sim
+  chart:
+    single: Gráfico
+    plural: Gráficos
+  namespace:
+    single: Espaço para nome
+    plural: Espaços para nome
+  module:
+    single: Módulo
+    plural: Módulos
+navigation:
+  chart: Gráficos
+  namespace: Espaços para nome
+  module: Módulos
+  page: Páginas
+  pageLayout: Layouts de página
+placeholder:
+  handle: alça (a - z, 0 - 9, sublinhado, traço)
+  sample: Amostra
+reminder:
+  add: Adicionar um lembrete
+  dismiss: Liberar
+  dismissed: Dispensado
+  dismissedAt: Dispensado em
+  undismiss: Cancelar rejeição
+  delete: Excluir lembrete
+  recordPageLink: Ver registro
+  edit:
+    label: Editar lembrete
+    assigneeLabel: Cessionário
+    assigneePlaceholder: Eu mesmo (padrão)
+    notesLabel: Notas
+    notesPlaceholder: Notas
+    remindAtLabel: Lembre-me em
+    remindAtNone: Nunca
+    titleLabel: Título
+    titlePlaceholder: Título
+  listLabel: Lembretes
+  routesTo: Rótulo para link da página
+  snooze:
+    label: Soneca
+    count: Contagem de suspensão {{count}}
+tooltip:
+  dragAndDrop: Arraste e solte para alterar a ordem
+  field: Configurar campo
+fieldKinds:
+  Bool:
+    label: Caixa de seleção (S/N)
+  DateTime:
+    label: Data e hora
+  Email:
+    label: Entrada de e-mail
+  File:
+    label: Carregamento de arquivo
+  Number:
+    label: Entrada de número
+  Record:
+    label: Seletor de registros
+  Select:
+    label: Selecione / menu suspenso
+  String:
+    label: Entrada de texto (string)
+  Url:
+    label: Entrada de URL
+  User:
+    label: Seletor de usuário
+  Geometry:
+    label: Geometria
+field:
+  selectAll: Selecionar tudo
+  tooltip:
+    permissions: Permissões de campo
+  unselectAll: Desmarcar tudo
+  kind:
+    user:
+      suggestionPlaceholder: Comece a digitar para pesquisar usuários por e-mail ou nome
+resourceList:
+  notFound: Não encontrado
+  noItems: Nenhum item para mostrar
+  pagination:
+    next: Próximo
+    prev: Anterior
+    showing: "{{from}} - {{to}} de {{count}} {{data}}"
+    single: Um {{data}}
+    single_plural: "{{count}} {{data}}"
+    recordsPerPage: Registros por página
+recordNavigation:
+  next: Próximo registro
+  prev: Registro anterior
+variants:
+  primary: Primário
+  secondary: Secundário
+  light: Luz
+  dark: Escuro
+  info: Informações
+  success: Sucesso
+  danger: Perigo
+  warning: Aviso
+editor:
+  unsavedChanges: As alterações não salvas serão perdidas. Deseja sair da página?
+themes:
+  labels:
+    light: Luz
+    dark: Escuro

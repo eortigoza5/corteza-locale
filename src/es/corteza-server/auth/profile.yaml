@@ -1,0 +1,32 @@
+template:
+  title: Tu perfil
+  form:
+    email:
+      label: Correo electrónico
+      placeholder: correo electrónico@dominio.ltd
+      resend-confirmation-link: El correo electrónico no está verificado, <a
+        data-test-id="link-resend-confirmation" href="{{link}}?resend">reenviar
+        el enlace de confirmación.</a>
+    name:
+      label: nombre completo
+      placeholder: Tu nombre completo
+    handle:
+      label: Manejar
+      placeholder: Nombre corto, apodo o identificador
+    avatar:
+      label: Avatar
+      delete: Borrar
+      upload: Subir avatar
+    avatar-initial:
+      label: inicial de avatar
+      color: Color del texto del avatar
+      background-color: Color de fondo de avatar
+    preferred-language:
+      label: Idioma preferido
+    buttons:
+      submit: Actualizar perfil
+alerts:
+  profile-updated: Perfil actualizado exitosamente
+  profile-update-fail: No se pudo actualizar el perfil debido a errores de entrada
+  profile-avatar-uploaded: Avatar de perfil subido correctamente
+  profile-avatar-deleted: Avatar de perfil eliminado con éxito

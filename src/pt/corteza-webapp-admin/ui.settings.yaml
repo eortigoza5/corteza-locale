@@ -1,0 +1,68 @@
+editor:
+  title: Configurações da interface do usuário
+  mainLogo:
+    title: Logotipo principal
+    uploader:
+      instructions: Clique ou solte o logotipo principal aqui para fazer upload
+      uploading: Carregando logotipo principal
+  iconLogo:
+    title: Logotipo do ícone
+    uploader:
+      instructions: Clique ou solte a imagem do logotipo do ícone aqui para fazer upload
+      uploading: Fazendo upload do logotipo do ícone
+  favicon:
+    title: Favicon
+    uploader:
+      instructions: Clique ou solte o arquivo favicon aqui para fazer upload
+      uploading: Carregando favicon
+  corteza-studio:
+    title: Tema
+    colorPicker: Escolha uma cor
+    sassNotInstalled: Nenhum binário dart-sass foi detectado. Para obter orientação
+      sobre como configurá-lo, consulte
+    installSassDocs: documentos aqui
+    custom-css: CSS personalizado
+    label:
+      default: Padrão
+    tabs:
+      general: Em geral
+      light: Luz
+      dark: Escuro
+    theme:
+      variables:
+        white: Branco
+        black: Preto
+        primary: Primário
+        secondary: Secundário
+        success: Sucesso
+        warning: Aviso
+        danger: Perigo
+        light: Luz
+        extra-light: Luz extra
+        body-bg: Fundo do corpo
+        sidebar-bg: Plano de fundo da barra lateral
+        topbar-bg: Plano de fundo da barra superior
+  topbar:
+    title: Barra superior
+    general: Em geral
+    app-selector:
+      hide: Ocultar seletor de aplicativos
+    help:
+      title: Ajuda
+      hide: Ocultar ajuda
+      hide-forum-link: Ocultar link do fórum
+      hide-documentation-link: Ocultar link da documentação
+      hide-feedback-link: Ocultar link de feedback
+    profile:
+      title: Perfil
+      hide: Ocultar perfil
+      hide-profile-link: Ocultar link do perfil
+      hide-change-password-link: Ocultar link para alteração de senha
+    links:
+      title: Links personalizados
+      handle: Nome
+      invalid-handle-characters: Deve ter pelo menos 2 caracteres. Pode conter apenas
+        letras, números, travessões, sublinhados e pontos. Deve terminar com
+        letra ou número
+      url: URL
+      new-tab: Nova guia

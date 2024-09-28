@@ -1,0 +1,6 @@
+errors:
+  invalidID: ID inválido
+  notAllowedToAssign: não é permitido atribuir lembretes a outros usuários
+  notAllowedToDismiss: não é permitido descartar lembretes de outros usuários
+  notAllowedToRead: não tem permissão para ler lembretes de outros usuários
+  notFound: lembrete não encontrado

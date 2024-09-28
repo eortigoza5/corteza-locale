@@ -1,0 +1,3 @@
+errors:
+  unauthorized: no autorizado
+  unauthorizedScope: alcance no autorizado

@@ -1,0 +1,84 @@
+editor:
+  content:
+    editor:
+      unsupported: Editor não compatível
+    partial: Modelo parcial
+    preview:
+      html: Visualizar HTML
+      pdf: Visualizar PDF
+      title: Visualizar saída
+    title: Conteúdo do modelo
+    toolbox:
+      partials: Parciais
+      samples:
+        defaultHTML: HTML padrão
+        label: Amostras
+      snippets:
+        funcCall: Chame uma função
+        interpolate: Interpolar valor
+        iterator: Iterar sobre um conjunto
+        label: Trechos
+      title: Caixa de ferramentas
+  info:
+    contentType:
+      text_html: HTML
+      text_plain: Texto simples
+    createdAt: Criado em
+    createdBy: Criado por
+    delete: Excluir
+    deletedAt: Excluído em
+    handle: Lidar
+    placeholder-handle: alça (a - z, 0 - 9, sublinhado, traço)
+    invalid-handle-characters: Deve ter pelo menos 2 caracteres. Pode conter apenas
+      letras, números, travessões, sublinhados e pontos. Deve terminar com letra
+      ou número
+    meta:
+      description: Descrição
+      short: Nome curto *
+    partial: Modelo parcial
+    partialDescription: Modelos parciais podem ser usados ​​dentro de outros
+      modelos, como cabeçalhos e rodapés. Os modelos parciais não podem ser
+      usados ​​isoladamente.
+    title: Informações básicas
+    type: Tipo de modelo
+    undelete: Recuperar exclusão
+    updatedAt: Atualizado em
+  new: Novo modelo
+  permissions: Permissões
+  title:
+    create: Criar modelo
+    edit: Editar modelo
+list:
+  columns:
+    actions: ""
+    createdAt: Criado
+    handle: Lidar
+    language: Linguagem
+    meta:
+      short: Nome curto
+    state: Estado
+  delete: Excluir
+  undelete: Recuperar exclusão
+  export: Exportar
+  rows:
+    filters:
+      deleted: Excluído
+  filterForm:
+    deleted:
+      label: modelos excluídos
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    handle:
+      label: Lista de modelos de filtro
+      placeholder: Filtrar modelos por identificador
+    inclusive:
+      label: Incluindo
+  loading: Carregando modelos
+  new: Novo modelo
+  numFound: "{{count}} modelo encontrado"
+  numFound_plural: "{{count}} modelos encontrados"
+  permissions: Permissões
+  title: Modelos
+  yaml: YAML

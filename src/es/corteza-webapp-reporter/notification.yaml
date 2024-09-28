@@ -1,0 +1,28 @@
+datasource:
+  describe-failed: No se pudo describir la fuente de datos
+general:
+  error: Error
+  success: Éxito
+  warning: Advertencia
+list:
+  load:
+    error: No se pudo cargar la lista de recursos
+module:
+  fetch-failed: No se pudieron recuperar los módulos
+namespace:
+  fetch-failed: No se pudieron recuperar los espacios de nombres
+report:
+  createFailed: No se pudo crear el informe
+  created: Informe creado
+  delete: Informe eliminado
+  deleteFailed: No se pudo eliminar el informe
+  fetchFailed: No se pudo recuperar el informe
+  listFetchFailed: No se pudieron recuperar los informes
+  runFailed: No se pudo ejecutar el informe
+  updateFailed: No se pudo actualizar el informe
+  updated: Informe actualizado
+  notAllowed:
+    read: No se permite leer el informe
+  datasources:
+    updated: Fuentes de datos actualizadas
+    updateFailed: No se pudieron actualizar las fuentes de datos

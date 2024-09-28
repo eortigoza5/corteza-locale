@@ -1,0 +1,66 @@
+ui:
+  save: Salvar alterações
+  cancel: Cancelar
+  set-for: Definir permissões para {{target}}
+  loading: Carregando permissões
+  label: Permissões
+  edit:
+    label: Funções de usuário
+    description: Selecione a função para definir permissões
+  evaluate:
+    description: Avaliar permissões aplicadas
+  add:
+    label: Adicionar
+    title: Avaliar permissões
+    save: Salvar e fechar
+    role:
+      label: Funções
+      placeholder: Selecione as funções
+    user:
+      label: Usuários
+      placeholder: Pesquise ou selecione um usuário
+  tooltip:
+    unknown-context:
+      user: Não é possível avaliar a permissão para um usuário com função contextual
+        em um recurso não específico
+      role: Não é possível avaliar a permissão para função contextual em um recurso
+        não específico
+  access:
+    allow: Permitir
+    inherit: Herdar
+    deny: Negar
+resources:
+  automation:
+    workflow:
+      all: todos os fluxos de trabalho
+      specific: fluxo de trabalho "{{target}}"
+      tooltip: Permissões de fluxo de trabalho
+      operations:
+        delete:
+          description: "Padrão: negar"
+          specific: Excluir este fluxo de trabalho
+          title: Exclua qualquer fluxo de trabalho
+        execute:
+          description: "Padrão: negar"
+          specific: Execute este fluxo de trabalho
+          title: Execute qualquer fluxo de trabalho
+        read:
+          description: "Padrão: negar"
+          specific: Leia este fluxo de trabalho
+          title: Leia qualquer fluxo de trabalho
+        sessions.manage:
+          description: "Padrão: negar"
+          specific: Gerenciar sessões para este fluxo de trabalho
+          title: Gerenciar todas as sessões
+        triggers.manage:
+          description: "Padrão: negar"
+          specific: Gerenciar gatilhos para este fluxo de trabalho
+          title: Gerenciar todos os gatilhos
+        undelete:
+          description: "Padrão: negar"
+          specific: Cancelar exclusão deste fluxo de trabalho
+          title: Recuperar qualquer fluxo de trabalho
+        update:
+          description: "Padrão: negar"
+          specific: Atualizar este fluxo de trabalho
+          title: Atualize qualquer fluxo de trabalho

@@ -1,0 +1,45 @@
+start:
+  welcome: Bem-vindo à Corteza
+  instructions: Olá! Você criou sua conta Corteza com sucesso. Você está pronto
+    para começar? Clique no botão "Mostre-me" abaixo para obter um guia rápido
+    sobre as funcionalidades básicas.
+  skip: Pular passeio
+  show: Mostre-me
+buttons:
+  skip: Pular passeio
+  previous: Voltar
+  next: Próximo
+  end: Fim
+steps:
+  app-list:
+    title: Menu de aplicativos
+    content: É aqui que você pode ver a lista de aplicativos disponíveis. Quando
+      estiver em um aplicativo, você sempre pode retornar a esta lista clicando
+      no ícone de 6 pontos no canto superior direito.
+  crm:
+    title: Exemplo de namespace - CRM
+    content: Aqui você pode acessar o CRM, um exemplo de configuração low-code. Você
+      pode navegar pelo aplicativo na barra lateral à esquerda, onde verá uma
+      lista de páginas disponíveis. Para inserir dados de exemplo, clique no
+      botão "+ Adicionar" em qualquer lista de registros.
+  low-code:
+    title: Lista de aplicativos Low-Code (namespaces)
+    content: Aqui você pode criar uma nova aplicação Low-Code (namespace) ou começar
+      a trabalhar em algumas aplicações pré-configuradas (por exemplo, CRM).
+      Esses aplicativos não aparecem no menu de aplicativos por padrão.
+  reporter:
+    title: Lista de relatórios
+    content: Para fazer visualizações avançadas do dashboard com dados agregados de
+      diversos módulos, diferentes tabelas e gráficos, comece a construir um
+      novo relatório.
+  profile:
+    title: Configurações de perfil
+    content: Para atualizar as configurações do seu perfil, definir o idioma,
+      alterar a senha ou configurar a autenticação de dois fatores, siga o link
+      abaixo do ícone do usuário.
+  workflow:
+    title: Lista de fluxos de trabalho
+    content: Leve seus aplicativos Low-Code para o próximo nível com o construtor
+      visual de fluxo de trabalho, onde você pode automatizar qualquer processo
+      para atender às necessidades da sua organização. Comece a construir um
+      novo fluxo de trabalho ou revise os existentes.

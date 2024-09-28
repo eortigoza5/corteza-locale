@@ -1,0 +1,116 @@
+break:
+  label: Quebrar
+  short: Quebrar
+  tooltip: Pare a execução do iterador e continue com o fluxo de trabalho
+continue:
+  label: Continuar
+  short: Continuar
+  tooltip: Pare a iteração atual e continue com a próxima
+debug:
+  label: Depurar
+  short: Depurar
+  tooltip: Registra o escopo do fluxo de trabalho atual nos logs do servidor. Se a
+    depuração do fluxo de trabalho estiver habilitada
+delay:
+  label: Atraso
+  short: Atraso
+  tooltip: Atrasa a execução do fluxo de trabalho
+error:
+  label: Erro
+  short: Erro
+  tooltip: Gera erros e interrompe a execução do fluxo de trabalho, além de
+    impedir o salvamento de registros acionados antes do acionador
+error-handler:
+  label: Manipulador de erros
+  short: Manipulador de erros
+  tooltip: Continue o fluxo de trabalho desta etapa se um erro for acionado
+expressions:
+  configurator:
+    add-expression: + Adicionar expressão
+    expression: Expressão
+    expression-placeholder: Expressão...
+    target: Alvo
+  label: Expressões
+  short: Expressões
+  tooltip: Definir e alterar variáveis ​​de escopo
+function:
+  configurator:
+    arguments: Argumentos
+    constant: Constante
+    expression: Expressão
+    name: Nome
+    option-select: Selecione uma opção
+    result: Resultado
+    results: Resultados
+    target: Alvo
+    add-result: + Adicionar resultado
+    search-workflow: Procure um fluxo de trabalho
+    select-function: Selecione a função
+    type: Tipo
+    type*: Tipo*
+  label: Função
+  short: Função
+  tooltip: Execute a função predefinida escolhida
+exec-workflow:
+  label: Executar fluxo de trabalho
+  short: Fluxo de trabalho
+  tooltip: Execute um fluxo de trabalho e mapeie variáveis ​​de seu escopo para o atual
+gatewayExclusive:
+  label: Portal (Exclusivo)
+  short: Portal
+  tooltip: A execução do fluxo de trabalho pode continuar no primeiro caminho que
+    atenda à condição
+gatewayInclusive:
+  label: Portal (inclusivo)
+  short: Portal
+  tooltip: A execução do fluxo de trabalho pode continuar em todos os caminhos que
+    se enquadram nas condições
+gatewayParallel:
+  label: Gateway (bifurcação/junção)
+  short: Portal
+  tooltip: Divide a execução do fluxo de trabalho em dois caminhos paralelos ou
+    mescla vários caminhos em um
+gateway:
+  configurator:
+    condition: Doença
+    two-paths: O gateway deve ser fonte de pelo menos dois caminhos
+iterator:
+  label: Iterador
+  short: Iterador
+  tooltip: Iterar sobre itens
+prompt:
+  label: Incitar
+  short: Incitar
+  tooltip: Solicita ao usuário e aguarda a entrada
+swimlane:
+  label: Raia
+  short: Raia
+  tooltip: Agrupar etapas visualmente
+termination:
+  label: Rescisão (Fim)
+  short: Rescisão
+  tooltip: Encerrar a execução do fluxo de trabalho
+trigger:
+  configurator:
+    add: + Adicionar
+    add-constraints: + Adicionar restrições
+    constraints: Restrições
+    event*: Evento*
+    failed-fetch-event-types: Falha ao buscar tipos de eventos
+    initial-scope: Escopo Inicial
+    equal: Igual
+    not-equal: Diferente
+    like: Como
+    not-like: Não gosto
+    operator: Operador
+    resource: Recurso
+    resource*: Recurso*
+    select-constraint-type: Selecione o tipo de restrição
+    select-operator: Selecione o operador
+    select-event-type: Selecione o tipo de evento
+    select-resource-type: Selecione o tipo de recurso
+  label: Gatilho (Iniciar)
+  short: Acionar
+  tooltip: Acione a execução do fluxo de trabalho com base na configuração
+tooltip:
+  configure-step: Configurar etapa

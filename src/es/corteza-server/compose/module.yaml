@@ -1,0 +1,19 @@
+errors:
+  handleNotUnique: manejar no es único
+  invalidHandle: identificador no válido
+  invalidID: identificación no válida
+  invalidNamespaceID: ID de espacio de nombres no válido o faltante
+  nameNotUnique: nombre no único
+  fieldNameReserved: nombre de campo reservado
+  namespaceNotFound: el espacio de nombres no existe
+  notAllowedToCreate: no se permite crear módulos
+  notAllowedToDelete: No se permite eliminar este módulo.
+  notAllowedToListModules: no se permite enumerar módulos
+  notAllowedToRead: No se permite leer este módulo.
+  notAllowedToReadNamespace: No se permite leer este espacio de nombres.
+  notAllowedToSearch: no se permite buscar o enumerar módulos
+  notAllowedToUndelete: No se permite recuperar este módulo.
+  notAllowedToUpdate: No se permite actualizar este módulo.
+  notFound: el módulo no existe
+  staleData: datos obsoletos
+  dedupConfigurationInvalidMissingConstraint: restricciones faltantes en la configuración de deduplicación

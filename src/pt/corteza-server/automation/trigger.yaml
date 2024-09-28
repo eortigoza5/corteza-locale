@@ -1,0 +1,10 @@
+errors:
+  invalidID: ID inválido
+  notAllowedToCreate: não é permitido criar gatilhos
+  notAllowedToDelete: não é permitido excluir este gatilho
+  notAllowedToRead: não tem permissão para ler este gatilho
+  notAllowedToSearch: não tem permissão para pesquisar ou listar gatilhos
+  notAllowedToUndelete: não é permitido cancelar a exclusão deste gatilho
+  notAllowedToUpdate: não é permitido atualizar este gatilho
+  notFound: gatilho não encontrado
+  staleData: dados obsoletos

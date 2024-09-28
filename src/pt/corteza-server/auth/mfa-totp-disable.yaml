@@ -1,0 +1,5 @@
+template:
+  title: Desative a autenticação de dois fatores com TOTP
+  instructions: Desative inserindo o código existente
+  button:
+    remove: Remover

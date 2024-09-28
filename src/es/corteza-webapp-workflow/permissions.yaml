@@ -1,0 +1,66 @@
+ui:
+  save: Guardar cambios
+  cancel: Cancelar
+  set-for: Establecer permisos para {{target}}
+  loading: Permisos de carga
+  label: Permisos
+  edit:
+    label: Roles de usuario
+    description: Seleccione rol para establecer permisos
+  evaluate:
+    description: Evaluar los permisos aplicados
+  add:
+    label: Agregar
+    title: Evaluar permisos
+    save: Guardar y cerrar
+    role:
+      label: Roles
+      placeholder: Seleccionar rol(es)
+    user:
+      label: Usuarios
+      placeholder: Buscar o seleccionar un usuario
+  tooltip:
+    unknown-context:
+      user: No se puede evaluar el permiso para un usuario con rol contextual en un
+        recurso no específico
+      role: No se puede evaluar el permiso para el rol contextual en un recurso no
+        específico
+  access:
+    allow: Permitir
+    inherit: Heredar
+    deny: Denegar
+resources:
+  automation:
+    workflow:
+      all: todos los flujos de trabajo
+      specific: flujo de trabajo "{{target}}"
+      tooltip: Permisos de flujo de trabajo
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar este flujo de trabajo
+          title: Eliminar cualquier flujo de trabajo
+        execute:
+          description: "Predeterminado: negar"
+          specific: Ejecute este flujo de trabajo
+          title: Ejecute cualquier flujo de trabajo
+        read:
+          description: "Predeterminado: negar"
+          specific: Lea este flujo de trabajo
+          title: Leer cualquier flujo de trabajo
+        sessions.manage:
+          description: "Predeterminado: negar"
+          specific: Administrar sesiones para este flujo de trabajo
+          title: Administrar todas las sesiones
+        triggers.manage:
+          description: "Predeterminado: negar"
+          specific: Administrar activadores para este flujo de trabajo
+          title: Gestionar todos los desencadenantes
+        undelete:
+          description: "Predeterminado: negar"
+          specific: Recuperar este flujo de trabajo
+          title: Recuperar cualquier flujo de trabajo
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar este flujo de trabajo
+          title: Actualiza cualquier flujo de trabajo

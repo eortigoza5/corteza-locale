@@ -1,0 +1,13 @@
+errors:
+  alreadyExists: a rota por esse endpoint já existe
+  existsEndpoint: a rota com este endpoint já existe
+  invalidEndpoint: ponto de extremidade inválido
+  invalidID: ID inválido
+  notAllowedToCreate: não é permitido criar uma rota
+  notAllowedToDelete: não é permitido excluir esta rota
+  notAllowedToExec: não tem permissão para executar esta rota
+  notAllowedToRead: não é permitido ler esta rota
+  notAllowedToUndelete: não é permitido recuperar esta rota
+  notAllowedToUpdate: não é permitido atualizar esta rota
+  notAllowedToSearch: não é permitido listar ou pesquisar rotas
+  notFound: rota não encontrada

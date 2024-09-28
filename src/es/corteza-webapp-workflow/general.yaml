@@ -1,0 +1,64 @@
+clear: Claro
+description: Descripción
+enabled: Activado
+enable: Permitir
+disable: Desactivar
+error: Error
+error-expression: Mensaje de error (expresión)
+export: Exportar
+general: General
+handle: Manejar
+import:
+  json: Importar JSON
+  label: Importar
+  reassign-run-as: "NOTA: la propiedad Ejecutar como flujo de trabajo no se
+    importará y deberá reasignarse"
+  upload-files: Explore o suelte archivos para cargar...
+label:
+  all: Todo
+  label: Etiqueta
+loading: Cargando
+name: Nombre
+new-workflow: Nuevo flujo de trabajo
+none: Ninguno
+now: Ahora
+offset: Compensar
+offset-expression: Desplazamiento (expresión)
+permissions: Permisos
+searchPlaceholder: Escriba aquí para buscar todos los flujos de trabajo...
+subworkflow: Subflujo de trabajo
+subworkflows: Subflujos de trabajo
+deleted: Eliminado
+disabled: Desactivado
+without: Sin
+only: Solo
+including: Incluido
+unnamed-workflow: Flujo de trabajo sin nombre
+workflow-list: Lista de flujos de trabajo
+workflow:
+  single: Flujo de trabajo
+  plural: Flujos de trabajo
+save: Ahorrar
+today: Hoy
+cancel: Cancelar
+resourceList:
+  notFound: Extraviado
+  noItems: No hay elementos para mostrar
+  pagination:
+    next: Próximo
+    prev: Anterior
+    showing: "{{from}} - {{to}} de {{count}} {{data}}"
+    single: Uno {{data}}
+    single_plural: "{{count}} {{data}}"
+    recordsPerPage: Registros por página
+tooltip:
+  permissions: Permisos de flujo de trabajo
+columns:
+  name: Nombre
+  enabled: Activado
+  steps: Pasos
+  changedAt: último cambio
+themes:
+  labels:
+    light: Luz
+    dark: Oscuro

@@ -1,0 +1,17 @@
+errors:
+  disabled: flujo de trabajo o activador deshabilitado
+  handleNotUnique: El identificador del flujo de trabajo no es único.
+  invalidHandle: identificador no válido
+  invalidID: identificación no válida
+  notAllowedToCreate: no se permite crear flujos de trabajo
+  notAllowedToDelete: No se permite eliminar este flujo de trabajo.
+  notAllowedToExecute: no se le permite ejecutar este flujo de trabajo
+  notAllowedToExecuteCorredorStep: no se permite ejecutar la función corredorExec,
+    el corredor está deshabilitado
+  notAllowedToRead: No se permite leer este flujo de trabajo.
+  notAllowedToSearch: no se permite buscar ni enumerar flujos de trabajo
+  notAllowedToUndelete: No se permite recuperar este flujo de trabajo.
+  notAllowedToUpdate: No se permite actualizar este flujo de trabajo.
+  notFound: flujo de trabajo no encontrado
+  staleData: datos obsoletos
+  unknownWorkflowStep: paso de flujo de trabajo desconocido

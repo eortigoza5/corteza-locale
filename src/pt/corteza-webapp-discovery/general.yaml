@@ -1,0 +1,11 @@
+federated: Federado
+no-values: Sem valores
+label:
+  all: Todos
+resourceList:
+  pagination:
+    recordsPerPage: Registros por página
+themes:
+  labels:
+    light: Luz
+    dark: Escuro

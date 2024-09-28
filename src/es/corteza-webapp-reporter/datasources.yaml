@@ -1,0 +1,23 @@
+add: Agregar
+aggregate: Agregar
+compose-records: Redactar registros
+datasource-name: Nombre de la fuente de datos...
+expression: Expresión
+group-by: Agrupar por
+label: Etiqueta
+module: Módulo
+name-required: Nombre *
+name: Nombre
+namespace: Espacio de nombres
+new:
+  label: Nueva etiqueta
+  name: Nuevo nombre
+none: Ninguno
+prefilter: Prefiltro
+primary:
+  column: Columna primaria
+  source: Fuente primaria
+secondary:
+  column: Columna secundaria
+  source: Fuente secundaria
+source: Fuente

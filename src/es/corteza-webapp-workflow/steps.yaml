@@ -1,0 +1,116 @@
+break:
+  label: Romper
+  short: Romper
+  tooltip: Detener la ejecución del iterador y continuar con el flujo de trabajo
+continue:
+  label: Continuar
+  short: Continuar
+  tooltip: Detener la iteración actual y continuar con la siguiente.
+debug:
+  label: Depurar
+  short: Depurar
+  tooltip: Registra el alcance del flujo de trabajo actual en los registros del
+    servidor. Si la depuración del flujo de trabajo está habilitada
+delay:
+  label: Demora
+  short: Demora
+  tooltip: Retrasa la ejecución del flujo de trabajo
+error:
+  label: Error
+  short: Error
+  tooltip: Genera un error y detiene la ejecución del flujo de trabajo, también
+    evita que se guarden los registros activados antes del activador.
+error-handler:
+  label: Manejador de errores
+  short: Manejador de errores
+  tooltip: Continúe el flujo de trabajo desde este paso si se activa un error
+expressions:
+  configurator:
+    add-expression: + Agregar expresión
+    expression: Expresión
+    expression-placeholder: Expresión...
+    target: Objetivo
+  label: Expresiones
+  short: Expresiones
+  tooltip: Definir y mutar variables de alcance.
+function:
+  configurator:
+    arguments: Argumentos
+    constant: Constante
+    expression: Expresión
+    name: Nombre
+    option-select: Seleccione una opción
+    result: Resultado
+    results: Resultados
+    target: Objetivo
+    add-result: + Agregar resultado
+    search-workflow: Buscar un flujo de trabajo
+    select-function: Seleccionar función
+    type: Tipo
+    type*: Tipo*
+  label: Función
+  short: Función
+  tooltip: Ejecutar la función predefinida elegida
+exec-workflow:
+  label: Ejecutar flujo de trabajo
+  short: Flujo de trabajo
+  tooltip: Ejecutar un flujo de trabajo y asignar variables desde su alcance al actual
+gatewayExclusive:
+  label: Puerta de enlace (exclusiva)
+  short: Puerta
+  tooltip: La ejecución del flujo de trabajo puede continuar en la primera ruta
+    que se ajuste a la condición
+gatewayInclusive:
+  label: Puerta de enlace (inclusive)
+  short: Puerta
+  tooltip: La ejecución del flujo de trabajo puede continuar en todas las rutas
+    que cumplan con las condiciones.
+gatewayParallel:
+  label: Puerta de enlace (bifurcación/unión)
+  short: Puerta
+  tooltip: Divide la ejecución del flujo de trabajo en dos rutas paralelas o
+    combina varias rutas en una
+gateway:
+  configurator:
+    condition: Condición
+    two-paths: La puerta de enlace debe ser fuente de al menos dos rutas
+iterator:
+  label: Iterador
+  short: Iterador
+  tooltip: Iterar sobre elementos
+prompt:
+  label: Inmediato
+  short: Inmediato
+  tooltip: Solicita al usuario y espera la entrada
+swimlane:
+  label: carril
+  short: carril
+  tooltip: Pasos de grupo visualmente
+termination:
+  label: Terminación (Fin)
+  short: Terminación
+  tooltip: Terminar la ejecución del flujo de trabajo
+trigger:
+  configurator:
+    add: + Agregar
+    add-constraints: + Agregar restricciones
+    constraints: Restricciones
+    event*: Evento*
+    failed-fetch-event-types: No se pudieron recuperar los tipos de eventos
+    initial-scope: Alcance inicial
+    equal: Igual
+    not-equal: No igual
+    like: Como
+    not-like: No me gusta
+    operator: Operador
+    resource: Recurso
+    resource*: Recurso*
+    select-constraint-type: Seleccionar tipo de restricción
+    select-operator: Seleccionar operador
+    select-event-type: Seleccionar tipo de evento
+    select-resource-type: Seleccionar tipo de recurso
+  label: Gatillo (Inicio)
+  short: Desencadenar
+  tooltip: Activar la ejecución del flujo de trabajo según la configuración.
+tooltip:
+  configure-step: Configurar paso

@@ -1,0 +1,20 @@
+automation: Automação
+chart: Gráficos
+configuration: Configuração
+editPage: Editar página
+help:
+  documentation: Documentação
+  feedback: Enviar comentários
+  forum: Ajuda
+  version: "Versão:"
+module: Módulos
+more: Mais
+namespace: Espaços para nome
+noPageTitle: Sem título de página
+page: Páginas
+userSettings:
+  changePassword: Alterar a senha
+  loggedInAs: Conectado como {{user}}
+  logout: Sair
+  profile: Perfil
+viewPage: Ver página

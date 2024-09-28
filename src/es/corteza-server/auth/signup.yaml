@@ -1,0 +1,25 @@
+template:
+  title: Inscribirse
+  form:
+    email:
+      label: Correo electrónico
+      placeholder: correo electrónico@dominio.ltd
+    password:
+      label: Contraseña
+      placeholder: Contraseña
+    name:
+      label: nombre completo
+      placeholder: Tu nombre completo
+    nickname:
+      label: Nombre corto, apodo o identificador
+      placeholder: Nombre corto, apodo o identificador
+    button:
+      sign-up: Entregar
+  log-in: ¿Ya tienes una cuenta? <a data-test-id="link-login"
+    href="{{link}}">Iniciar sesión</a>
+alerts:
+  signup-successful: Registro exitoso
+  email-confirmed-logged-in: Dirección de correo electrónico confirmada, ya has iniciado sesión.
+  invalid-expired-token: Token de confirmación de correo electrónico no válido o
+    caducado; vuelva a enviar la solicitud de confirmación.
+  signup-disabled: Registro deshabilitado

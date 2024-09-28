@@ -1,0 +1,21 @@
+errors:
+  emailNotUnique: correo electrónico no único
+  handleNotUnique: manejar no es único
+  invalidEmail: correo electrónico no válido
+  invalidHandle: identificador no válido
+  invalidID: identificación no válida
+  notAllowedToCreate: no se permite crear usuarios
+  notAllowedToCreateSystem: No se permite crear usuarios del sistema.
+  notAllowedToDelete: no se permite eliminar este usuario
+  notAllowedToListUsers: no se permite listar usuarios
+  notAllowedToRead: no se le permite leer a este usuario
+  notAllowedToSearch: no se permite enumerar o buscar usuarios
+  notAllowedToSuspend: No se permite suspender a este usuario.
+  notAllowedToUndelete: No se permite recuperar este usuario.
+  notAllowedToUnsuspend: No se permite cancelar la suspensión de este usuario.
+  notAllowedToUpdate: no se permite actualizar este usuario
+  notAllowedToUpdateSystem: no se permite actualizar a los usuarios del sistema
+  notFound: usuario no encontrado
+  passwordNotSecure: la contraseña proporcionada no es segura; use una contraseña
+    más larga con más caracteres especiales
+  usernameNotUnique: nombre de usuario no único

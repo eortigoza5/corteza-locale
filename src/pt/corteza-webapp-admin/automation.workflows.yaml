@@ -1,0 +1,62 @@
+editor:
+  info:
+    createdAt: Criado em
+    createdBy: Criado por
+    delete: Excluir
+    deletedAt: Excluído em
+    enabled: Habilitado
+    handle: Lidar
+    invalid-handle-characters: Deve ter pelo menos 2 caracteres. Pode conter apenas
+      letras, números, travessões, sublinhados e pontos. Deve terminar com letra
+      ou número
+    id: EU IA
+    name: Nome *
+    openBuilder: Construtor aberto
+    title: Informações básicas
+    undelete: Recuperar exclusão
+    updatedAt: Atualizado em
+  new: Novo fluxo de trabalho
+  permissions: Permissões
+  title:
+    create: Criar fluxo de trabalho
+    edit: Editar fluxo de trabalho
+  triggers:
+    and: e
+    columns:
+      constraints: Restrições
+      eventType: Evento
+      resourceType: Recurso
+    title: Gatilhos
+list:
+  columns:
+    actions: ""
+    createdAt: Criado
+    enabled: Habilitado
+    handle: Lidar
+    name: Nome
+    state: Estado
+  delete: Excluir
+  undelete: Recuperar exclusão
+  export: Exportar
+  rows:
+    filters:
+      deleted: Excluído
+  filterForm:
+    deleted:
+      label: fluxos de trabalho excluídos
+    excluded:
+      label: Sem
+    exclusive:
+      label: Apenas
+    inclusive:
+      label: Incluindo
+    query:
+      label: Filtrar lista de fluxos de trabalho
+      placeholder: Filtrar fluxos de trabalho por nome
+  loading: Carregando fluxos de trabalho
+  new: Novo fluxo de trabalho
+  numFound: "{{count}} fluxo de trabalho encontrado"
+  numFound_plural: "{{count}} fluxos de trabalho encontrados"
+  permissions: Permissões
+  title: Fluxos de trabalho
+  yaml: YAML

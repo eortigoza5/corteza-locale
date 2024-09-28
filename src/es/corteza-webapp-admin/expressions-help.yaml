@@ -1,0 +1,138 @@
+calculate: Las expresiones de campo proporcionan una manera de calcular valores
+  de campo basados ​​en la expresión definida.
+categories:
+  dateTime:
+    earliest: Devuelve la fecha y hora más temprana
+    label: Fecha y hora
+    latest: Devuelve la última fecha y hora
+    modTime: Devuelve la cadena DateTime modificada
+    parseDuration: Devuelve la duración analizada
+    parseISOTime: Devuelve la cadena ISO DateTime analizada
+    strftime: Devuelve una cadena DateTime para la fecha y el formato especificados.
+  general:
+    description: Devuelve el primer valor no nulo
+    label: General
+  number:
+    ceil: Redondea el número al entero más cercano
+    floor: Redondea el número hacia abajo al número entero más cercano
+    label: Número
+    max: Devuelve el artículo con el valor más alto.
+    min: Devuelve el artículo con el valor más bajo.
+    rounds: Redondea un número de punto flotante al número de dígitos especificado
+  string:
+    format: Devuelve la cadena formateada
+    label: Cadena
+    longest: Devuelve la cadena más larga
+    shortest: Devuelve la cadena más corta
+    toLower: Convierte todos los caracteres a minúsculas
+    toUpper: Convierte todos los caracteres a mayúsculas
+    trim: Elimina espacios al principio y al final de la cadena.
+    trimLeft: Elimina el carácter del principio de la cadena.
+    trimRight: Elimina el carácter del final de la cadena.
+example-description: A continuación se muestran algunos ejemplos de diferentes
+  casos de uso de expresiones de campo.
+examples: Ejemplos
+field: Expresiones de campo
+formatCategories:
+  dateTime:
+    A: Devuelve el nombre completo del día laborable nacional.
+    B: Devuelve el nombre completo del mes nacional.
+    C: Devuelve año/100 como número decimal; los dígitos individuales están
+      precedidos por un cero
+    D: Equivalente a %m/%d/%y
+    F: Equivalente a %Y-%m-%d
+    H: Devuelve la hora (reloj de 24 horas) como un número decimal (00-23)
+    I: Devuelve la hora (reloj de 12 horas) como un número decimal (01-12)
+    M: Devuelve el minuto como un número decimal (00-59)
+    R: Equivalente a %H:%M
+    S-middle: Devuelve el milisegundo como número decimal (000-999)
+    S-second: Devuelve el segundo como número decimal (00-60)
+    T: Equivalente a %H:%M:%S
+    U: Devuelve el número de semana del año (domingo como primer día de la semana)
+      como un número decimal (00-53)
+    V: Devuelve el número de semana del año (el lunes como primer día de la semana)
+      como un número decimal (01-53)
+    W: Devuelve el número de semana del año (el lunes como primer día de la semana)
+      como un número decimal (00-53)
+    X: Devuelve la representación nacional de la época.
+    Y: Devuelve el año con siglo como número decimal.
+    Z: Devuelve el nombre de la zona horaria
+    a: Devuelve el nombre abreviado del día laborable nacional.
+    b: Devuelve el nombre abreviado del mes nacional.
+    c: Devuelve la representación nacional de hora y fecha.
+    d: Devuelve el día del mes como un número decimal (01-31)
+    e: Devuelve el día del mes como un número decimal (1-31)
+    j: Devuelve el día del año como número decimal (001-366)
+    k: Devuelve la hora (reloj de 24 horas) como un número decimal (0-23)
+    l: Devuelve la hora (reloj de 12 horas) como un número decimal (1-12)
+    label: Formato de fecha y hora
+    m: Devuelve el mes como un número decimal (01-12)
+    n: |-
+      Devuelve una nueva línea (
+      )
+    p: Devuelve la representación nacional de "ante meridiem" (a.m.) o "post
+      meridiem" (p.m.)
+    percent: Devuelve un %
+    r: Equivalente a %I:%M:%S %p
+    t: Devuelve una pestaña
+    u: Devuelve el día de la semana (el lunes como primer día de la semana) como un
+      número decimal (1-7)
+    v: Equivalente a %e-%b-%Y
+    w: Devuelve el día de la semana (domingo como primer día de la semana) como un
+      número decimal (0-6)
+    x: Devuelve la representación nacional de la fecha.
+    y: Devuelve el año sin siglo como número decimal (00-99)
+    z: Devuelve la zona horaria desplazada de UTC
+  string:
+    E: Devuelve el número de coma flotante en notación científica; E mayúscula
+    O: Devuelve el número en base 8 con prefijo 0o
+    X: Devuelve el número en base 16; mayúsculas A-F
+    b: Devuelve el número en base 2 (en formato binario)
+    binary: Devuelve el número de coma flotante en notación científica con exponente
+      binario
+    d: Devuelve el número en base 10
+    e: Devuelve el número de coma flotante en notación científica; e minúscula
+    f: Devuelve el número de coma flotante con un punto decimal.
+    label: Formato de cadena
+    o: Devuelve el número en base 8
+    t: Devuelve el valor booleano como verdadero/falso
+    v: Devuelve el valor bruto
+    x: Devuelve el número en base 16; minúscula a-f
+formatting-parameters:
+  description: Aquí hay una lista completa de opciones de formato disponibles.
+  label: Parámetros de formato
+helper-functions:
+  description: Proporcionamos un conjunto de funciones auxiliares que amplían las
+    capacidades de las expresiones de campo.
+  label: Funciones auxiliares
+  note: 'NOTA: Sólo las funciones "Generales" se pueden utilizar en todo tipo de
+    campos. Las otras funciones están limitadas a su respectivo tipo de campo.'
+instructions: "Para escribir la expresión puedes utilizar los siguientes operadores:"
+operators:
+  all-new-values: (todos los valores nuevos)
+  comparators: "Comparadores:"
+  control-order: "Orden de control de evaluación:"
+  field-name: nombre-campo
+  location: "Dependiendo de dónde se utilice la expresión del campo, tiene acceso
+    a diferentes variables:"
+  logical: "Lógico:"
+  modifiers: "Modificadores:"
+  more: "Más:"
+  new: nuevo
+  new-value: (nuevo valor)
+  new-value-with-comma: (nuevo valor),
+  old: viejo
+  old-value: valorantiguo
+  old-value-brackets: (valor antiguo),
+  record: (registro),
+  sanitizer: desinfectante
+  sanitizers: "Sanitizantes:"
+  validator: Validador
+  validators: "Validadores:"
+  value: valor
+  value-expression: expresión de valor
+  value-expressions: "Expresiones de valor:"
+  values: valores
+write: Escribir expresiones de campo es como escribir una ecuación. En lugar de
+  utilizar únicamente constantes, puede pasar el nombre del campo y se evaluará
+  como el valor del campo para ese registro.

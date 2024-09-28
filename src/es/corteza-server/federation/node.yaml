@@ -1,0 +1,10 @@
+errors:
+  notAllowedToCreate: no se permite crear nodos
+  notAllowedToManage: No se permite gestionar este nodo.
+  notAllowedToPair: no se permite emparejar este nodo
+  notAllowedToSearch: no se permite buscar o enumerar nodos
+  notFound: el nodo no existe
+  pairingTokenInvalid: token de emparejamiento no válido
+  pairingURIInvalid: "URI de emparejamiento no válido: {err}"
+  pairingURISourceIDInvalid: emparejamiento de URI sin ID de nodo de origen
+  pairingURITokenInvalid: URI de emparejamiento con token de emparejamiento no válido

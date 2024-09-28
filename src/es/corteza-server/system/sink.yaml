@@ -1,0 +1,17 @@
+errors:
+  badSinkParamEncoding: mala codificación de los parámetros del sumidero
+  contentLengthExceedsMaxAllowedSize: La longitud del contenido excede el límite de tamaño máximo.
+  failedToCreateEvent: no se pudo crear el evento receptor a partir de la solicitud
+  failedToProcess: no se pudo procesar la solicitud
+  failedToRespond: no respondió a la solicitud
+  failedToSign: "no se pudieron firmar los parámetros de solicitud: {err}"
+  invalidContentType: encabezado de tipo de contenido no válido
+  invalidHttpMethod: método HTTP no válido
+  invalidPath: ruta no válida
+  invalidSignature: firma inválida
+  invalidSignatureParam: parámetro de firma de receptor no válido
+  invalidSinkRequestUrlParams: parámetros de URL de solicitud de receptor no válidos
+  misplacedSignature: firma extraviada
+  missingSignature: falta el parámetro de firma del receptor
+  processingError: error en el proceso de solicitud de receptor
+  signatureExpired: firma caducada

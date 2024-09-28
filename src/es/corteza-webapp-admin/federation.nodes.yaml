@@ -1,0 +1,77 @@
+editor:
+  generate:
+    body: '{{ userLabel }} te envía una invitación para la Red Federada de Corteza.
+      Para comenzar a compartir datos entre organizaciones, vaya al panel de
+      administración de su aplicación Corteza, haga clic en "Federación" y
+      seleccione "Emparejar red de federación" en la esquina superior derecha.
+      Copie el enlace a continuación y espere la confirmación de otro
+      administrador.'
+    description: Para agregar su organización a una red federada, envíe una
+      invitación por correo electrónico o comparta el enlace a continuación con
+      un administrador de otra organización.
+    hello: Hola,
+    invitation: Invitación a la Red Federada
+    kindRegards: Saludos cordiales, equipo de Corteza.
+    notGenerated: Enlace no generado
+    sendEmail: Enviar correo electrónico
+    subject: "Sujeto:"
+  generateUri: Generar enlace de federación
+  info:
+    createdAt: Creado en
+    createdBy: Creado por
+    delete: Borrar
+    deletedAt: Eliminado en
+    email: Correo electrónico del administrador
+    enabled: Activado
+    name: Nombre del servidor *
+    status: Estado
+    tags:
+      label: Etiquetas
+      placeholder: +Agregar
+    title: Información básica
+    undelete: Recuperar
+    updatedAt: Actualizado en
+    url: URL del servidor *
+  title:
+    create: Crear nodo federado
+    edit: Editar nodo federado
+list:
+  columns:
+    actions: ""
+    createdAt: Creado
+    enabled: Activado
+    name: Nombre
+    status: Estado
+    tags: ""
+  filterForm:
+    query:
+      label: Lista de servidores de filtrado
+      placeholder: Filtrar servidores por nombre
+  loading: Cargando nodos federados
+  new: Nuevo nodo federado
+  numFound: "{{count}} servidor encontrado"
+  numFound_plural: "{{count}} servidores encontrados"
+  pair:
+    confirm: Confirmar
+    label: Emparejar nodo federado
+    networkEstablished: La red federada se establecerá después de la confirmación
+      final del administrador de otro Nodo de Federación de Corteza.
+    note: "Nota:"
+    status:
+      confirmPending:
+        description: >-
+          {{ email }} aceptó la invitación para unirse a la red federada “{{
+          name }}”.
+           Haga clic en “Confirmar” para comenzar a compartir los datos.
+        descriptionNoMail: >-
+          El administrador de “{{ name }}” aceptó la invitación para unirse a la
+          Red Federada.
+           Haga clic en “Confirmar” para comenzar a compartir los datos
+      none:
+        description: Para vincular su organización con una red federada, pegue la URL
+          generada de otra organización a continuación.
+      pending:
+        description: Emparejamiento exitoso, pendiente de confirmación final por parte
+          del administrador
+  title: Redes Federadas
+  yaml: YAML

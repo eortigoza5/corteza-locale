@@ -1,0 +1,11 @@
+errors:
+  composeModuleNotFound: módulo de redacción no encontrado
+  composeNamespaceNotFound: componer espacio de nombres no encontrado
+  invalidID: identificación no válida
+  nodeNotFound: el nodo no existe
+  notAllowedToCreate: no se permite crear módulos
+  notAllowedToManage: No se permite gestionar este módulo.
+  notFound: el módulo no existe
+  notUnique: nodo no único
+  requestParametersInvalid: parámetros de solicitud no válidos
+  staleData: datos obsoletos

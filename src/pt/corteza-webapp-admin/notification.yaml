@@ -1,0 +1,296 @@
+general:
+  error: Erro
+  success: Sucesso
+  warning: Aviso
+notAllowed: Não é permitido acessar a área administrativa. Redirecionando
+list:
+  load:
+    error: Falha ao carregar a lista de recursos
+user:
+  external-auth-providers:
+    error: Falha na busca de provedores de autenticação externos
+    success: Provedores de autenticação externos atualizados
+  fetch:
+    error: Falha na busca do usuário
+  roles:
+    error: Falha na busca de função
+  update:
+    success: Usuário atualizado
+    error: Falha na atualização do usuário
+  create:
+    success: Usuário criado
+    error: Falha na criação do usuário
+  delete:
+    success: Usuário excluído
+    error: Falha na exclusão do usuário
+  undelete:
+    success: Usuário restaurado
+    error: Falha na restauração do usuário
+  membershipUpdate:
+    success: Associação atualizada
+    error: Falha na atualização da assinatura
+  passwordChange:
+    success: Senha alterada
+    error: Falha na alteração da senha
+  sessionsRevoke:
+    success: Sessões revogadas
+    error: Falha na revogação da sessão
+  suspend:
+    success: Usuário suspenso
+    error: Falha na suspensão do usuário
+  unsuspend:
+    success: Usuário não suspenso
+    error: Falha na suspensão do usuário
+  import:
+    success: Usuários importados com sucesso
+  avatarUpload:
+    success: Avatar atualizado
+    error: Falha no upload do avatar
+  avatarSettings:
+    success: Configurações de avatar atualizadas
+    error: Falha na atualização das configurações do avatar
+  avatarDelete:
+    success: Avatar excluído
+    error: Falha na exclusão do avatar
+role:
+  fetch:
+    error: Falha na busca de função
+  create:
+    success: Função criada
+    error: Falha na criação da função
+  update:
+    success: Função atualizada
+    error: Falha na atualização da função
+  delete:
+    success: Função excluída
+    error: Falha na exclusão da função
+  undelete:
+    success: Função restaurada
+    error: Falha na restauração da função
+  archive:
+    success: Função arquivada
+    error: Falha no arquivamento da função
+  unarchive:
+    success: Função desarquivada
+    error: Falha no desarquivamento da função
+  membershipUpdate:
+    success: Associação atualizada
+    error: Falha na atualização da assinatura
+application:
+  fetch:
+    error: Falha na busca do aplicativo
+  update:
+    success: Aplicativo atualizado
+    error: Falha na atualização do aplicativo
+  create:
+    success: Aplicativo criado
+    error: Falha na criação do aplicativo
+  delete:
+    success: Aplicativo excluído
+    error: Falha na exclusão do aplicativo
+  undelete:
+    success: Aplicativo restaurado
+    error: Falha na restauração do aplicativo
+  assetsUpload:
+    error: Falha no upload dos ativos do aplicativo
+template:
+  fetch:
+    error: Falha na busca do modelo
+  fetchPartials:
+    error: Falha na busca parcial de modelos
+  create:
+    success: Modelo criado
+    error: Falha na criação do modelo
+  update:
+    success: Modelo atualizado
+    error: Falha na atualização do modelo
+  delete:
+    success: Modelo excluído
+    error: Falha na exclusão do modelo
+  undelete:
+    success: Modelo restaurado
+    error: Falha na restauração do modelo
+  driver:
+    error: Falha na busca de drivers de renderização de modelo
+  preview:
+    error: Falha na busca de visualização do modelo
+authclient:
+  fetch:
+    error: Falha na busca do cliente de autenticação
+  create:
+    success: Cliente de autenticação criado
+    error: Falha na criação do cliente de autenticação
+  update:
+    success: Cliente de autenticação atualizado
+    error: Falha na atualização do cliente de autenticação
+  delete:
+    success: Cliente de autenticação excluído
+    error: Falha na exclusão do cliente de autenticação
+  undelete:
+    success: Cliente de autenticação restaurado
+    error: Falha na restauração do cliente de autenticação
+queue:
+  fetch:
+    error: Falha na busca da fila
+  create:
+    success: Fila criada
+    error: Falha na criação da fila
+  update:
+    success: Fila atualizada
+    error: Falha na atualização da fila
+  delete:
+    success: Fila excluída
+    error: Falha na exclusão da fila
+  undelete:
+    success: Fila restaurada
+    error: Falha na restauração da fila
+gateway:
+  fetch:
+    error: Falha na busca de rota
+  create:
+    success: Rota criada
+    error: Falha na criação da rota
+  update:
+    success: Rota atualizada
+    error: Falha na atualização da rota
+  filter:
+    fetch:
+      error: Falha na busca do filtro
+    update:
+      success: Filtros atualizados
+      error: Falha na atualização dos filtros
+  delete:
+    success: Rota excluída
+    error: Falha ao excluir rota
+  undelete:
+    success: Rota restaurada
+    error: Falha na restauração da rota
+  profiler:
+    fetch:
+      error: Falha na busca de solicitações
+    purge:
+      success: Solicitações eliminadas
+      error: Falha na eliminação de solicitações
+workflow:
+  fetch:
+    error: Falha na busca do fluxo de trabalho
+  create:
+    success: Fluxo de trabalho criado
+    error: Falha na criação do fluxo de trabalho
+  update:
+    success: Fluxo de trabalho atualizado
+    error: Falha na atualização do fluxo de trabalho
+  delete:
+    success: Fluxo de trabalho excluído
+    error: Falha na exclusão do fluxo de trabalho
+  undelete:
+    success: Fluxo de trabalho restaurado
+    error: Falha na restauração do fluxo de trabalho
+session:
+  fetch:
+    error: Falha na busca da sessão
+  trigger:
+    error: Falha na busca do acionador
+  cancel:
+    success: Sessão cancelada
+    error: Falha no cancelamento da sessão
+federation:
+  fetch:
+    error: Falha na busca do nó
+  create:
+    success: Nó criado
+    error: Falha na criação do nó
+  update:
+    success: Nó atualizado
+    error: Falha na atualização do nó
+  delete:
+    success: Nó excluído
+    error: Falha na exclusão do nó
+  undelete:
+    success: Nó restaurado
+    error: Falha na restauração do nó
+  url:
+    error: Falha na busca do URL gerado
+  email:
+    success: E-mail enviado
+    error: Falha ao enviar e-mail
+  pair:
+    success: Nó emparelhado
+    error: Falha ao emparelhar o nó
+  handshake:
+    success: Aperto de mão concluído emparelhado
+    error: Falha no aperto de mão
+sensitivityLevel:
+  create:
+    success: Nível de sensibilidade criado
+    error: Falha na criação do nível de sensibilidade
+  delete:
+    success: Nível de sensibilidade excluído
+    error: Falha na exclusão do nível de sensibilidade
+  fetch:
+    success: Nível de sensibilidade obtido
+    error: Falha na busca do nível de sensibilidade
+  undelete:
+    success: Nível de sensibilidade restaurado
+    error: Falha na restauração do nível de sensibilidade
+  update:
+    success: Nível de sensibilidade atualizado
+    error: Falha na atualização do nível de sensibilidade
+settings:
+  system:
+    fetch:
+      error: Falha na busca das configurações do sistema
+    auth:
+      success: Configurações de autenticação atualizadas
+      error: Falha na atualização das configurações de autenticação
+    external:
+      success: Configurações externas atualizadas
+      error: Falha na atualização das configurações externas
+    bgScreen:
+      style:
+        success: Estilos de plano de fundo de autenticação atualizados
+        error: Falha na atualização dos estilos de plano de fundo de autenticação
+    smtpCheck:
+      success: Verificação de configuração SMTP aprovada
+      error: Falha na verificação da configuração SMTP
+    apigw:
+      success: Configurações do gateway de integração salvas
+      error: Falha na atualização das configurações do gateway de integração
+  compose:
+    fetch:
+      error: Falha na busca das configurações de composição
+    update:
+      success: Configurações de redação atualizadas
+      error: Falha na atualização das configurações de composição
+  ui:
+    fetch:
+      error: Falha na busca das configurações da IU
+    update:
+      success: Configurações da IU atualizadas
+      error: Falha na atualização das configurações da IU
+permissions:
+  fetch:
+    error: Falha na busca de permissões
+  update:
+    success: Permissões atualizadas
+    error: Falha na atualização das permissões
+  clone:
+    success: Permissões clonadas
+    error: Falha na clonagem de permissões
+  role:
+    error: Falha ao adicionar função
+connection:
+  fetch:
+    error: Falha na busca de conexão
+  update:
+    success: Conexão atualizada
+    error: Falha na atualização da conexão
+  create:
+    success: Conexão criada
+    error: Falha ao criar conexão
+  delete:
+    success: Conexão excluída
+    error: Falha ao excluir conexão
+  undelete:
+    success: Conexão restaurada
+    error: Falha na restauração da conexão

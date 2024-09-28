@@ -1,0 +1,120 @@
+automation:
+  add: Adicionar script
+  edit:
+    asyncHelp: Não espere pelos resultados e ignore os erros. Incompatível com
+      sinalizador crítico.
+    asyncLabel: Execute este script de forma assíncrona
+    codeTabLabel: Código
+    criticalHelp: Aguarde até que este script seja executado. Em caso de erros,
+      abortar a execução de outros scripts e disparar antes*
+    criticalLabel: Roteiro crítico
+    delete: Excluir roteiro
+    enabledHelp: Scripts desabilitados serão ignorados
+    enabledLabel: Habilitado
+    mailAutomationTriggers:
+      addMatcher: Adicionar condição
+      addTrigger: Adicionar gatilho
+      delete: Excluir gatilho
+      deleteTrigger: Excluir
+      enable: Habilitar gatilho
+      matchAll: Deve atender a todas as condições
+      matcher:
+        fields:
+          bcc: CCO
+          cc: CC
+          from: De
+          placeholder: Campo de cabeçalho de correio
+          replyTo: Responder para
+          subject: Assunto
+          to: Para
+        match: Valor a combinar
+        operators:
+          equal-ci: Partida completa
+          placeholder: Operador
+          prefix-ci: Prefixo de correspondência
+          regex: Regex
+          suffix-ci: Sufixo de correspondência
+          user: Usuário existente
+      tabLabel: Gatilhos de correio
+    nameLabel: Nome
+    namePlaceholder: Nome do script de automação
+    runAsCurrentUser: Executar como "{{ user }}"
+    runAsHelp: Corredor de script
+    scheduledTriggers:
+      tabLabel: Agendado
+    securityLabel: Segurança
+    settingsTabLabel: Configurações
+    timeoutHelp: Quanto tempo esperamos antes de abortar o script? Valor em
+      milissegundos (1000ms = 1s). O padrão (quando 0) é 2s com 30s como máximo.
+      Consulte seu administrador para saber os números exatos e as limitações.
+    timeoutLabel: Tempo limite de execução do script
+    timeoutPlaceholder: "1500"
+    title: Script de automação
+    userPickerPlaceholder: Selecione o usuário
+  import: Importar scripts de automação
+  list:
+    column:
+      label:
+        async: Assíncrono
+        critical: Crítico
+        enabled: Habilitado
+        runAs: Executar como
+        runInUA: No navegador
+    unnamed: (Roteiro sem nome)
+  manage: Gerenciar scripts de automação ({{count}})
+  manage-id-permissions: Gerenciar permissões para este script
+  manage-wc-permissions: Gerenciar permissões para todos os scripts
+  newLabel: Crie um novo script
+  newPlaceholder: Nome do roteiro
+  testing:
+    load: Carregar
+    parametersHeadline: "Parâmetros e carga útil:"
+    resultsHeadline: "Resultados:"
+    testInBrowser: Teste no navegador
+    testInCorredor: Teste no Corredor
+    warning: ""
+  title: Lista de script de automação
+general:
+  resource-list:
+    no-items: Nenhuma correspondência para sua pesquisa
+  notFound: Não encontrado
+  loading: Carregando
+  label:
+    no: Não
+    submit: Enviar
+    yes: Sim
+    selectOption: Selecione uma opção
+  logout: Sair
+  noAccess: Você não tem permissão para acessar o painel do administrador
+  pagination:
+    next: Próximo
+    prev: Anterior
+    showing: "{{from}} - {{to}} de {{count}} {{data}}"
+    single: Um {{data}}
+    single_plural: "{{count}} {{data}}"
+navigation:
+  adminPanel: Painel de administração
+  automation: Automação
+  chart: Gráficos
+  configuration: Configuração
+  help:
+    documentation: Documentação
+    feedback: Enviar comentários
+    forum: Ajuda
+    version: "Versão:"
+  module: Módulos
+  more: Mais
+  namespace: Espaços para nome
+  noPageTitle: Sem título de página
+  page: Páginas
+  publicPages: Páginas públicas
+  userSettings:
+    changePassword: Alterar a senha
+    loggedInAs: Conectado como {{user}}
+    logout: Sair
+    profile: Perfil
+picker:
+  role:
+    placeholder: Comece a digitar para procurar funções
+  member:
+    placeholder: Comece a digitar para pesquisar usuários

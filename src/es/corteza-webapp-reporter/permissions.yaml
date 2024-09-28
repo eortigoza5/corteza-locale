@@ -1,0 +1,54 @@
+ui:
+  save: Guardar cambios
+  cancel: Cancelar
+  set-for: Establecer permisos para {{target}}
+  loading: Permisos de carga
+  label: Permisos
+  edit:
+    label: Roles de usuario
+    description: Seleccione rol para establecer permisos
+  evaluate:
+    description: Evaluar los permisos aplicados
+  add:
+    label: Agregar
+    title: Evaluar permisos
+    save: Guardar y cerrar
+    role:
+      label: Roles
+      placeholder: Seleccionar rol(es)
+    user:
+      label: Usuarios
+      placeholder: Buscar o seleccionar un usuario
+  tooltip:
+    unknown-context:
+      user: No se puede evaluar el permiso para un usuario con rol contextual en un
+        recurso no específico
+      role: No se puede evaluar el permiso para el rol contextual en un recurso no
+        específico
+  access:
+    allow: Permitir
+    inherit: Heredar
+    deny: Denegar
+resources:
+  system:
+    report:
+      all: todos los informes
+      specific: informar "{{target}}"
+      tooltip: Permisos de informes
+      operations:
+        delete:
+          description: ""
+          specific: Eliminar informe "{{target}}"
+          title: Eliminar cualquier informe
+        read:
+          description: ""
+          specific: Leer informe "{{target}}"
+          title: Leer cualquier informe
+        run:
+          description: ""
+          specific: Ejecutar informe "{{target}}"
+          title: Ejecute cualquier informe
+        update:
+          description: ""
+          specific: Actualizar informe "{{target}}"
+          title: Actualizar cualquier informe

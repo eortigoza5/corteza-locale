@@ -1,0 +1,18 @@
+notification:
+  search-error: Ocorreu um problema ao obter o resultado da pesquisa
+input-placeholder: Insira o texto de pesquisa
+card:
+  button-text: Mostrar mais
+  type: Tipo
+  handle: Lidar
+  namespace: Espaço para nome
+  module: Módulo
+  user: Usuário
+  email: E-mail
+  record: Registro
+  fields: Campos
+tooltip:
+  map: Alternar mapa
+range: Mostrando {{actual}} de {{all}} resultados
+discovering: Descobrindo
+no-results: Nenhum resultado

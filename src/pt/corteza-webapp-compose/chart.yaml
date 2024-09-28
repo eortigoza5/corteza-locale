@@ -1,0 +1,247 @@
+colorLabel: "{{count}} cores"
+colorScheme:
+  label: Esquema de cores
+  placeholder: Escolha um esquema de cores
+  pickAColor: Escolha uma cor
+  custom:
+    add: Adicionar esquema de cores
+    edit: Editar esquema de cores
+    modal:
+      name:
+        label: Nome
+      colors:
+        label: Cores
+configure:
+  reportsLabel: Relatórios
+general:
+  label:
+    title: Rótulo
+    add: Adicionar
+  value: Valor
+  placeholder:
+    handle: alça (a - z, 0 - 9, sublinhado, traço)
+    invalid-handle-characters: Deve ter pelo menos 2 caracteres. Pode conter apenas
+      letras, números, travessões, sublinhados e pontos. Deve terminar com letra
+      ou número
+edit:
+  animation:
+    label: Animação
+    enabled: Animação ativada
+  dimension:
+    calculateLabelCount: Calcule quantos rótulos podem ser mostrados
+    defaultValueFootnote: Use este valor para valores de dimensão ausentes
+    defaultValueLabel: Valor padrão
+    fieldLabel: Campo *
+    fieldPlaceholder: Selecione um campo de dimensão
+    function:
+      placeholder: Selecione o modificador de dimensão (tamanho do intervalo)
+      none: Sem agrupamento
+      auto: Auto
+      date: Data
+      label: Função
+      month: Mês
+      quarter: Trimestre
+      week: Semana
+      year: Ano
+    gaugeSteps: Passos
+    label: Dimensões
+    skipMissingValues: Ignorar valores ausentes
+    timeLabels: Rótulos de tempo
+    options:
+      label: Opções
+    optionsPicker:
+      searchPlaceholder: Digite aqui para pesquisar entre as opções selecionadas
+      availableItems: Opções disponíveis
+      selectAllItems: Selecionar tudo
+      selectedItems: Opções selecionadas
+      unselectAllItems: Desmarcar tudo
+      noItemsFound: Nenhuma opção encontrada
+    rotate:
+      label: Girar rótulos
+      description: As etiquetas podem ser giradas de -90 a 90 graus.
+  filter:
+    customize: Personalizar filtro
+    label: Filtro
+    preset: Filtros predefinidos
+    footnote: A sintaxe de condição SQL simplificada (WHERE ...) é suportada.
+      Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando
+      disponíveis)
+    placeholder: campo1 = 1 E campo2 = 232
+    noFilter: Selecione um filtro ou crie um personalizado
+    recordsCreatedLastMonth: Registros criados no mês passado
+    recordsCreatedLastQuarter: Registros criados no último trimestre
+    recordsCreatedLastYear: Registros criados no ano passado
+    recordsCreatedThisMonth: Registros criados este mês
+    recordsCreatedThisQuarter: Registros criados neste trimestre
+    recordsCreatedThisYear: Registros criados este ano
+  loadData: Carregar dados
+  metric:
+    add: Adicionar métrica
+    fieldLabel: Campo *
+    fieldPlaceholder: Selecione o campo de métrica
+    fillArea: Preencha a área abaixo da linha
+    fixTooltips: Sempre mostrar rótulos
+    options:
+      label: Opções
+    function:
+      avg: Média
+      label: Função
+      max: MÁX.
+      min: MÍNIMO
+      placeholder: Selecione a função agregada de métrica
+      std: DST
+      sum: SOMA
+    fx:
+      description: n - valor do conjunto de dados atual, m - valor do conjunto de
+        dados anterior
+      label: Função de pós-processamento
+    stack:
+      label: Pilha
+      description: Métricas com o mesmo valor serão empilhadas
+    lineStyle:
+      label: Estilo de linha
+      default: Padrão
+      smooth: Suave
+      step: Etapa
+    angle:
+      start: Ângulo inicial
+      end: Ângulo final
+    rose: Rosa
+    radar:
+      shape:
+        label: Formato do radar
+        polygon: Polígono
+        circle: Círculo
+    gaugeColor: Cor
+    label: Métrica
+    labelColor: Cor da etiqueta
+    labelLabel: Rótulo
+    labelPlaceholder: Total
+    symbol:
+      label: Símbolo
+      circle: Círculo
+      triangle: Triângulo
+      diamond: Diamante
+      pin: Alfinete
+      arrow: Seta
+      rect: Retângulo
+      roundRect: Retângulo arredondado
+    legend:
+      bottom: Fundo
+      left: Esquerda
+      positionPlaceholder: Posição da legenda
+      right: Certo
+      top: Principal
+    lineTension:
+      curvy: Grandes curvaturas
+      label: Tensão da linha
+      medium: Curvaturas médias
+      placeholder: Tensão da linha
+      slight: Pequenas curvaturas
+      straight: Linhas retas
+    output:
+      bar: Bar
+      doughnut: Rosquinha
+      label: Tipo de gráfico *
+      line: Linha
+      pie: Torta
+      scatter: Dispersão
+      placeholder: Selecione a saída métrica
+    relative: Mostrar valor relativo
+    relativePrecision: "Precisão:"
+    cumulative: Cumulativo
+    title: Métricas
+  module:
+    label: Módulo *
+    placeholder: Escolha um módulo
+    title: Fonte de dados
+  title: Construtor de gráficos
+  unconfiguredReport: Relatório não configurado
+  yAxis:
+    axisOnRight: Coloque o eixo no lado direito
+    axisScaleFromZero: Sempre comece a escala do eixo em zero
+    label: Eixo Y
+    options:
+      label: Opções
+    rotate:
+      label: Girar rótulos
+      description: As etiquetas podem ser giradas de -90 a 90 graus
+    labelLabel: Etiqueta do eixo
+    labelPosition:
+      label: Posição da etiqueta
+      top: Começar
+      center: Centro
+      bottom: Fim
+    horizontal:
+      label: Horizontal
+    logarithmicScale: Escala logarítmica
+    maxLabel: Valor máximo
+    maxPlaceholder: Valor máximo
+    minLabel: Valor mínimo
+    minPlaceholder: Valor mínimo
+  additionalConfig:
+    legend:
+      label: Lenda
+      show: Mostrar legenda
+      orientation:
+        label: Orientação
+        horizontal: Horizontal
+        vertical: Vertical
+      align:
+        label: Alinhar
+        left: Esquerda
+        right: Certo
+        center: Centro
+      scrollable: Rolável
+      position:
+        customize: Posição padrão
+        top: Principal
+        right: Certo
+        bottom: Fundo
+        left: Esquerda
+      valueRange: Os valores podem ser definidos como pixels 20 ou como porcentagens 20%
+      options:
+        label: Opções
+    tooltip:
+      label: Dica
+      labelNextToChart: Mostrar rótulos ao lado do gráfico
+      formatting:
+        label: Formatação
+        description: "{a} - rótulo de métricas, {b} - valor da dimensão, {c} - valor da
+          métrica, {d} - porcentagem do valor da métrica"
+        placeholder: "{a}<br />{b}: {c} ({d}%)"
+    offset:
+      label: Desvio
+      default: Deslocamento padrão
+      position:
+        top: Principal
+        right: Certo
+        bottom: Fundo
+        left: Esquerda
+      valueRange: Os valores podem ser definidos como pixels 20 ou como porcentagens 20%
+  toolbox:
+    label: Ferramentas
+    saveAsImage:
+      label: Mostrar botão "Salvar como imagem"
+    timeline:
+      label: Linha do tempo
+      options:
+        none: Nenhum
+        x: Eixo X
+        y: Eixo Y
+        xy: Ambos
+import: "Gráfico(s) de importação:"
+newLabel: "Crie um novo gráfico:"
+name: Nome do gráfico *
+handle: Lidar
+generalSettings: Configurações gerais
+notification:
+  unsavedChanges: As alterações não salvas serão perdidas. Deseja sair da página?
+  loadFailed: Não foi possível carregar o gráfico
+  saveFailed: Não foi possível salvar este gráfico
+  saved: Gráfico salvo
+  deleteFailed: Não foi possível excluir este gráfico
+  deleted: Gráfico excluído
+searchPlaceholder: Digite aqui para pesquisar todos os gráficos neste namespace
+title: Lista de gráficos
+undefined: indefinido

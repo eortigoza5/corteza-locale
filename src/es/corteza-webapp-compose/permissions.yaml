@@ -1,0 +1,226 @@
+ui:
+  save: Guardar cambios
+  cancel: Cancelar
+  set-for: Establecer permisos para {{target}}
+  loading: Permisos de carga
+  label: Permisos
+  edit:
+    label: Roles de usuario
+    description: Seleccione rol para establecer permisos
+  evaluate:
+    label: Evaluar
+    description: Evaluar los permisos aplicados
+  add:
+    label: Agregar
+    title: Evaluar permisos
+    save: Guardar y cerrar
+    role:
+      label: Roles
+      placeholder: Seleccionar rol(es)
+    user:
+      label: Usuarios
+      placeholder: Buscar o seleccionar un usuario
+  tooltip:
+    unknown-context:
+      user: No se puede evaluar el permiso para un usuario con rol contextual en un
+        recurso no específico
+      role: No se puede evaluar el permiso para el rol contextual en un recurso no
+        específico
+  access:
+    allow: Permitir
+    inherit: Heredar
+    deny: Denegar
+resources:
+  compose:
+    chart:
+      all: todos los gráficos
+      specific: gráfico "{{target}}"
+      tooltip: Permisos de gráficos
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar gráfico "{{target}}"
+          title: Eliminar cualquier gráfico
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer gráfico "{{target}}"
+          title: Leer cualquier gráfico
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar gráfico "{{target}}"
+          title: Actualizar cualquier gráfico
+    module:
+      all: todos los módulos
+      specific: módulo "{{target}}"
+      tooltip: Permisos del módulo
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar módulo "{{target}}"
+          title: Eliminar cualquier módulo
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer módulo "{{target}}"
+          title: Leer cualquier módulo
+        record.create:
+          description: "Predeterminado: negar"
+          specific: Crear registro del módulo "{{target}}"
+          title: Crear registro de cualquier módulo.
+        records.search:
+          description: "Predeterminado: negar"
+          specific: Listar y buscar registros del módulo "{{target}}"
+          title: Listar y buscar registros de cualquier módulo.
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar módulo "{{target}}"
+          title: Actualiza cualquier módulo
+        owned-record.create:
+          description: "Predeterminado: negar"
+          specific: Administrar propietario al crear el registro "{{target}}"
+          title: Administrar propietario al crear un registro de cualquier módulo
+          all-specific: Administrar propietario al crear el registro del módulo "{{ target
+            }}"
+    module-field:
+      all: todos los campos del módulo
+      specific: campo "{{target}}"
+      all-specific: todos los campos del módulo "{{ target }}"
+      tooltip: Permisos de campo del módulo
+      operations:
+        record.value.read:
+          description: "Predeterminado: negar"
+          specific: Leer los campos del registro "{{target}}"
+          title: Leer campos de registro de cualquier módulo.
+          all-specific: Leer campos de registro del módulo "{{ target }}"
+        record.value.update:
+          description: "Predeterminado: negar"
+          specific: Actualizar los campos del registro "{{target}}"
+          title: Actualizar campos de registro de cualquier módulo.
+          all-specific: Actualizar campos de registro del módulo "{{ target }}"
+    namespace:
+      all: todos los espacios de nombres
+      specific: espacio de nombres "{{target}}"
+      tooltip: Permisos de espacio de nombres
+      operations:
+        chart.create:
+          description: ""
+          specific: Crear gráficos en el espacio de nombres "{{target}}"
+          title: Cree gráficos bajo cualquier espacio de nombres
+        charts.search:
+          description: ""
+          specific: Listar y buscar gráficos en el espacio de nombres "{{target}}"
+          title: Listar y buscar gráficos bajo cualquier espacio de nombres.
+        delete:
+          description: ""
+          specific: Eliminar el espacio de nombres "{{target}}"
+          title: Eliminar cualquier espacio de nombres
+        manage:
+          description: Permitir el acceso a las páginas de administración del espacio de
+            nombres
+          specific: Administrar el espacio de nombres "{{target}}"
+          title: Administrar cualquier espacio de nombres
+        module.create:
+          description: ""
+          specific: Crear módulos en el espacio de nombres "{{target}}"
+          title: Crea módulos bajo cualquier espacio de nombres.
+        modules.search:
+          description: ""
+          specific: Enumere y busque módulos en el espacio de nombres "{{target}}"
+          title: Listar y buscar módulos bajo cualquier espacio de nombres.
+        page.create:
+          description: ""
+          specific: Crear páginas bajo el espacio de nombres "{{target}}"
+          title: Crea páginas bajo cualquier espacio de nombres.
+        pages.search:
+          description: ""
+          specific: Enumere y busque páginas en el espacio de nombres "{{target}}"
+          title: Listar y buscar páginas bajo cualquier espacio de nombres.
+        read:
+          description: ""
+          specific: Leer el espacio de nombres "{{target}}"
+          title: Leer cualquier espacio de nombres
+        update:
+          description: ""
+          specific: Actualizar el espacio de nombres "{{target}}"
+          title: Actualizar cualquier espacio de nombres
+    page:
+      all: todas las paginas
+      specific: página "{{target}}"
+      tooltip: Permisos de página
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar página "{{target}}"
+          title: Eliminar cualquier página
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer la página "{{target}}"
+          title: Leer cualquier página
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar página "{{target}}"
+          title: Actualiza cualquier página
+        page-layout.create:
+          description: "Predeterminado: negar"
+          specific: Crear diseños de página para la página "{{target}}"
+          title: Crear diseño de página
+        page-layouts.search:
+          description: "Predeterminado: negar"
+          specific: Listar diseños de página para la página "{{target}}"
+          title: Diseño de página de lista
+    page-layout:
+      all: todos los diseños de página
+      specific: diseño de página "{{target}}"
+      tooltip: Permisos de diseño de página
+      all-specific: todos los diseños de página de la página "{{ target }}"
+      operations:
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer el diseño de página "{{target}}"
+          title: Leer cualquier diseño de página
+          all-specific: Leer diseños de página de la página "{{ target }}"
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar el diseño de la página "{{target}}"
+          title: Actualiza cualquier diseño de página
+          all-specific: Actualizar diseños de página de la página "{{ target }}"
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar el diseño de página "{{target}}"
+          title: Eliminar cualquier diseño de página
+          all-specific: Eliminar diseños de página de la página "{{ target }}"
+    record:
+      all: todos los registros
+      specific: registrar "{{target}}"
+      all-specific: todos los registros del módulo "{{ target }}"
+      tooltip: Permisos de registro
+      operations:
+        delete:
+          description: "Predeterminado: negar"
+          specific: Eliminar registro "{{target}}"
+          title: Eliminar registros de cualquier módulo
+          all-specific: Eliminar registros del módulo "{{ target }}"
+        undelete:
+          description: "Predeterminado: negar"
+          specific: Restaurar registro "{{target}}"
+          title: Restaurar registros de cualquier módulo.
+          all-specific: Restaurar registros del módulo "{{ target }}"
+        read:
+          description: "Predeterminado: negar"
+          specific: Leer registro "{{target}}"
+          title: Leer registros de cualquier módulo.
+          all-specific: Leer registros del módulo "{{ target }}"
+        update:
+          description: "Predeterminado: negar"
+          specific: Actualizar registro "{{target}}"
+          title: Actualizar registros de cualquier módulo.
+          all-specific: Actualizar registros del módulo "{{ target }}"
+        owner.manage:
+          description: "Predeterminado: negar"
+          specific: Administrar propietario del registro "{{target}}"
+          title: Gestionar propietarios de registros de cualquier módulo
+          all-specific: Administrar propietarios de registros del módulo "{{ target }}"
+        revisions.search:
+          description: "Predeterminado: negar"
+          specific: Acceder a revisiones del registro "{{target}}"
+          title: Acceder a revisiones de registros
+          all-specific: Acceder a revisiones de registros

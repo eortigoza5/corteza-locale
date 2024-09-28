@@ -1,0 +1,164 @@
+title: Puerta de enlace de integración
+list:
+  export: Exportar
+  title: Rutas
+  new: Nueva ruta
+  permissions: Permisos
+  profiler: perfilador
+  yaml: YAML
+  loading: Cargando rutas
+  numFound: "{{count}} ruta encontrada"
+  numFound_plural: "{{count}} rutas encontradas"
+  filterForm:
+    query:
+      label: Filtrar lista de rutas
+      placeholder: Filtrar rutas por nombre
+    excluded:
+      label: Sin
+    inclusive:
+      label: Incluido
+    exclusive:
+      label: Solo
+    deleted:
+      label: rutas eliminadas
+    handle:
+      placeholder: Filtrar puntos finales por ruta
+  delete: Borrar
+  undelete: Recuperar
+  columns:
+    endpoint: Punto final
+    createdAt: Creado
+    enabled: Activado
+    method: Método
+    actions: ""
+    state: Estado
+  rows:
+    filters:
+      deleted: Eliminado
+settings:
+  title: Ajustes
+  profiler:
+    label: perfilador
+    enabled: Activado
+    global: Habilitado globalmente
+  proxy:
+    label: Apoderado
+    follow: Seguir redirecciones
+editor:
+  title: Editar ruta
+  new: Nueva ruta
+  permissions: Permisos
+  info:
+    title: Información básica
+    id: IDENTIFICACIÓN
+    endpoint: Punto final
+    method: Método
+    description: Descripción
+    enabled: Activado
+    delete: Borrar
+    undelete: Recuperar
+    deletedAt: Eliminado en
+    updatedAt: Actualizado en
+    createdAt: Creado en
+    createdBy: Creado por
+    tooltip: El punto final debe comenzar con una barra diagonal "/" y no puede
+      contener ningún carácter especial excepto el guión bajo "_" y el guión
+      "-".
+    validation:
+      slash: El punto final debe comenzar con una barra diagonal "/"
+      minLength: El punto final debe contener al menos un carácter
+      invalidCharacters: El punto final contiene caracteres no válidos
+  filters:
+    title: Lista de filtros
+    enabled: Activado
+    disabled: Desactivado
+    add: Agregar
+    addFilter: Agregar filtro
+    addHeader: Agregar encabezado
+    params: parámetros
+    filterListEmpty: ¡La lista de filtros está vacía!
+    modal:
+      title: Verificador de parámetros de consulta
+      ok: Guardar y cerrar
+    step_title:
+      prefilter: Prefiltrado
+      processer: Tratamiento
+      postfilter: Postfiltrado
+    list:
+      remove: Eliminar
+      filters: Filtros
+      status: Estado
+      actions: Comportamiento
+      active: Activo
+      noFilters: Sin filtros
+    labels:
+      expr: Expresión
+      location: URL
+      workflow: Flujo de trabajo
+      status: Estado HTTP
+      jsfunc: Función
+      input: Aporte
+      header: Encabezados
+      name: Nombre
+      value: Valor
+    httpStatus:
+      "300": 300 - Múltiples opciones
+      "301": 301 - Movido permanentemente
+      "302": 302 - Encontrado
+      "303": 303 - Ver Otros
+      "304": 304 - No modificado
+      "307": 307 - Redirección temporal
+      "308": 308 - Redirección permanente
+      none: Sin estado
+    placeholders:
+      workflow: Seleccione un flujo de trabajo
+    help:
+      expression:
+        example: Ejemplo == "cadena coincidente" && coincidencia(SecondParam,
+          "^foo\\s.*$")
+        link: Documentación
+profiler:
+  label: perfilador
+  title: Perfilador de puerta de enlace de integración
+  refreshingIn: Actualizando en {{seconds}}s
+  description:
+    globalEnabled: Mostrando rutas para todas las solicitudes entrantes
+    globalDisabled: Mostrando solo rutas registradas con prefiltro de perfilador
+  purge:
+    all: Solicitudes de purga para todas las rutas
+    this: Solicitudes de purga para esta ruta
+  hit:
+    title: Detalles de la solicitud
+    general:
+      label: General
+      id: Solicitar identificación
+      route: Solicitar ruta
+      URL: Solicitar URL
+      method: Método de solicitud
+      statusCode: Código de estado
+      headers: Encabezados de solicitud
+      remoteAddress: Dirección remota
+      duration: Duración
+      start: Comenzar
+      end: Fin
+      openRoute: Ruta abierta
+    headers:
+      label: Encabezados
+    body:
+      label: Cuerpo
+  columns:
+    actions: ""
+    path: Ruta
+    count: Contar
+    content_length: Longitud del contenido
+    http_method: Método
+    http_status_code: Código de estado
+    size_min: Tamaño (mín.)
+    size_max: Tamaño (máx.)
+    size_avg: Tamaño (promedio)
+    time_min: Tiempo (minutos)
+    time_max: Tiempo (máx.)
+    time_avg: Tiempo (promedio)
+    time_start: Hora de inicio
+    time_finish: Hora de terminar
+    time_duration: Duración

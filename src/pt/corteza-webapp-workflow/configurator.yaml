@@ -1,0 +1,18 @@
+configuration: Configuração
+edge: Borda
+label: Rótulo *
+target: Alvo
+tooltip:
+  run-workflow: Executar fluxo de trabalho
+  configure-step: Configurar etapa
+workflow:
+  run-as: Executar como
+  not-setup-properly: Quando não definido explicitamente, o fluxo de trabalho será
+    executado pelo usuário que o invocou
+  invalid-handle-characters: Deve ter pelo menos 2 caracteres. Pode conter apenas
+    letras, números, travessões, sublinhados e pontos. Deve terminar com letra
+    ou número
+  placeholder-handle: alça (a - z, 0 - 9, sublinhado, traço)
+  sub-workflow:
+    label: Subfluxo de trabalho
+    description: Os subfluxos de trabalho não podem ter gatilhos habilitados

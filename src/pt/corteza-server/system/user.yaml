@@ -1,0 +1,21 @@
+errors:
+  emailNotUnique: e-mail não exclusivo
+  handleNotUnique: lidar não é exclusivo
+  invalidEmail: e-mail inválido
+  invalidHandle: identificador inválido
+  invalidID: ID inválido
+  notAllowedToCreate: não é permitido criar usuários
+  notAllowedToCreateSystem: não é permitido criar usuários do sistema
+  notAllowedToDelete: não é permitido excluir este usuário
+  notAllowedToListUsers: não tem permissão para listar usuários
+  notAllowedToRead: não tem permissão para ler este usuário
+  notAllowedToSearch: não tem permissão para listar ou pesquisar usuários
+  notAllowedToSuspend: não é permitido suspender este usuário
+  notAllowedToUndelete: não é permitido cancelar a exclusão deste usuário
+  notAllowedToUnsuspend: não é permitido cancelar a suspensão deste usuário
+  notAllowedToUpdate: não é permitido atualizar este usuário
+  notAllowedToUpdateSystem: não tem permissão para atualizar usuários do sistema
+  notFound: usuário não encontrado
+  passwordNotSecure: a senha fornecida não é segura; use uma senha mais longa com
+    mais caracteres especiais
+  usernameNotUnique: nome de usuário não é exclusivo

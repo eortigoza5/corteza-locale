@@ -1,0 +1,9 @@
+errors:
+  failedToExtractMimeType: no se pudo extraer el tipo mime
+  failedToProcessImage: no se pudo procesar la imagen
+  failedToStoreFile: no se pudo extraer el archivo de la tienda
+  invalidID: identificación no válida
+  notAllowedToCreate: no se permite crear archivos adjuntos
+  notAllowedToCreateEmptyAttachment: no se permite crear archivos adjuntos vacíos
+  notAllowedToListAttachments: no se permite enumerar archivos adjuntos
+  notFound: archivo adjunto no encontrado

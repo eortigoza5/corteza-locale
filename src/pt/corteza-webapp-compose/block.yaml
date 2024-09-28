@@ -1,0 +1,869 @@
+selector:
+  selectableBlocks:
+    placeholder: Blocos de outros layouts
+  tooltip:
+    clone:
+      ref: Clonar com referências
+      noRef: Clonar sem referências
+automation:
+  addPlaceholderLabel: Adicionar espaço reservado (botão fictício)
+  availableScriptsAndWorkflow: Scripts e fluxos de trabalho disponíveis ({{count}})
+  badge:
+    script: roteiro
+    workflow: fluxo de trabalho
+  buttonLabel: Rótulo
+  buttonVariant: Variante
+  configuredButtons: Botões configurados
+  dummyButtonLabel: Fictício
+  editButton: Editar
+  editTitle:
+    script: Botão Editar script de automação
+    workflow: Botão Editar fluxo de trabalho
+  label: Automação
+  noDescription: Sem descrição
+  noLabel: Sem rótulo
+  noScript: Não há script ou fluxo de trabalho configurado para este botão
+  noScripts: Não há scripts manuais compatíveis com este bloco de páginas
+  removeAll: Remover tudo
+  searchPlaceholder: Filtre os scripts disponíveis por rótulo, nome do script e descrição
+  stepID: "ID da etapa inicial: {{stepID}}"
+  variants:
+    primary: Primário
+    secondary: Secundário
+    light: Luz
+    dark: Escuro
+    success: Sucesso
+    danger: Perigo
+    warning: Aviso
+calendar:
+  addEventsSource: Adicionar fonte de eventos
+  calendarHeader: Cabeçalho do calendário
+  feedLabel: Configurar origem de eventos
+  feedPlaceholder: Selecione uma fonte de evento
+  eventSource: Fonte do evento
+  hideHeader: Ocultar cabeçalho do calendário
+  hideNavigation: Ocultar botão anterior/próximo
+  hideTitle: Ocultar texto do título
+  hideToday: Botão Ocultar hoje
+  label: Calendário
+  recordFeed:
+    colorPicker: Escolha uma cor
+    colorLabel: Cor do evento
+    eventAllDay: Mostrar como eventos de dia inteiro
+    eventEndFieldLabel: Fim do evento
+    eventEndFieldPlaceholder: (Sem campo, evento terá duração de 1 hora)
+    eventStartFieldLabel: Início do evento
+    eventStartFieldPlaceholder: (Sem campo)
+    moduleLabel: Selecione o módulo
+    modulePlaceholder: (Sem módulo)
+    noMultiFields: Campos com vários valores não são suportados no momento
+    optionLabel: Registros
+    prefilterLabel: Eventos de pré-filtro
+    prefilterPlaceholder: campo1 = 1 E campo2 = 232
+    titleLabel: Título
+    titlePlaceholder: (Sem campo)
+  reminderFeed:
+    colorLabel: Cor do evento
+    optionLabel: Lembretes
+  today: Hoje
+  view:
+    dayGridMonth: Mês
+    default: Visualização padrão
+    enabled: Visualizações ativadas
+    footnote: Certifique-se de que o padrão seja uma das visualizações disponíveis
+    listMonth: Agenda
+    timeGridDay: Dia
+    timeGridWeek: Semana
+    onEventClick: No evento clique
+    openInSameTab: Abra o registro na mesma guia
+    openInNewTab: Abrir registro em uma nova aba
+    openInModal: Abrir registro em um modal
+  viewLabel: Calendário
+chart:
+  add: Novo gráfico
+  addFunnel: Gráfico de funil
+  addGauge: Gráfico de medidor
+  addRadar: Gráfico de radar
+  addGeneric: Gráfico genérico
+  createFailed: Não foi possível criar um gráfico
+  columns:
+    name: Nome
+    handle: Lidar
+    changedAt: Última alteração
+  configure:
+    label: Configurar gráfico
+    reportLabel: Relatório {{l}}
+    reportsLabel: Relatórios
+  display: Gráfico a ser exibido dentro deste bloco
+  drillDown:
+    label: Detalhamento
+    description: Se uma lista de registros for selecionada, ela será usada para
+      exibir os dados detalhados. Se nenhuma lista de registros for selecionada,
+      os dados detalhados serão mostrados em um modal.
+    openInModal: Abrir em modo
+  edit:
+    label: Editar gráfico
+    dimension:
+      function:
+        date: DATA
+        label: Função
+        month: MÊS
+        none: (sem agrupamento/depósitos)
+        placeholder: Selecione o modificador de dimensão (tamanho do intervalo)
+        quarter: TRIMESTRE
+        week: SEMANA
+        year: ANO
+  label: Gráfico
+  pick: Escolha um gráfico
+  delete: Excluir
+  preview:
+    chartId: Visualização do gráfico (ID {{0}})
+  searchPlaceholder: Digite aqui para pesquisar todos os gráficos neste namespace
+  openInBuilder: Abrir no construtor de gráficos
+content:
+  ok: OK
+  label: Contente
+  openLinkInNewTab: Abrir link em uma nova aba
+  urlPlaceholder: https://example.tld
+file:
+  label: Arquivo
+  preview:
+    label: Bloco de arquivo
+general:
+  descriptionLabel: Descrição
+  descriptionPlaceholder: Descrição do bloco
+  headerStyle: Estilo de cabeçalho do bloco (cor)
+  magnifyLabel: Ampliação de bloco
+  magnifyOptions:
+    disabled: Desabilitado
+    modal: Modal
+    fullscreen: Tela cheia
+  wrap: Exibir bloco como um cartão
+  hidden:
+    label: Escondido
+  refresh:
+    label: Atualizar
+    auto: Atualização automática
+    show: Mostrar botão de atualização
+    description: Definir o valor para 5 segundos ou mais permite a atualização automática
+    rate: segundos
+  border:
+    show: Mostrar borda
+  label:
+    add: Adicionar
+    back: Voltar
+    edit: Editar
+    general: Em geral
+    import: Importar
+    next: Próximo
+    none: Nenhum
+    ok: OK
+    permissions: Permissões
+    remove: Remover
+    save: Salvar
+    cancel: Cancelar
+    search: Procurar
+    refresh: Atualizar bloco
+    magnify: Ampliar bloco
+    and: E
+  module: Módulo
+  style:
+    danger: Variante de perigo
+    default: Variante escura
+    primary: Variante primária
+    secondary: Variante secundária
+    success: Variante de sucesso
+    warning: Variante de aviso
+  title: Adicionar novo bloco
+  titleLabel: Título
+  titlePlaceholder: Título do bloco
+  tooltip:
+    dragAndDrop: Arraste e solte para alterar a ordem
+    translations: Traduções de campo
+iframe:
+  label: IFrame
+  pickURLField: Escolha um campo de URL
+  srcDesc: Usado como substituto quando definido em combinação com o campo de registro.
+  srcFieldDesc: Disponível apenas em páginas de registro e em módulos com campo do
+    tipo "url" existente
+  srcFieldLabel: Campo (URL) do registro a ser usado para o iframe
+  srcLabel: URL para mostrar no iframe
+metric:
+  metricDrillDown: Detalhamento de métricas
+  defaultMetricLabel: Métrica sem nome
+  drillDown:
+    label: Detalhamento
+    description: Se uma lista de registros for selecionada, ela será usada para
+      exibir os dados detalhados. Se nenhuma lista de registros for selecionada,
+      os dados detalhados serão mostrados em um modal.
+    openInModal: Abrir em modo
+  edit:
+    bucketLabel: Tamanho do balde
+    bucketPlaceholder: Selecione um tamanho de balde
+    dateFormat: Formato de data
+    dimensionFieldLabel: Campo
+    dimensionFieldPlaceholder: Campo de dimensão
+    dimensionLabel: Dimensão
+    filterLabel: Filtro
+    filterFootnote: A sintaxe de condição SQL simplificada (WHERE ...) é suportada.
+      Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando
+      disponíveis)
+    transformFootnote: Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas
+      (quando disponíveis). Certifique-se de colocar as variáveis ​​entre aspas
+      ("")
+    labelLabel: Rótulo
+    labelPlaceholder: Rótulo
+    metricFieldLabel: Campo
+    metricFieldPlaceholder: Campo de dimensão
+    metricLabel: Métrica
+    metricFieldSelect: Selecione o campo
+    metricSelectAggregate: Selecione a operação de agregação
+    metricAggregateLabel: Operação de agregação
+    moduleLabel: Módulo
+    modulePlaceholder: Escolha um módulo
+    numberFormat: Formato numérico
+    operationAvg: Média
+    operationLabel: Operação de agregação
+    operationMax: Máx.
+    operationMin: Mínimo
+    operationPlaceholder: Operação de agregação
+    operationStd: Padrão
+    operationSum: Soma
+    prefixLabel: Prefixo
+    refreshData: Atualizar dados
+    suffixLabel: Sufixo
+    tabTitle: Métrica
+    transformFunctionDescription: v - valor atual; rótulo - rótulo do valor atual
+    transformFunctionLabel: Valor de transformação
+  editStyle:
+    backgroundColor: Cor de fundo
+    color: Cor do texto
+    colorPicker: Escolha uma cor
+    fontSize: Tamanho da fonte em pixels
+    labelLabel: Estilo de etiqueta
+    valueLabel: Estilo de valor
+  label: Métrica
+record:
+  referenceRecordField: Campo de registro de referência
+  referenceRecordFieldPlaceholder: Selecione o seletor de registro de referência
+  referenceRecordFieldDescription: Os campos do seletor de registros de vários valores não estão disponíveis
+  confirmDelete: Tem certeza de que deseja excluir este registro?
+  deleteFailed: Não foi possível excluir o registro
+  deleteRecord: Excluir registro
+  invalidOwnerVar: Não é possível usar a variável ${ownerID} em páginas sem registro
+  invalidRecordVar: Não é possível usar a variável ${record...} em páginas sem registro
+  label: Registro
+  listLoadFailed: Não foi possível carregar a lista de registros
+  moduleOrPageNotSet: "Erro de bloco RecordList: opção de módulo ou página não definida"
+  moduleMismatch: Módulo incompatível, módulo incompatível
+  horizontalFormLayout: Layout de formulário horizontal
+  inlineEdit:
+    enabled: Edição de valor in-line ativada
+  preview:
+    blockNoRecord: Não é possível renderizar este bloco sem um registro
+    fieldsFromModule: Bloco de registro único, exibindo campos ({{0}}) do módulo {{1}}
+    untitled: Sem título
+  recordDeleted: Este registro foi excluído
+  recordSelectorDisplayOptions: No seletor de registros clique
+  openInSameTab: Abra o registro na mesma guia
+  openInNewTab: Abrir registro em uma nova aba
+  openInModal: Abrir registro em um modal
+  fieldConditions:
+    label: Campos condicionais
+    action: + Adicionar
+    placeholder: Quando este campo deve ser exibido?
+    selectPlaceholder: Selecione o campo
+    help: Exemplo
+    field: Campo
+    condition: Doença
+    tooltip:
+      performance: O uso de campos condicionais afetará o desempenho
+recordList:
+  addRecord: Adicionar
+  cancelSelection: Cancelar
+  customFilter: Filtro personalizado
+  filterPresets:
+    filterName: Nome do filtro
+    saveFilterAsPreset: Salvar filtro como predefinido
+  inlineEdit:
+    enabled: Edição de valor in-line ativada
+    button:
+      title: Editar valor
+    modal:
+      title: Atualizar valores de registro
+  bulkRecord:
+    title: Atualizar registros selecionados
+    field:
+      add: Adicione um campo para atualizar
+      addAnother: Adicione outro campo para atualizar
+      remove: Remover campo
+    reset: Reiniciar
+  drillDown:
+    filter:
+      label: Filtro detalhado
+  tooltip:
+    deleteSelected: Excluir registros selecionados
+    performance:
+      impact: O uso deste recurso afetará o desempenho
+      moduleFields: Selecionar um grande número de campos ou exibir campos de
+        registro/usuário afetará o desempenho
+      perPage: Exibir uma grande quantidade de registros por página afetará o
+        desempenho, especialmente se você estiver exibindo campos de
+        registro/usuário
+    restoreSelected: Restaurar registros selecionados
+  editFields: Campos de módulo editáveis
+  export:
+    all: Exportar todos os registros
+    allow: Os usuários poderão exportar registros
+    csv: Exportação CSV
+    dateRange: Selecione o período
+    query:
+      label: Consulta de pesquisa
+      placeholder: Procurar...
+    filter:
+      label: Filtro de registro
+      placeholder: campo1 = 1 E campo2 = 232
+      footnote: A sintaxe de condição SQL simplificada (WHERE ...) é suportada.
+        Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando
+        disponíveis)
+      createdAt: Registro criado
+      custom: Personalizado
+      lastMonth: Mês passado
+      lastWeek: Semana passada
+      thisMonth: Este mês
+      thisWeek: Essa semana
+      today: Hoje
+      from: De
+      to: Para
+      updatedAt: Registro atualizado
+    inRange: Período
+    includeQuery: Filtrar por consulta de pesquisa
+    json: Exportação JSON
+    limitations: "Limitação de exportação de CSV: apenas o primeiro valor nos campos
+      de vários valores será exportado"
+    rangeBy: Definir intervalo por
+    recordCount: "{{count}} registros prontos para exportação"
+    selectFields: "Selecione os campos que deseja exportar:"
+    selection: Registros selecionados
+    specifyTimezone: Exportar para fuso horário
+    timezonePlaceholder: Selecione o fuso horário
+    datePresetUndefined: Predefinição de data desconhecida
+  federated: Federado
+  fields: Campos do módulo
+  filter:
+    addField: Adicionar novo campo de filtro
+    byValue: Filtrar registros com base no valor do campo
+    addFilterToPreset: Salvar como predefinição
+    conditions:
+      and: E
+      or: OU
+    deletedRecords: Registros excluídos
+    field: Campo de filtro
+    fieldPlaceholder: Escolha um campo
+    fieldValue: Valor do campo
+    fieldValuePlaceholder: Filtro de campo de entrada
+    including: Incluindo
+    label: Filtro
+    note: "Nota: Se o valor do campo for indefinido, o filtro procurará registros
+      onde esse valor do campo for indefinido."
+    only: Apenas
+    operators:
+      like: Como
+      notLike: Não gosto
+      contains: Contém
+      notContains: Não contém
+      equal: Igual
+      greaterThan: Maior que
+      lessThan: Menor que
+      notEqual: Diferente
+      between: Entre
+      notBetween: Não entre
+    title: Filtro da lista de registros
+    update: Atualizar filtro
+    where: Onde
+    without: Sem
+    presets: Filtrar predefinições
+    filters:
+      label: Filtros
+      active: "Filtros ativos:"
+    name:
+      label: Nome
+      placeholder: Nome do filtro
+    role:
+      label: Funções
+      placeholder: Selecione as funções que poderão usar predefinições
+  hideRecordCloneButton: Ocultar botão de gravação de clone
+  hideRecordEditButton: Ocultar botão de edição de registro
+  hideRecordPermissionsButton: Botão Ocultar permissões de gravação
+  hideRecordReminderButton: Ocultar botão de lembrete de gravação
+  hideRecordViewButton: Ocultar botão de gravação de visualização
+  hideConfigureFieldsButton: Os usuários poderão configurar quais campos exibir
+  enableRecordPageNavigation: Os usuários poderão navegar para o registro anterior/seguinte
+  import:
+    dropzoneFileAdded: "{{name}} foi carregado e está pronto para importação ({{count}} registro)"
+    dropzoneFileAdded_plural: "{{name}} foi carregado e está pronto para importação
+      ({{count}} registros)"
+    dropzoneLabel: Clique ou solte o arquivo aqui para fazer upload (.csv ou JSON)
+    failed: "Algo deu errado durante a importação. Tente novamente: {{failReason}}"
+    fileColumns: Colunas de arquivo
+    hasRequiredFileFields: Este módulo possui campos obrigatórios para upload de arquivos
+    matchFields: "Combine colunas importadas com as existentes:"
+    moduleFields: Campos do módulo
+    onError: Se algum registro falhar na importação
+    onErrorFail: Cancelar importação
+    onErrorSkip: Pular registro
+    pickModuleField: Escolha um campo de módulo
+    progressRatio: "{{completed}}/{{entryCount}} linhas"
+    report:
+      count: Número de registros
+      detectedErrors: Erros detectados
+      error: Erro
+      failedEntries: Entradas de origem com falha
+      failedEntriesLine: Entrada
+      failedEntriesLines: Inscrições de até (inclusive)
+      failedRecords: Registros com falha
+      finishedAt: Terminado em
+      importedRecords: Registros importados
+      startedAt: Começou em
+      title: Relatório de erros de importação de registros
+      totalRecords: Registros totais
+    success: Importação bem-sucedida
+    to: Importar para {{modulename}}
+    uploadFile: Faça upload do arquivo que deseja importar (formato .csv ou JSON)
+  label: Lista de registros
+  moduleFootnote: Módulos sem {{0}} só podem ser usados ​​em uma lista de
+    registros como um editor embutido
+  moduleFieldsFootnote: Se nenhum campo for selecionado, os campos padrão serão mostrados
+  noRecords: Não há registros que correspondam à sua solicitação
+  pagination:
+    next: Próximo
+    prev: Anterior
+    showing: "{{from}} - {{to}} de {{count}} registros"
+    single: Um registro
+    single_plural: "{{count}} registros"
+    recordsPerPage: Registros por página
+    selectLabel: Selecione uma opção
+  positionField:
+    footnote: Os registros serão classificados com base neste campo
+    label: Campo de classificação de registros
+  preview:
+    addRecordButton: Adicionar botão de gravação
+    bePaged: "{{0}} ser paginado."
+    isDisabled: "{{0}} está desativado."
+    isEnabled: "{{0}} está ativado."
+    isHidden: "{{0}} está oculto."
+    isShown: "{{0}} é mostrado"
+    moduleNotSelected: Bloco com tabela de registros, módulo não selecionado.
+    recordFromModule: "Mostrando registros do módulo {{0}} com colunas: {{1}}"
+    recordsPerPage: "{{0}} registros são mostrados por página."
+    resultsCan: Os resultados podem
+    resultsCant: Os resultados não podem
+    resultsPrefiltered: "Os resultados são pré-filtrados:"
+    searchInput: Caixa de entrada de pesquisa
+    sorting: Classificando
+    tableHeader: Cabeçalho da tabela
+    usersSearchThrough: Os usuários pesquisam nos registros
+    usersSee: Os usuários veem {{0}}
+    withPresortedRecords: com registro pré-classificado ({{0}})
+  record:
+    draggable: Pode arrastar e soltar registros para ordená-los
+    fullPageNavigation: Navegação em página inteira
+    hideAddButton: Os usuários poderão adicionar novos registros
+    hideImportButton: Os usuários poderão importar registros
+    pagingLabel: Paginação
+    pagingOptions: Opções de paginação
+    moreOptions: Mais opções
+    hidePaging: O usuário poderá usar Paging
+    inlineEditor: Opções embutidas
+    inlineEditorAllow: Editor de registros embutido
+    recordsLabel: Registros
+    noPermission: Sem permissão para ler o registro
+    perPage: Registros por página
+    prefilterFootnote: A sintaxe de condição SQL simplificada (WHERE ...) é
+      suportada. Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas
+      (quando disponíveis)
+    prefilterHideSearch: Os usuários poderão pesquisar a lista de registros
+    filterHide: Os usuários poderão filtrar a lista
+    prefilterLabel: Filtragem
+    generalLabel: Configurações Gerais
+    prefilterCommand: Pré-filtro
+    prefilterPlaceholder: campo1 = 1 E campo2 = 232
+    presortFootnote: A sintaxe de condição SQL simplificada (ORDER BY...) é suportada
+    presortToggleInput: Alternar tipo de entrada
+    presortHideSort: Os usuários poderão classificar a lista
+    presortLabel: Classificando
+    presortInputLabel: Pré-classificar
+    presortPlaceholder: campo1 DESC, campo2 ASC
+    showTotalCount: Mostrar contagem total de registros
+    showRecordPerPageOption: Permitir que os usuários selecionem registros por página
+    showDeletedRecordsOption: Mostrar opção para ver registros excluídos
+    setCustomFilterPresets: O usuário poderá definir predefinições de filtros personalizados
+    openInSameTab: Abra o registro na mesma guia
+    openInNewTab: Abrir registro em uma nova aba
+    openInModal: Abrir registro em um modal
+    enableBulkRecordEdit: Ativar edição de registros em massa
+    linkToParent: Link para registro pai
+    buttons: Botões de gravação
+    tooltip:
+      clone: Clone
+      edit: Editar
+      delete: Excluir
+      restore: Restaurar
+      reminder: Lembrete
+      view: Visualizar
+      permissions: Permissões
+    recordDisplayOptions: Ao clicar em gravar
+    recordSelectorDisplayOptions: No seletor de registros clique
+  recordPage: página de registro
+  refField:
+    footnote: Campo que vincula registros ao registro pai
+    label: Campo pai
+  selectable: Os usuários poderão selecionar registros
+  selected: "{{count}} de {{total}} registros selecionados"
+  selectedFromAllPages: Todos os {{count}} registros de todas as páginas selecionadas
+  selectAllRecords: Selecione todos os registros em todas as páginas
+  unselectAllRecords: Limpar seleção
+  sort:
+    tooltip: Classificar coluna
+  showRecords:
+    deleted: Mostrar registros excluídos
+    existing: Mostrar registros existentes
+recordOrganizer:
+  onRecordClick: Ao clicar em gravar
+  openInSameTab: Abra na mesma guia
+  openInNewTab: Abrir em uma nova aba
+  openInModal: Abrir em um modal
+  descriptionField:
+    footnote: O valor do campo será usado como descrição do registro
+    label: Campo de descrição
+  group:
+    footnote: Valor que será definido para o campo chave. Os registros serão
+      filtrados com base neste valor, caso esteja definido.
+    label: Valor chave
+  groupField:
+    footnote: Campo cujo valor será alterado quando um registro for movido para o
+      organizador de registros
+    label: Campo-chave
+  label: Organizador de registros
+  labelField:
+    footnote: O valor do campo será usado como gravadora
+    label: Campo de etiqueta
+  noRecords: Nenhum registro no módulo vinculado ao organizador de registros.
+    Arraste e solte registros aqui.
+  notConfigured: O organizador de registros não está configurado corretamente
+  positionField:
+    footnote: Os registros serão classificados com base neste campo. O valor desse
+      campo será atualizado com base na posição do registro.
+    label: Campo de classificação de registros
+  preview:
+    label: "Bloco Organizador de Registros para o módulo {{0}}. Campo de rótulo
+      {{1}}, campo de descrição {{2}}. Campo de configuração de valor: {{3}},
+      campo Classificado por posição: {{4}}."
+    moduleNotSelected: Módulo Organizador de Registros não selecionado
+  addNewRecord: + Adicionar novo registro
+recordRevisions:
+  label: Registrar revisões
+  viewer:
+    errors:
+      no-record: Nenhum registro encontrado para exibir revisões para
+      no-revisions: Nenhuma revisão de registro encontrada
+      disabled-on-module: As revisões de registros estão desabilitadas neste módulo
+    show-revisions: Mostrar revisões de registros ({{ revision }})
+    show-changes: "{{ count }} alterações"
+    revisions:
+      columns:
+        timestamp:
+          label: Carimbo de data e hora
+        operation:
+          label: Operação
+        user:
+          label: Usuário
+    changes:
+      columns:
+        field:
+          label: Campo
+        old-value:
+          label: Valor antigo
+        new-value:
+          label: Novo valor
+  configurator:
+    label: Registrar revisões
+    preload: Pré-carregar revisões de registros
+    errors:
+      invalid-module-id: O campo não contém um ID de módulo válido.
+    fields:
+      label: Configurar campos para exibição em alterações de revisões de registros
+      show-all:
+        label: Mostrar alterações para todos os campos
+      columns:
+        label:
+          label: Rótulo
+        kind:
+          label: Tipo
+        displayed-fields:
+          label: Mostrar
+        expanded-references:
+          label: Expandir referências
+socialFeed:
+  label: Twitter
+  noInput: Nenhuma entrada para exibir feed social...
+  preview:
+    socialFeed: Feed do Twitterblo
+  twitterProfileField: Campo que contém o URL do perfil do Twitter para um registro
+  twitterProfileLabel: URL do perfil do Twitter para páginas de lista, ou seja,
+    (https://twitter.com/bloomberg)
+selectBlockFootnote: Alguns tipos podem ser desativados para páginas sem registro
+field:
+  noPermission: Sem permissão para ler o valor do campo
+  selector:
+    available: Campos disponíveis
+    systemField: (campo do sistema)
+  inlineEdit:
+    enabled: Edição de valor in-line ativada
+    button:
+      title: Editar valor
+    modal:
+      title: Atualizar valores de registro
+comment:
+  label: Comentários
+  titleField:
+    label: Campo de título
+    footnote: O valor do campo será usado como título do registro
+  contentField:
+    label: Campo de conteúdo *
+    footnote: O valor do campo será usado como conteúdo do registro
+  titleInput: Insira o título do comentário
+  contentInput: Insira o conteúdo do comentário
+  submit: Enviar
+  sortDirection:
+    label: Direção de classificação
+    footnote: O valor do campo será usado como referência de direção de classificação
+    asc: ASC
+    desc: DESC
+  referenceField:
+    label: Campo de referência
+    footnote: O valor do campo será usado como referência
+navigation:
+  chart: Gráficos
+  colorPicker: Escolha uma cor
+  noNavigationItems: Nenhum item de navegação configurado
+  label: Navegação
+  displayOptions: Opções de exibição
+  appearance: Aparência
+  alignment: Alinhamento
+  justify: Justificar
+  fieldLabel: Rótulo
+  enabled: Habilitado
+  openIn: Abrir em
+  navigationItems: Itens de navegação
+  type: Tipo
+  disabled: Desabilitado
+  color: Cor
+  background: Fundo
+  url: URL
+  drop: Posição suspensa
+  add: Adicionar item de navegação
+  addDropdown: Adicionar item suspenso
+  composePage: Compor página
+  tabs: Guias
+  pills: Comprimidos
+  small: Pequeno
+  center: Centro
+  left: Esquerda
+  right: Certo
+  bottom: Fundo
+  top: Principal
+  None: Nenhum
+  primary: Primário
+  secondary: Secundário
+  success: Sucesso
+  warning: Aviso
+  danger: Perigo
+  info: Informações
+  text: Texto
+  dropdown: Suspenso
+  multi: Multilinha
+  sameTab: Mesma guia
+  selectOpenInType: Selecione abrir no tipo
+  newTab: Nova guia
+  dropdownItems: Itens suspensos
+  delimiter: Delimitador
+  none: Nenhum
+  displaySubPages: Exibir subpáginas
+  selectBackground: Selecione o plano de fundo
+  preview:
+    preview: Visualização
+    label: Rótulo
+    home: Lar
+    dropdown: suspenso
+    about: sobre
+report:
+  label: Relatório
+  scenario:
+    label: Cenário
+  element:
+    label: Elemento de exibição
+    description: Os elementos de exibição são agrupados por seu respectivo bloco
+progress:
+  add: + Adicionar
+  count: Contar
+  aggregate:
+    label: Operação de agregação
+    select: Selecione a operação de agregação
+  animated: Animado
+  default-variant: Variante padrão
+  display-options: Opções de exibição
+  fetch-failed: Falha ao buscar o relatório da barra de progresso
+  field:
+    label: Campo
+    select: Selecione o campo
+  label: Barra de progresso
+  module:
+    select: Selecione o módulo
+    label: Módulo
+  preview: Exemplo ao vivo
+  show:
+    value: Mostrar valor
+    relative: Mostrar parente
+    progress: Mostrar progresso
+  tab:
+    label: Progresso
+  thresholds: Limites
+  threshold:
+    label: Limite
+    variant: Defina qual variante mostrar se o valor for igual ou maior que o limite
+  value:
+    label: Valor
+    min: Valor mínimo
+    max: Valor máximo
+    default:
+      label: Valor padrão
+      description: Este valor será usado se a métrica não estiver configurada
+  variant:
+    default: Escuro
+    danger: Perigo
+    dark: Escuro
+    info: Informações
+    light: Luz
+    primary: Primário
+    secondary: Secundário
+    success: Sucesso
+    warning: Aviso
+nylas:
+  label: Office365/Google
+  viewer:
+    connect: Conecte-se com Nylas
+    noExternal: O provedor externo Nylas não está configurado
+    noComponentID: O ID do componente Nylas não está configurado
+  configurator:
+    label: Office365/Google
+    kind: Tipo de componente
+    componentID: ID do componente
+    accessTokenRequired: É necessário token de acesso
+    prefill:
+      title: Valores de pré-preenchimento
+      selectField: Selecione o campo
+      body: Corpo
+      subject: Assunto
+      queryString: Cadeia de consulta
+      to: Para
+    kinds:
+      agenda: Agenda
+      composer: Compositor
+      contactList: Lista de Contatos
+      conversation: Conversa
+      email: E-mail
+      mailbox: Caixa de correio
+geometry:
+  label: Geometria
+  viewLabel: Geometria
+  feedLabel: Configurar fontes
+  addSource: Adicionar fonte
+  lock: Trancar
+  mapHelpText: Mova e role o mapa até a posição que será usada como padrão. Você
+    também pode bloquear a posição ou o zoom para evitar que os usuários se
+    movam muito.
+  onMarkerClick: No marcador, clique
+  openInSameTab: Abra na mesma guia
+  openInNewTab: Abrir em uma nova aba
+  openInModal: Abrir em um modal
+  recordFeed:
+    colorPicker: Escolha uma cor
+    moduleLabel: Módulo*
+    modulePlaceholder: (Sem módulo)
+    noMultiFields: Campos com vários valores não são suportados no momento
+    optionLabel: Registros
+    prefilterLabel: Fontes de pré-filtro
+    colorLabel: Cor do marcador
+    geometryFieldLabel: Campo de geometria*
+    titleLabel: Título
+    titlePlaceholder: Título
+    geometryFieldPlaceholder: Campo de geometria
+    displayMarker: Marcador de exibição
+    displayPolygon: Exibir polígono
+  centerLabel: Centro
+  zoom:
+    zoomLabel: Zoom
+    zoomMinLabel: Zoom mínimo
+    zoomMaxLabel: Zoom máximo
+    zoomStartingLabel: Início do Zoom
+  bounds:
+    boundsLabel: Limites
+    lockBounds: Limites de bloqueio
+    topLeft: Limites no canto superior esquerdo
+    lowerRight: Limites inferior direito
+  tooltip:
+    goToCurrentLocation: Ir para a localização atual
+tabs:
+  label: Guias
+  alertTitle: Defina um título para o seu bloco
+  title: Guias
+  addTab: + Adicionar
+  tab: Guia
+  selectBlock: Escolha um bloco
+  noTabs: Nenhuma guia configurada
+  noBlock: Nenhum bloco configurado
+  displayTitle: Opções de exibição
+  preview: Exemplo ao vivo
+  newBlockModal: Adicionar novo bloco
+  unsavedChanges: Alterações não salvas
+  placeholder:
+    block: Selecione um bloco para tabular
+  style:
+    appearance:
+      label: Aparência
+      tabs: Guias
+      pills: Comprimidos
+      small: Pequeno
+    alignment:
+      label: Alinhamento
+      left: Esquerda
+      center: Centro
+      right: Certo
+    justify:
+      label: Justificar
+      justify: Justificar
+      none: Nenhum
+    orientation:
+      label: Orientação
+      vertical: Vertical
+      horizontal: Horizontal
+    position:
+      label: Posição
+      start: Começar
+      end: Fim
+  table:
+    columns:
+      title:
+        label: Título
+      block:
+        label: Bloquear
+  tooltip:
+    edit: Editar bloco
+    clone: Clonar bloco e guia
+    copy: Copiar bloco
+    delete: Excluir guia
+    editDisabled: A edição de blocos com guias fica desativada até você salvar este bloco
+    addBlock: Adicionar novo bloco
+noConfiguration: Bloco não configurado corretamente
+interpolationFootnote: Variáveis ​​como {{0}}, {{1}}, {{2}} e {{3}} são avaliadas (quando disponíveis)

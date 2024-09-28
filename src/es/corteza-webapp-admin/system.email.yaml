@@ -1,0 +1,30 @@
+editor:
+  title: Configuración de correo electrónico
+  server:
+    title: Servidor SMTP
+    host:
+      label: Servidor
+      description: Nombre y puerto del servidor. Los puertos suelen ser 25
+        (inseguros), 465 o 587 (seguros).
+    user:
+      label: Usuario
+      description: Opcional, credenciales de autenticación para su servidor de correo
+        electrónico.
+    password:
+      label: Contraseña
+      description: Opcional, credenciales de autenticación para su servidor de correo
+        electrónico.
+    from:
+      label: Dirección del remitente
+      description: Dirección de remitente predeterminada (encabezado DESDE) utilizada
+        al enviar correos electrónicos.
+    tlsInsecure:
+      label: Permitir el uso de certificados no válidos
+      description: Suprima el error si Corteza no puede verificar el certificado TLS
+        utilizado por el servidor SMTP.
+    tlsServerName:
+      label: Nombre del servidor TLS
+      description: Opcional, si el servidor SMTP usa un valor diferente al usado para
+        el nombre del servidor.
+    testSmtpConfigs:
+      button: Probar el servidor SMTP

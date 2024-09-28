@@ -1,0 +1,40 @@
+auto-initialize-empty-variable: Variáveis ​​que não podem ser carregadas serão
+  inicializadas automaticamente como vazias
+back: Voltar
+click-to-save: Clique aqui para salvar
+deferred: Adiado
+delete: Excluir
+deleted: Excluído
+detected-changes: Alterações detectadas
+detected-issues: Problemas detectados
+disabled: Desabilitado
+help: Ajuda
+handle: (Lidar)
+id: "EU IA:"
+id-parenthesis: (EU IA)
+initial-scope: Escopo inicial
+input-ids-or-handles: O escopo inicial é injetado no fluxo de trabalho na
+  execução. Para carregar as variáveis ​​disponíveis, insira os
+  IDs/Identificadores relacionados abaixo
+issues: Problemas
+load-and-configure: Carregar e configurar
+modify-initial-scope-if-no-variables-are-loaded: Caso não queira carregar
+  nenhuma variável, clique em "Configurar" para modificar o escopo inicial antes
+  de executar o fluxo de trabalho
+open-webapp-on-prompt-use: "AVISO: Se prompts forem usados ​​no fluxo de
+  trabalho, certifique-se de que o webapp relacionado também esteja aberto. Caso
+  contrário, o fluxo de trabalho atingirá o tempo limite"
+reset: Reiniciar
+run-as: "Execute como:"
+run-workflow: Executar fluxo de trabalho
+required-namespace: Namespace obrigatório
+required-namespace-and-module: Namespace e módulo necessários
+save: Salvar
+saving: Salvando
+spinning: Fiação
+test-in-progress: Testes em andamento. Se o seu fluxo de trabalho incluir etapas
+  de Solicitação ou Atraso, ele pode estar aguardando a conclusão delas
+unsupported-browser: O navegador não é compatível!
+undelete: Recuperar exclusão
+workflow-configuration: Configuração do fluxo de trabalho
+editor: Editor

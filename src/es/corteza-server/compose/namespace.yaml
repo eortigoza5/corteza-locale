@@ -1,0 +1,16 @@
+errors:
+  handleNotUnique: manejar no es único
+  invalidHandle: identificador no válido
+  invalidID: identificación no válida
+  notAllowedToCreate: no se permite crear espacios de nombres
+  notAllowedToDelete: no se permite eliminar este espacio de nombres
+  notAllowedToRead: No se permite leer este espacio de nombres.
+  notAllowedToSearch: no se permite buscar ni enumerar espacios de nombres
+  notAllowedToUndelete: no se permite recuperar este espacio de nombres
+  notAllowedToUpdate: no se permite actualizar este espacio de nombres
+  notFound: el espacio de nombres no existe
+  staleData: datos obsoletos
+  unsupportedExportFormat: formato de exportación no admitido
+  unsupportedImportFormat: formato de importación no admitido
+  importMissingNamespace: la fuente de importación no contiene una definición de espacio de nombres
+  cloneMultiple: no se permite clonar múltiples espacios de nombres a la vez

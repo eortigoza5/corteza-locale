@@ -1,0 +1,39 @@
+title: Consola de privacidad de datos
+connection-location: Ubicación de la conexión
+description:
+  first: La Consola de privacidad de datos le permite acceder a la descripción
+    general de sus datos personales, solicitar la eliminación o exportación de
+    datos.
+  second: Estas acciones están sujetas a la validación por parte del DC
+    (Responsable del tratamiento) de su organización.
+user-options:
+  data-overview:
+    title: Resumen de datos
+    description: Revisar la información de tu perfil y tus datos personales
+      almacenados en las aplicaciones de Corteza
+    button-label: Ver tus datos
+  privacy-requests:
+    title: Solicitudes de privacidad
+    description: Acceda, administre o exporte una lista de todas sus solicitudes
+      relacionadas con la privacidad (eliminación, exportación, corrección)
+    button-label: Sus solicitudes de privacidad
+  export:
+    title: Exportación de datos
+    description: Abra una nueva solicitud de exportación de datos seleccionando el
+      tipo de datos, el rango de fechas y el formato del archivo de resultados.
+    button-label: Solicitar exportación de datos
+  delete:
+    title: Eliminación de datos
+    description: Solicitud para que sus datos personales seleccionados sean
+      eliminados del sistema
+    button-label: Solicitar eliminación de datos
+dc-options:
+  privacy-requests:
+    title: Solicitudes de privacidad
+    description: Acceda, administre o exporte una lista de todas las solicitudes
+      relacionadas con la privacidad (eliminación, exportación, corrección)
+    button-label: Solicitudes de privacidad entrantes
+  sensitive-data:
+    title: Datos confidenciales
+    description: Descripción general de todos los módulos con campos de datos confidenciales
+    button-label: Lista de datos sensibles

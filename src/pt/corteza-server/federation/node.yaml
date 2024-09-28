@@ -1,0 +1,10 @@
+errors:
+  notAllowedToCreate: não é permitido criar nós
+  notAllowedToManage: não tem permissão para gerenciar este nó
+  notAllowedToPair: não é permitido emparelhar este nó
+  notAllowedToSearch: não tem permissão para pesquisar ou listar nós
+  notFound: nó não existe
+  pairingTokenInvalid: token de pareamento inválido
+  pairingURIInvalid: "URI de pareamento inválido: {err}"
+  pairingURISourceIDInvalid: emparelhando URI sem ID do nó de origem
+  pairingURITokenInvalid: emparelhando URI com token de emparelhamento inválido
