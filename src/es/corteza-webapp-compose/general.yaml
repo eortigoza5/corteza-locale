@@ -64,7 +64,7 @@ label:
   required: Requerido
   reset: Reiniciar
   sensitive: Sensible
-  save: Ahorrar
+  save: Guardar
   saveAndClose: Guardar y cerrar
   saveAsCopy: guardar como copia
   status: Estado

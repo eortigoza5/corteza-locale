@@ -38,7 +38,7 @@ workflow-list: Lista de flujos de trabajo
 workflow:
   single: Flujo de trabajo
   plural: Flujos de trabajo
-save: Ahorrar
+save: Guardar
 today: Hoy
 cancel: Cancelar
 resourceList:

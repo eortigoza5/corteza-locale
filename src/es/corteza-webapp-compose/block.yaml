@@ -161,7 +161,7 @@ general:
     ok: De acuerdo
     permissions: Permisos
     remove: Eliminar
-    save: Ahorrar
+    save: Guardar
     cancel: Cancelar
     search: Buscar
     refresh: Actualizar bloque

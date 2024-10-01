@@ -56,7 +56,7 @@ presort-order: Orden previo
 report:
   builder: Generador de informes
   view: Ver informe
-save-button: Ahorrar
+save-button: Guardar
 scenarios:
   label: Escenarios
   save: Guardar escenarios

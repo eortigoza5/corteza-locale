@@ -29,8 +29,8 @@ run-as: "Ejecutar como:"
 run-workflow: Ejecutar flujo de trabajo
 required-namespace: Espacio de nombres requerido
 required-namespace-and-module: Espacio de nombres y módulo requeridos
-save: Ahorrar
-saving: Ahorro
+save: Guardar
+saving: Guardando
 spinning: Hilado
 test-in-progress: Pruebas en curso. Si su flujo de trabajo incluye pasos de
   Aviso o Retraso, es posible que esté esperando a que se completen
